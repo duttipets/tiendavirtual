@@ -1,0 +1,277 @@
+{
+  "archivo_origen": "CATALOGO DUTTI PETS.docx",
+  "parrafos": 2085,
+  "categorias": [
+    "Alimento húmedo para gatos",
+    "Alimento húmedo para perros",
+    "Snacks para perros",
+    "Snacks para gatos",
+    "Alimento seco para perros",
+    "Alimento seco para gatos",
+    "Camas y colchonetas",
+    "Areneros",
+    "Transportadoras",
+    "Platos y comederos",
+    "Juguetes y rascadores",
+    "Cepillos y accesorios",
+    "Higiene y baños",
+    "Shampoo y colonias",
+    "Salud y veterinaria"
+  ],
+  "productos": 232,
+  "productos_con_precio": 170,
+  "productos_sin_precio": 62,
+  "productos_con_imagen_word": 127,
+  "imagenes_word_exportadas": 306,
+  "imagenes_sin_ficha_confiable": 108,
+  "pendientes_sin_precio": [
+    {
+      "nombre": "Canbo pounch",
+      "categoria": "Alimento húmedo para perros"
+    },
+    {
+      "nombre": "Yami rollitos sabor carne a la parrilla 80 gr",
+      "categoria": "Snacks para perros"
+    },
+    {
+      "nombre": "Yami filetitos sabor tocino ahumado 80 gr",
+      "categoria": "Snacks para perros"
+    },
+    {
+      "nombre": "Yami piernitas sabor pollo a la leña 80 gr",
+      "categoria": "Snacks para perros"
+    },
+    {
+      "nombre": "Churu dog pollo 56 gr",
+      "categoria": "Snacks para perros"
+    },
+    {
+      "nombre": "Churu Pollo con queso 56 gr",
+      "categoria": "Snacks para perros"
+    },
+    {
+      "nombre": "Churu Pollo con salmón 56 gr",
+      "categoria": "Snacks para perros"
+    },
+    {
+      "nombre": "NATURALISTIC CLASSIC DUCK STRIPS",
+      "categoria": "Snacks para perros"
+    },
+    {
+      "nombre": "NATURALISTIC CLASSIC LAMB STICK",
+      "categoria": "Snacks para perros"
+    },
+    {
+      "nombre": "NATURALISTIC CLASSIC SALMON NUGGETS",
+      "categoria": "Snacks para perros"
+    },
+    {
+      "nombre": "NATURALISTIC CLASSIC CHICKEN SUSHI",
+      "categoria": "Snacks para perros"
+    },
+    {
+      "nombre": "Kissito",
+      "categoria": "Snacks para gatos"
+    },
+    {
+      "nombre": "Churu cremoso clásico",
+      "categoria": "Snacks para gatos"
+    },
+    {
+      "nombre": "CAMA TIPO SOFÁ",
+      "categoria": "Camas y colchonetas"
+    },
+    {
+      "nombre": "Cama minie # 1",
+      "categoria": "Camas y colchonetas"
+    },
+    {
+      "nombre": "Cama minie # 2",
+      "categoria": "Camas y colchonetas"
+    },
+    {
+      "nombre": "Cama minie #3",
+      "categoria": "Camas y colchonetas"
+    },
+    {
+      "nombre": "Arenero pequeño",
+      "categoria": "Areneros"
+    },
+    {
+      "nombre": "Arenero mediano",
+      "categoria": "Areneros"
+    },
+    {
+      "nombre": "Arenero grande",
+      "categoria": "Areneros"
+    },
+    {
+      "nombre": "ARENERO + PALA",
+      "categoria": "Areneros"
+    },
+    {
+      "nombre": "Maletín Transportadora Pet – Diseño Huellita",
+      "categoria": "Transportadoras"
+    },
+    {
+      "nombre": "Plato dispensador de agua y alimento",
+      "categoria": "Platos y comederos"
+    },
+    {
+      "nombre": "Plato elevado gato",
+      "categoria": "Platos y comederos"
+    },
+    {
+      "nombre": "Comedero doble con dispensador de agua automático",
+      "categoria": "Platos y comederos"
+    },
+    {
+      "nombre": "Plato elevado",
+      "categoria": "Platos y comederos"
+    },
+    {
+      "nombre": "Plato elevado nube",
+      "categoria": "Platos y comederos"
+    },
+    {
+      "nombre": "Plato acero inoxidable",
+      "categoria": "Platos y comederos"
+    },
+    {
+      "nombre": "Comedero + bebedero botella",
+      "categoria": "Platos y comederos"
+    },
+    {
+      "nombre": "Plato antiestrés Luna",
+      "categoria": "Platos y comederos"
+    },
+    {
+      "nombre": "Plato anti estrés hueso",
+      "categoria": "Platos y comederos"
+    },
+    {
+      "nombre": "Cepillo de Grooming Nunbell",
+      "categoria": "Cepillos y accesorios"
+    },
+    {
+      "nombre": "Peine deslanador",
+      "categoria": "Cepillos y accesorios"
+    },
+    {
+      "nombre": "Corta garritas",
+      "categoria": "Cepillos y accesorios"
+    },
+    {
+      "nombre": "Cepillo Baño & Masaje",
+      "categoria": "Cepillos y accesorios"
+    },
+    {
+      "nombre": "Limpiadora de Huellas Express TALLA M",
+      "categoria": "Cepillos y accesorios"
+    },
+    {
+      "nombre": "Limpiador de huellas Express Talla L",
+      "categoria": "Cepillos y accesorios"
+    },
+    {
+      "nombre": "Shampoo ricocan antipulga 380 ml",
+      "categoria": "Higiene y baños"
+    },
+    {
+      "nombre": "Fruppy Avena 450 ml",
+      "categoria": "Higiene y baños"
+    },
+    {
+      "nombre": "Fruppy aloe 450 ml",
+      "categoria": "Higiene y baños"
+    },
+    {
+      "nombre": "FRESH CAN SUAVE Y BRILLANTE",
+      "categoria": "Higiene y baños"
+    },
+    {
+      "nombre": "Fresh Can piel sensible",
+      "categoria": "Higiene y baños"
+    },
+    {
+      "nombre": "Fresh can antipulgas",
+      "categoria": "Higiene y baños"
+    },
+    {
+      "nombre": "DOKY ALOE VERA",
+      "categoria": "Higiene y baños"
+    },
+    {
+      "nombre": "DOKY ANTIPULGA",
+      "categoria": "Higiene y baños"
+    },
+    {
+      "nombre": "AMIGO ANTIPULGA 300 ml",
+      "categoria": "Higiene y baños"
+    },
+    {
+      "nombre": "Amigo antipulga 150 ml",
+      "categoria": "Higiene y baños"
+    },
+    {
+      "nombre": "Shampoo gato premium 250 ml",
+      "categoria": "Higiene y baños"
+    },
+    {
+      "nombre": "Shampoo, medicado avena y glicerina 300 ml",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "Shampoo medicado clorhexidina y clotrimazol 300 ml",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "Shampoo, medicado triple A 300 ml",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "Shampoo medicado pulgoso 300 ml",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "Shampoo medicado Ketoconazol 300 ml",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "Shampoo medicado sarna 300 ml",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "Shampoo Fruppy pelaje negro",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "Shampoo Fruppy pelaje blanco",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "Shampoo Knino 150 ml",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "ECADERM SHAMPOO 100 ml",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "SHAMPOO ANTIPARASITARIO",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "Colonia Fruppy , 300 ml",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "Peluchin shampoo gato",
+      "categoria": "Shampoo y colonias"
+    },
+    {
+      "nombre": "CEFAVET 600",
+      "categoria": "Salud y veterinaria"
+    }
+  ]
+}
