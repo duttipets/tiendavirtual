@@ -1,0 +1,75 @@
+DUTTI PET'S — TIENDA VIRTUAL CON CARRITO
+======================================
+Base del catálogo: CATALOGO DUTTI PETS.docx proporcionado por el cliente.
+WhatsApp de pedidos: +51 931 847 867
+
+CONTENIDO ENTREGADO
+------------------
+- index.html: tienda online, portada, categorías, buscador y carrito.
+- galeria.html: fotografías del Word sin ficha comercial asociada con seguridad.
+- css/estilos.css: diseño adaptable a celular y escritorio, animaciones.
+- js/tienda.js: filtros, variantes, carrito, formulario, envío a WhatsApp.
+- js/productos.js: BASE ACTIVA de productos y precios. EL SITIO LEE ESTE ARCHIVO.
+- img/logo.png e img/isotipo.png: identidad visual original proporcionada.
+- img/productos/: las 306 imágenes integradas en el documento, convertidas a 1000 x 1000 px WebP con fondo blanco SIN DEFORMAR el contenido.
+- img/imagen-pendiente.webp: fondo identificable para productos sin foto verificable.
+- datos/productos.json: copia legible de los datos originales extraídos.
+- datos/galeria_detalle.json: referencia de fotos no vinculadas a una ficha comercial.
+- datos/PENDIENTES_DE_VERIFICACION.csv: listado de productos sin precio, sin foto o con datos que conviene confirmar.
+- datos/RESUMEN_CATALOGO.csv: lista de presentaciones y precios del catálogo.
+- editor-catalogo.html: editor LOCAL que permite actualizar nombres, precios, variantes y fotos, y descargar js/productos.js. NO es un panel online autenticado.
+
+IMPORTANTE: FIDELIDAD AL DOCUMENTO
+----------------------------------
+- Los precios NO se extrapolan ni se inventan. Solo se ofrecen para comprar las opciones que cuentan con precio explícito en el Word.
+- Los productos sin precio tienen botón «Consultar» por WhatsApp.
+- Las tallas, packs, colores y sabores se toman del documento. En Ricocat Lata y Super cat Lata, los sabores se limitan al tamaño al que el Word los asigna.
+- Cuando los empaques fotografiados muestran variantes identificables que no aparecen listadas en el texto, quedan identificadas como información visual del Word.
+- Los juguetes del Word sin nombres y precios comprobables se incluyen en la galería de imágenes de consulta, para no inventar fichas.
+- NO se encontró una sección verificable de ropa con tallas y precios. Por eso no se inventó ni se habilitó venta de prendas.
+- Para «Mimaskot Adulto Raza Pequeña» el Word presenta una discrepancia: menciona 15 y 22 kg, pero la línea de precio indica 24 kg. Se muestra la línea de precio literal, con advertencia de validación.
+- Se conservan los importes inusuales si así están escritos en el Word: no se reajustaron.
+- Se buscaron opciones de fotos por Internet, pero no se incluyeron como supuestas fotos originales aquellos archivos que no pudieron descargarse y cotejarse o cuyos derechos de uso comercial no están confirmados. Estas fichas tienen un gráfico marcado «FOTOGRAFÍA PENDIENTE» en lugar de una imagen falsa.
+- La disponibilidad del color, producto y stock se coordina por WhatsApp.
+- Productos veterinarios: el vendedor debe confirmar indicación y requisitos aplicables. La web no da consejo médico ni receta.
+
+CÓMO VER LA WEB
+--------------
+1. Descomprime el ZIP.
+2. Abre index.html en Chrome, Edge, Firefox o similar.
+3. Prueba el buscador, un producto, su sabor/talla/pack y el carrito.
+4. Al terminar, el botón «Enviar pedido por WhatsApp» abre una conversación con el número indicado y el detalle de la compra.
+5. La página no procesa pagos; solo registra el método elegido (Yape, Plin, transferencia o efectivo).
+
+CÓMO PUBLICAR EL PROYECTO COMPLETO EN GITHUB (MÉTODO RECOMENDADO)
+---------------------------------------------------------------
+En tu computadora con Windows:
+1. Descomprime el archivo DUTTI_PETS_TIENDA.zip.
+2. Instala GitHub Desktop desde https://desktop.github.com (si no lo tienes).
+3. En GitHub Desktop, elige File > Add local repository. Si pide crear un repositorio, acepta la opción para crear uno en la carpeta «DUTTI_PETS_TIENDA».
+4. Verifica que index.html, css/, js/, img/, datos/ y galeria.html estén TODOS dentro de ese repositorio.
+5. Escribe un título para el primer commit, pulsa Commit to main y luego Publish repository.
+6. Así las carpetas se preservan automáticamente. No subas solo index.html.
+
+Otra opción para publicar el sitio comercial estático es Cloudflare Pages o Netlify conectados al repositorio GitHub. GitHub Pages tiene restricciones de uso para comercio electrónico; utilízalo preferentemente como repositorio de código y publica el negocio en un alojamiento que permita uso comercial.
+
+CÓMO ACTUALIZAR PRECIOS O VARIANTES SIN PROGRAMAR
+------------------------------------------------
+1. Abre editor-catalogo.html en tu navegador.
+2. Busca un producto y edita su precio, descripción o presentación.
+3. Haz clic en «Guardar cambios en memoria».
+4. Al terminar, haz clic en «Descargar productos.js actualizado».
+5. REEMPLAZA el archivo «js/productos.js» existente por ese descargado.
+6. Haz commit y sube los cambios en GitHub Desktop. El hosting actualiza tras el despliegue.
+Para añadir una foto, primero copia su imagen a «img/productos/» con formato 1000 x 1000 px y usa esa ruta en la ficha. El editor no sube ni crea imágenes por sí solo.
+
+DATOS PENDIENTES DE LA TIENDA
+----------------------------
+- Dirección y ubicación exacta de la tienda (el usuario aún no la proporcionó en este pedido).
+- Datos reales de Yape, Plin o transferencia bancaria. No se han supuesto cuentas ni números.
+- Precios no expresados en el Word.
+- Fotografías de productos que no aparecen con identidad verificable en el Word.
+- Catálogo y precios de ropa para mascotas, ausentes de este documento.
+- Stock en tiempo real, costos de delivery y zonas de reparto.
+
+Esta web es un catálogo de pedidos por WhatsApp con carrito local. No incluye backend, cobro automático ni integración de inventario en tiempo real.
