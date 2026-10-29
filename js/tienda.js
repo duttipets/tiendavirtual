@@ -13,21 +13,46 @@
   // un archivo con nombre `faltante-<id>.webp`. Si aún no existe, muestra el marcador habitual.
   // Así se pueden subir las imágenes por tandas, SIN volver a editar el JavaScript.
   const rutaFotoNueva=p=>p?.id?`img/productos/faltante-${p.id}.webp`:FALLBACK;
-  // PRIMERA TANDA: referencias auténticas externas solo como respaldo.
-  // Siempre se busca PRIMERO la fotografía local faltante-prID.webp.
-  // Una vez que subes el WebP codificado, reemplaza automáticamente el enlace externo.
-  const referenciasVerificadas={"pr2":"https://www.superzoo.cl/on/demandware.static/-/Sites-SuperZoo-master-catalog/default/dwd8ecf966/images/sku5639.jpg","pr19":"https://pikapet.com.au/cdn/shop/files/leonardo-drink-with-duck-wet-cat-food_1_533x.png?v=1743408469","pr31":"https://patitasco.com/4638-medium_default/leonardo-sobre-kitten-puro-de-ave-para-gatitos.jpg","pr46":"https://promart.vteximg.com.br/arquivos/ids/471837-1000-1000/image-b17f6e747fd54607a88200cedea60be9.jpg?v=637287872624670000","pr76":"https://metroio.vtexassets.com/arquivos/ids/504170/Ricocat-Ricocat-Trocitos-Pescado-Pouch-85g-1-249511.jpg?v=638381937814400000","pr88":"https://metroio.vtexassets.com/arquivos/ids/579266/SUPERCAT-DLCS-FEL-SB-ATUN-AD-POUCH-85GR-1-291866.jpg?v=638790503801630000","pr99":"https://wongfood.vtexassets.com/arquivos/ids/717557/Pat-Sabor-Higado-y-Pavo-Supercat-1-351659866.jpg?v=638576122880930000","pr119":"https://gezanipe.vtexassets.com/arquivos/ids/166141/71527315851096.jpg?v=638864823086500000","pr131":"https://metroio.vtexassets.com/arquivos/ids/458351/RCT-GOURMET-ADULTOS-PATE-SB-POLLO-85G-1-351648352.jpg?v=638285760771570000","pr142":"https://assets.bo-management.cord.pe/public/images/f6157fc2-4ff5-4d89-a13f-6805852cc409-20083618_0.jpeg"};
-  function fotoError(img,id){
-    const remote=referenciasVerificadas[id];
-    if(remote && !img.dataset.fotoRemota){
-      img.dataset.fotoRemota='1';
-      img.onerror=()=>{img.onerror=null;img.src=FALLBACK};
-      img.src=remote;return;
-    }
-    img.onerror=null;img.src=FALLBACK;
-  }
-  window.duttiFotoError=fotoError;
-  const imageFor=p=>p?.imagenes?.[0]||rutaFotoNueva(p);
+  const imageFor=p=>p?.fotoPrincipalPdf||p?.imagenes?.[0]||rutaFotoNueva(p);
+  // Fotos de las variantes: se almacenan en img/productos/ con un código estable.
+  // Las imágenes principales EXISTENTES no se tocan; solo aplica a productos con opciones.
+  const tieneOpcionesDeFoto=p=>(p.sabores?.length||0)>1||(p.variantes?.length||0)>1||(p.colores?.length||0)>1;
+  const rutaVariante=(p,flavor,variant,color)=>{
+    const name=[p.id,normalized(flavor),normalized(variant?.label),normalized(color)].join('|');
+    let hash=2166136261;
+    for(let i=0;i<name.length;i++)hash=Math.imul(hash^name.charCodeAt(i),16777619);
+    const slug=normalized(flavor||variant?.label||color||'opcion').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,36)||'opcion';
+    return `img/productos/v-${p.id}-${slug}-${(hash>>>0).toString(16).padStart(8,'0')}.webp`;
+  };
+  // Foto verificada del catálogo original, solo si coincide el sabor y peso.
+  // Nunca se usa una fotografía de otro sabor como reemplazo.
+  const fotoOriginalExacta=(p,flavor,variant)=>{
+    const selected=normalized(flavor);
+    const label=normalized(variant?.label||'');
+    const photos=p.fotosPorOpcion||[];
+    const matching=photos.filter(x=>normalized(x.sabor||'')===selected);
+    if(!matching.length)return null;
+    const noSize=matching.find(x=>!x.presentacion);
+    if(noSize)return noSize;
+    // Por ejemplo '85 gr' y '85 g' se consideran la misma presentación.
+    const compact=t=>normalized(t).replace(/\b(grs?|gramos?)\b/g,'g').replace(/\s+/g,'');
+    const match=matching.find(x=>compact(label).includes(compact(x.presentacion)));
+    return match||null;
+  };
+  const fotoElegida=(p,flavor,variant,color)=>{
+    if(!tieneOpcionesDeFoto(p))return {url:imageFor(p),respaldo:FALLBACK,original:null,variable:false};
+    const original=fotoOriginalExacta(p,flavor,variant);
+    return {url:rutaVariante(p,flavor,variant,color),respaldo:original?.foto||FALLBACK,original,variable:true};
+  };
+  const photoForSelected=(p,flavor,variant,color='')=>fotoElegida(p,flavor,variant,color).url;
+  const establecerImagen=(node,chosen)=>{
+    let tries=0;
+    node.onerror=function(){
+      if(tries++===0 && chosen.respaldo && chosen.respaldo!==chosen.url){this.src=chosen.respaldo;return}
+      this.onerror=null;this.src=FALLBACK;this.alt='Imagen pendiente de esta presentación';
+    };
+    node.src=chosen.url;
+  };
   const minPrice=p=>p.variantes?.length?Math.min(...p.variantes.map(v=>v.price)):null;
   const categoryIcons={
     'Alimento húmedo para gatos':'🐱','Alimento húmedo para perros':'🐶','Alimento seco para gatos':'🥣',
@@ -103,7 +128,7 @@
     $('#emptyState').hidden=!!data.length;$('#showMore').hidden=data.length<=state.limit;
     $('#productsGrid').innerHTML=data.slice(0,state.limit).map((p,i)=>{
       const price=minPrice(p);const hasPhoto=p.imagenes.length>0;
-      return `<article class="product-card" style="animation-delay:${Math.min(i%12,11)*24}ms"><button class="product-image" type="button" data-open="${esc(p.id)}" aria-label="Ver ${esc(p.nombre)}"><img loading="lazy" src="${esc(imageFor(p))}" alt="${esc(hasPhoto?'Foto del catálogo: '+p.nombre:'Imagen del producto: '+p.nombre)}" onerror="window.duttiFotoError(this,'${esc(p.id)}');"><span class="product-tag ${price===null?'no-price':''}">${price===null?'Precio por consultar':p.variantes.length>1?'Variantes disponibles':p.mascota==='Gatos'?'Para gatitos':'Para engreídos'}</span></button><div class="product-body"><span class="product-cat">${esc(p.categoria)}</span><h3 class="product-name">${esc(p.nombre)}</h3><p class="product-description">${esc(p.descripcion||'Ver detalles, características y opciones del artículo.')}</p><div class="product-footer"><div><span class="price-caption">${price===null?'Información comercial':'Desde'}</span><strong class="product-price">${price===null?'Consultar':money(price)}</strong></div><button class="btn-product ${price===null?'consult':''}" type="button" data-open="${esc(p.id)}" aria-label="${price===null?'Consultar':'Elegir opciones'} para ${esc(p.nombre)}">${price===null?'↗':'+'}</button></div></div></article>`;
+      return `<article class="product-card" style="animation-delay:${Math.min(i%12,11)*24}ms"><button class="product-image" type="button" data-open="${esc(p.id)}" aria-label="Ver ${esc(p.nombre)}"><img loading="lazy" src="${esc(imageFor(p))}" alt="${esc(hasPhoto?'Foto del catálogo: '+p.nombre:'Imagen del producto: '+p.nombre)}" onerror="this.onerror=null;this.src='img/imagen-pendiente.webp';this.alt='Fotografía pendiente';"><span class="product-tag ${price===null?'no-price':''}">${price===null?'Precio por consultar':p.variantes.length>1?'Variantes disponibles':p.mascota==='Gatos'?'Para gatitos':'Para engreídos'}</span></button><div class="product-body"><span class="product-cat">${esc(p.categoria)}</span><h3 class="product-name">${esc(p.nombre)}</h3><p class="product-description">${esc(p.descripcion||'Ver detalles, características y opciones del artículo.')}</p><div class="product-footer"><div><span class="price-caption">${price===null?'Información comercial':'Desde'}</span><strong class="product-price">${price===null?'Consultar':money(price)}</strong></div><button class="btn-product ${price===null?'consult':''}" type="button" data-open="${esc(p.id)}" aria-label="${price===null?'Consultar':'Elegir opciones'} para ${esc(p.nombre)}">${price===null?'↗':'+'}</button></div></div></article>`;
     }).join('');
   }
   $('#productsGrid').addEventListener('click',e=>{const b=e.target.closest('[data-open]');if(b)showProduct(b.dataset.open)});
@@ -111,17 +136,14 @@
     const p=CATALOG.find(x=>x.id===id);if(!p)return;
     state.current=p;state.variant=0;state.qty=1;state.flavor=p.sabores?.[0]||'';state.color=p.colores?.[0]||'';
     $('#modalName').textContent=p.nombre;$('#modalCategory').textContent=p.categoria;$('#modalDescription').textContent=p.descripcion||'Consulta las características y disponibilidad del artículo.';
-    const images=p.imagenes?.length?p.imagenes:[imageFor(p)];
     const modalImg=$('#modalImage');
-    modalImg.onerror=function(){fotoError(this,p.id)};
-    modalImg.src=images[0];
-    modalImg.alt=p.imagenes.length?'Fotografía tomada del catálogo del producto':'Imagen del producto: '+p.nombre;
-    $('#modalImageNote').textContent=p.imagenes?.length?'Fotografía tomada del documento de Dutti Pet’s · artículo sujeto a disponibilidad':'Fotografía de referencia: verificar el empaque y la presentación antes de comprar.';
-    $('#modalThumbs').innerHTML=images.length>1?images.map((img,i)=>`<button type="button" data-thumb="${i}" class="${i===0?'active':''}" aria-label="Ver foto ${i+1}"><img alt="Vista ${i+1}" src="${esc(img)}"></button>`).join(''):'';
+    modalImg.onerror=function(){this.onerror=null;this.src=FALLBACK;this.alt='Fotografía pendiente de incorporar';};
+    modalImg.alt='Foto real de '+p.nombre;
     refreshFlavorSelect(p,0);
+    refreshProductPhoto();
     $('#variantWrap').hidden=!p.variantes?.length;$('#variantSelect').innerHTML=(p.variantes||[]).map((v,i)=>`<option value="${i}">${esc(v.label)} — ${money(v.price)}</option>`).join('');
     $('#colorWrap').hidden=!p.colores?.length;$('#colorSelect').innerHTML=(p.colores||[]).map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
-    $('#attrWrap').textContent=[...(p.atributos||[]),p.notaVariantes||''].filter(Boolean).join(' · ');
+    $('#attrWrap').textContent=[...(p.atributos||[]),p.notaVariantes||'',p.notaRevisionPdf||''].filter(Boolean).join(' · ');
     $('#addCart').hidden=!p.variantes?.length;$('#consultProduct').hidden=!!p.variantes?.length;
     $('#qtyValue').textContent='1';updateModalPrice();openPanel('productModal');
   }
@@ -131,8 +153,32 @@
     const selected=sets?Object.keys(sets).find(key=>vl.includes(key)):null;
     const flavors=selected?sets[selected]:(p.sabores||[]);
     $('#flavorWrap').hidden=!flavors.length;
+    const previouslySelected=state.flavor;
     $('#flavorSelect').innerHTML=flavors.map(f=>`<option value="${esc(f)}">${esc(f)}</option>`).join('');
-    state.flavor=flavors[0]||'';
+    const next=flavors.includes(previouslySelected)?previouslySelected:(flavors[0]||'');
+    state.flavor=next;$('#flavorSelect').value=next;
+  }
+  function refreshProductPhoto(){
+    const p=state.current;if(!p)return;
+    const v=p.variantes?.[state.variant];
+    const chosen=fotoElegida(p,state.flavor,v,state.color);
+    const target=$('#modalImage');
+    target.alt='Fotografía de '+p.nombre+(state.flavor?' — '+state.flavor:'');
+    establecerImagen(target,chosen);
+    if(chosen.variable){
+      // Nunca mostrar en miniaturas fotografías de otros sabores/tamaños.
+      $('#modalThumbs').innerHTML='';state.modalPhotos=[];
+      $('#modalImageNote').textContent=chosen.original
+        ?'Imagen de esta variante: foto cargada o, si falta, fotografía documentada del catálogo.'
+        :'La foto de esta presentación está codificada. Si aún falta, se mostrará «Imagen pendiente».';
+      return;
+    }
+    // Las fichas de producto individual conservan su galería original.
+    const extras=[...(p.imagenes||[]),...(p.fotosAdicionalesPdf||[])];
+    const thumbs=[chosen.url,...extras].filter((value,idx,arr)=>arr.indexOf(value)===idx).slice(0,12);
+    $('#modalThumbs').innerHTML=thumbs.length>1?thumbs.map((photo,i)=>`<button type="button" data-thumb="${i}" class="${i===0?'active':''}" aria-label="Ver imagen ${i+1}"><img src="${esc(photo)}" alt="Vista ${i+1}" loading="lazy"></button>`).join(''):'';
+    state.modalPhotos=thumbs;
+    $('#modalImageNote').textContent='Fotografías originales del catálogo Dutti Pet’s.';
   }
   function updateModalPrice(){
     if(!state.current)return;
@@ -143,12 +189,12 @@
   }
   $('#modalThumbs').addEventListener('click',e=>{
     const b=e.target.closest('[data-thumb]');if(!b||!state.current)return;
-    $('#modalImage').src=(state.current.imagenes||[])[Number(b.dataset.thumb)]||FALLBACK;
+    $('#modalImage').src=(state.modalPhotos||[])[Number(b.dataset.thumb)]||FALLBACK;
     $$('#modalThumbs button').forEach(el=>el.classList.toggle('active',el===b));
   });
-  $('#flavorSelect').addEventListener('change',e=>state.flavor=e.target.value);
-  $('#variantSelect').addEventListener('change',e=>{state.variant=Number(e.target.value);refreshFlavorSelect(state.current,state.variant);updateModalPrice()});
-  $('#colorSelect').addEventListener('change',e=>state.color=e.target.value);
+  $('#flavorSelect').addEventListener('change',e=>{state.flavor=e.target.value;refreshProductPhoto();});
+  $('#variantSelect').addEventListener('change',e=>{state.variant=Number(e.target.value);refreshFlavorSelect(state.current,state.variant);updateModalPrice();refreshProductPhoto()});
+  $('#colorSelect').addEventListener('change',e=>{state.color=e.target.value;refreshProductPhoto()});
   $('#qtyDown').addEventListener('click',()=>{state.qty=Math.max(1,state.qty-1);updateModalPrice()});
   $('#qtyUp').addEventListener('click',()=>{state.qty=Math.min(99,state.qty+1);updateModalPrice()});
   $('#addCart').addEventListener('click',()=>{
@@ -158,7 +204,7 @@
     const key=[p.id,v.label,flavor,color].join('|');
     const existing=state.cart.find(x=>x.key===key);
     if(existing)existing.qty=Math.min(999,existing.qty+state.qty);
-    else state.cart.push({key,id:p.id,nombre:p.nombre,categoria:p.categoria,variant:v.label,flavor,color,price:v.price,qty:state.qty,photo:imageFor(p),veterinario:p.veterinario});
+    else state.cart.push({key,id:p.id,nombre:p.nombre,categoria:p.categoria,variant:v.label,flavor,color,price:v.price,qty:state.qty,photo:photoForSelected(p,flavor,v,color),photoFallback:fotoElegida(p,flavor,v,color).respaldo,veterinario:p.veterinario});
     saveCart();closeAll();toast('¡Producto agregado al carrito! 🐾');
   });
   $('#consultProduct').addEventListener('click',()=>{
@@ -172,7 +218,7 @@
     $('#cartTotal').textContent=money(cartTotal());
     $('#checkoutTotal').textContent=money(cartTotal());
     $('#openCheckout').disabled=!state.cart.length;
-    $('#cartItems').innerHTML=state.cart.length?state.cart.map((x,i)=>`<div class="cart-row"><img alt="${esc(x.nombre)}" src="${esc(x.photo||FALLBACK)}" onerror="window.duttiFotoError(this,'${esc(x.id)}')"><div class="cart-item-info"><h4>${esc(x.nombre)}</h4><small class="cart-variant">${esc([x.variant,x.flavor,x.color].filter(Boolean).join(' · '))}</small><div class="cart-item-bottom"><strong>${money(x.price*x.qty)}</strong><div class="mini-qty"><button data-cart-action="minus" data-index="${i}" aria-label="Disminuir">−</button><b>${x.qty}</b><button data-cart-action="plus" data-index="${i}" aria-label="Aumentar">+</button></div></div><button class="remove-item" data-cart-action="remove" data-index="${i}">Eliminar ×</button></div></div>`).join(''):`<div class="cart-empty"><span>🛒</span><h3>Tu carrito está esperando</h3><p>Agrega productos y aquí verás todo el detalle de tu pedido.</p><button class="button btn-orange" id="keepShopping">Explorar catálogo</button></div>`;
+    $('#cartItems').innerHTML=state.cart.length?state.cart.map((x,i)=>`<div class="cart-row"><img alt="${esc(x.nombre)}" src="${esc(x.photo||FALLBACK)}" onerror="if(this.dataset.retry!=='1'){this.dataset.retry='1';this.src='${esc(x.photoFallback||FALLBACK)}'}else{this.onerror=null;this.src='img/imagen-pendiente.webp'}"><div class="cart-item-info"><h4>${esc(x.nombre)}</h4><small class="cart-variant">${esc([x.variant,x.flavor,x.color].filter(Boolean).join(' · '))}</small><div class="cart-item-bottom"><strong>${money(x.price*x.qty)}</strong><div class="mini-qty"><button data-cart-action="minus" data-index="${i}" aria-label="Disminuir">−</button><b>${x.qty}</b><button data-cart-action="plus" data-index="${i}" aria-label="Aumentar">+</button></div></div><button class="remove-item" data-cart-action="remove" data-index="${i}">Eliminar ×</button></div></div>`).join(''):`<div class="cart-empty"><span>🛒</span><h3>Tu carrito está esperando</h3><p>Agrega productos y aquí verás todo el detalle de tu pedido.</p><button class="button btn-orange" id="keepShopping">Explorar catálogo</button></div>`;
   }
   function cartTotal(){return state.cart.reduce((s,x)=>s+x.price*x.qty,0)}
   $('#cartItems').addEventListener('click',e=>{
