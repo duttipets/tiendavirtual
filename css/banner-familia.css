@@ -65,3 +65,11 @@ body.dutti-cart-success-open{overflow:hidden}
 .about-section.dutti-family-full{width:100%;max-width:none;margin:0;padding:42px 0;background-color:#88aa1d;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath opacity='.11' filter='url(%23n)' d='M0 0h180v180H0z'/%3E%3C/svg%3E");background-size:180px 180px}
 .dutti-family-full .dutti-family-flyer{max-width:1220px;width:100%;border-radius:0;box-shadow:none;background:transparent}
 @media(max-width:760px){.about-section.dutti-family-full{padding:0}.dutti-family-full .dutti-family-flyer{border-radius:0}.hero::before{opacity:.13}}
+/* Ajuste final: banner completo sin franjas laterales. */
+#nosotros.about-section.dutti-family-full{width:100%;max-width:none;margin:0;padding:0;background:none}
+#nosotros.dutti-family-full .dutti-family-flyer{width:100%;max-width:none;margin:0;border-radius:0;box-shadow:none}
+#nosotros .dutti-family-flyer>a:first-of-type{width:100%}
+#nosotros .dutti-family-flyer img{display:block;width:100%;max-width:none;height:auto;margin:0;border-radius:0}
+/* Grano de papel visible sobre el naranja, sin afectar contenido. */
+.hero::before{opacity:.34;mix-blend-mode:soft-light;background-size:220px 220px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.43' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncR type='linear' slope='1.8' intercept='-.4'/%3E%3CfeFuncG type='linear' slope='1.8' intercept='-.4'/%3E%3CfeFuncB type='linear' slope='1.8' intercept='-.4'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23grain)'/%3E%3C/svg%3E")}
+@media(max-width:760px){.hero::before{opacity:.3}}
