@@ -760,8 +760,38 @@
     ],
     "colores": [],
     "atributos": [],
-    "imagenes": [],
+    "imagenes": [
+      "img/productos/faltante-pr304.webp"
+    ],
     "origen": "Párrafo 305 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "brit-care-fillets-85",
+    "nombre": "Brit Care Pouch Fillets in Gravy 85 gr",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Sabrosos filetes sin granos para gatos adultos, con extracto de romero como antioxidante natural. Una opción para gatos exigentes. Fórmulas para adultos y esterilizados según el sabor elegido.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 7,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Salmón y atún",
+      "Salmón",
+      "Pavo tierno",
+      "Pavo tierno y salmón"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-brit-care-fillets-85.webp"
+    ],
     "consultar": false,
     "veterinario": false
   },
@@ -1336,7 +1366,7 @@
     "colores": [],
     "atributos": [],
     "imagenes": [
-      "img/productos/p045.webp"
+      "img/productos/faltante-pr546.webp"
     ],
     "origen": "Párrafo 547 del Word",
     "consultar": false,
@@ -1442,71 +1472,25 @@
     "veterinario": false
   },
   {
-    "id": "pr594",
-    "nombre": "Churu dog pollo 56 gr",
-    "categoria": "Snacks para perros",
-    "mascota": "Perros",
-    "descripcion": "Delicioso snack cremoso a base de pollo, ideal para consentir a tu engreído con una textura suave y un sabor irresistible. Puedes ofrecérselo directamente del tubo, como premio o añadirlo sobre sus croquetas para hacerlas más apetitosas.",
-    "variantes": [],
-    "sabores": [],
-    "colores": [],
-    "atributos": [],
-    "imagenes": [
-      "img/productos/p051.webp"
-    ],
-    "origen": "Párrafo 595 del Word",
-    "consultar": true,
-    "veterinario": false
-  },
-  {
-    "id": "pr597",
-    "nombre": "Churu Pollo con queso 56 gr",
-    "categoria": "Snacks para perros",
-    "mascota": "Perros",
-    "descripcion": "Una irresistible combinación de pollo y queso en una cremosa y deliciosa textura que encantará a tu perrito. Perfecto para premiarlo, demostrarle cariño o complementar su alimento habitual con un toque extra de sabor.",
-    "variantes": [],
-    "sabores": [],
-    "colores": [],
-    "atributos": [],
-    "imagenes": [
-      "img/productos/p052.webp"
-    ],
-    "origen": "Párrafo 598 del Word",
-    "consultar": true,
-    "veterinario": false
-  },
-  {
-    "id": "pr602",
-    "nombre": "Churu Pollo con salmón 56 gr",
-    "categoria": "Snacks para perros",
-    "mascota": "Perros",
-    "descripcion": "Una deliciosa mezcla de pollo y salmón en un snack cremoso que conquistará el paladar de tu engreído. Ideal para consentirlo entre comidas, recompensar su buen comportamiento o acompañar sus croquetas favoritas.",
-    "variantes": [],
-    "sabores": [],
-    "colores": [],
-    "atributos": [],
-    "imagenes": [
-      "img/productos/p053.webp"
-    ],
-    "origen": "Párrafo 603 del Word",
-    "consultar": true,
-    "veterinario": false
-  },
-  {
     "id": "pr606",
-    "nombre": "Churu Pollo con vegetales 56 gr",
+    "nombre": "Churu funcional para perros 56 gr",
     "categoria": "Snacks para perros",
     "mascota": "Perros",
-    "descripcion": "Un snack cremoso que combina el delicioso sabor del pollo con vegetales, ideal para darle variedad a los premios de tu mascota. Su textura suave permite servirlo directamente del tubo o como complemento sobre su comida diaria.",
+    "descripcion": "Snack cremoso para perros en presentación de 4 tubos (56 gr). Elige tu sabor favorito.",
     "variantes": [
       {
-        "label": "Unidad · 160 gr",
-        "price": 20.0,
+        "label": "Unidad · 56 gr",
+        "price": 12,
         "units": 1,
         "kind": "presentacion"
       }
     ],
-    "sabores": [],
+    "sabores": [
+      "Pollo con vegetales",
+      "Pollo",
+      "Pollo con queso",
+      "Pollo con salmón"
+    ],
     "colores": [],
     "atributos": [],
     "imagenes": [
@@ -1862,7 +1846,9 @@
     "sabores": [],
     "colores": [],
     "atributos": [],
-    "imagenes": [],
+    "imagenes": [
+      "img/productos/faltante-pr733.webp"
+    ],
     "origen": "Párrafo 734 del Word",
     "consultar": false,
     "veterinario": false
@@ -1998,7 +1984,9 @@
     ],
     "colores": [],
     "atributos": [],
-    "imagenes": [],
+    "imagenes": [
+      "img/productos/faltante-pr786.webp"
+    ],
     "origen": "Párrafo 787 del Word",
     "consultar": false,
     "veterinario": false
@@ -2047,7 +2035,9 @@
     "sabores": [],
     "colores": [],
     "atributos": [],
-    "imagenes": [],
+    "imagenes": [
+      "img/productos/faltante-pr806.webp"
+    ],
     "origen": "Párrafo 807 del Word",
     "consultar": false,
     "veterinario": false
@@ -3866,116 +3856,74 @@
   },
   {
     "id": "pr1255",
-    "nombre": "Cama minie # 1",
+    "nombre": "Cama minie",
     "categoria": "Camas y colchonetas",
     "mascota": "Ambos",
     "descripcion": "",
-    "variantes": [],
+    "variantes": [
+      {
+        "label": "Talla 1 · base 28 × 28 cm",
+        "price": 35,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 2 · base 33 × 32 cm",
+        "price": 45,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 3 · base 40 cm, alto 38 cm",
+        "price": 55,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
     "sabores": [],
     "colores": [],
-    "atributos": [
-      "Medidas: base cuadrada 28 x 28 cm de alto"
-    ],
+    "atributos": [],
     "imagenes": [
       "img/productos/p077.webp"
     ],
     "origen": "Párrafo 1256 del Word",
-    "consultar": true,
-    "veterinario": false
-  },
-  {
-    "id": "pr1260",
-    "nombre": "Cama minie # 2",
-    "categoria": "Camas y colchonetas",
-    "mascota": "Ambos",
-    "descripcion": "",
-    "variantes": [],
-    "sabores": [],
-    "colores": [],
-    "atributos": [
-      "Medidas: base cuadrada 33 x 32 cm de alto"
-    ],
-    "imagenes": [
-      "img/productos/p078.webp"
-    ],
-    "origen": "Párrafo 1261 del Word",
-    "consultar": true,
-    "veterinario": false
-  },
-  {
-    "id": "pr1264",
-    "nombre": "Cama minie #3",
-    "categoria": "Camas y colchonetas",
-    "mascota": "Ambos",
-    "descripcion": "",
-    "variantes": [],
-    "sabores": [],
-    "colores": [],
-    "atributos": [
-      "Medidas: base cuadrada 40 cm x 38 cm alto"
-    ],
-    "imagenes": [
-      "img/productos/p079.webp"
-    ],
-    "origen": "Párrafo 1265 del Word",
-    "consultar": true,
+    "consultar": false,
     "veterinario": false
   },
   {
     "id": "pr1270",
-    "nombre": "Arenero pequeño",
+    "nombre": "Arenero",
     "categoria": "Areneros",
     "mascota": "Gatos",
     "descripcion": "¡Pequeño, práctico y perfecto para tu michi!Ideal para gatitos bebés o espacios reducidos. Su diseño compacto brinda un rinconcito cómodo para su higiene, ayudando a mantener la arena en su lugar. Fácil de limpiar y perfecto para el día a día.",
-    "variantes": [],
+    "variantes": [
+      {
+        "label": "Pequeño · 36 × 25 × 8 cm",
+        "price": 8,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Mediano · 45 × 33 × 10 cm",
+        "price": 10,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Grande · 56 × 36 × 12 cm",
+        "price": 12,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
     "sabores": [],
     "colores": [],
-    "atributos": [
-      "Medidas: 36 x 25 x 8"
-    ],
+    "atributos": [],
     "imagenes": [
       "img/productos/p080.webp"
     ],
     "origen": "Párrafo 1271 del Word",
-    "consultar": true,
-    "veterinario": false
-  },
-  {
-    "id": "pr1277",
-    "nombre": "Arenero mediano",
-    "categoria": "Areneros",
-    "mascota": "Gatos",
-    "descripcion": "¡La comodidad que tu michi necesita en su día a día! 🐱✨ Arenero de tamaño mediano, práctico y funcional, ideal para brindarle a tu gatito un espacio cómodo para su higiene. Su diseño con bordes elevados ayuda a mantener la arena dentro, evitando que se disperse fácilmente. Fácil de limpiar, cómodo de usar y perfecto para mantener su rinconcito limpio y organizado.",
-    "variantes": [],
-    "sabores": [],
-    "colores": [],
-    "atributos": [
-      "Medidas: 45 x 33 x 10"
-    ],
-    "imagenes": [
-      "img/productos/p081.webp"
-    ],
-    "origen": "Párrafo 1278 del Word",
-    "consultar": true,
-    "veterinario": false
-  },
-  {
-    "id": "pr1290",
-    "nombre": "Arenero grande",
-    "categoria": "Areneros",
-    "mascota": "Gatos",
-    "descripcion": "El espacio ideal para la higiene de tu michi! Arenero amplio y práctico, diseñado para brindarle comodidad y privacidad a tu gato mientras hace sus necesidades. Su diseño de bordes elevados ayuda a contener la arena y reducir los derrames, manteniendo el espacio más limpio y ordenado. Fácil de limpiar y perfecto para el uso diario.",
-    "variantes": [],
-    "sabores": [],
-    "colores": [],
-    "atributos": [
-      "Medidas: 56 x 36 x 12"
-    ],
-    "imagenes": [
-      "img/productos/p082.webp"
-    ],
-    "origen": "Párrafo 1291 del Word",
-    "consultar": true,
+    "consultar": false,
     "veterinario": false
   },
   {
@@ -3991,12 +3939,10 @@
       "rosado"
     ],
     "atributos": [
-      "Ideal para: gatos bebés, jóvenes y adultos.",
-      "Medida:"
+      "Incluye pala."
     ],
     "imagenes": [
-      "img/productos/p083.webp",
-      "img/productos/p084.webp"
+      "img/productos/p083.webp"
     ],
     "origen": "Párrafo 1298 del Word",
     "consultar": true,
