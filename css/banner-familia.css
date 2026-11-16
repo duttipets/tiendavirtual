@@ -59,3 +59,9 @@ body.dutti-cart-success-open{overflow:hidden}
 .dutti-flyer-contact{text-align:center;padding:17px 18px;color:#fff!important;background:#ff7417;font-size:14px;font-weight:800;line-height:1.4}
 .dutti-flyer-contact:hover{background:#e5630b}
 @media(max-width:600px){.dutti-family-flyer{border-radius:21px}.dutti-flyer-contact{font-size:12px;padding:15px 14px}.footer-bottom.container>span,.footer-bottom.container>.blink-credit{font-size:11px}}
+/* V5: textura fina y fondos de ancho completo */
+.hero::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.16;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='paper'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.68' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23fff' filter='url(%23paper)' d='M0 0h180v180H0z'/%3E%3C/svg%3E");background-size:180px 180px}
+.hero .hero-grid,.hero .hero-bottom{position:relative;z-index:1}
+.about-section.dutti-family-full{width:100%;max-width:none;margin:0;padding:42px 0;background-color:#88aa1d;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath opacity='.11' filter='url(%23n)' d='M0 0h180v180H0z'/%3E%3C/svg%3E");background-size:180px 180px}
+.dutti-family-full .dutti-family-flyer{max-width:1220px;width:100%;border-radius:0;box-shadow:none;background:transparent}
+@media(max-width:760px){.about-section.dutti-family-full{padding:0}.dutti-family-full .dutti-family-flyer{border-radius:0}.hero::before{opacity:.13}}
