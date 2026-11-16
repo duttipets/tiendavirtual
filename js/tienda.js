@@ -86,19 +86,6 @@
   $('#heroPhoto1').src=mainHero?imageFor(mainHero):FALLBACK;
   $('#heroPhoto2').src=bedHero?imageFor(bedHero):FALLBACK;
   $('#year').textContent=new Date().getFullYear();
-  // Category shortcuts: never invent a product. Toys without reliable labels/prices are excluded from sellable catalog.
-  const tileWrap=$('#categoryTiles');
-  tileWrap.innerHTML=groups.map(g=>{
-    const n=CATALOG.filter(p=>g.categories.includes(p.categoria)).length;
-    return `<button type="button" class="category-tile reveal" data-group="${esc(g.label)}"><span class="tile-arrow">↗</span><span class="tile-icon">${g.ico}</span><div><h3>${esc(g.label)}</h3><p>${n?n+' productos documentados':'Consultar modelos'}</p></div></button>`;
-  }).join('');
-  tileWrap.addEventListener('click',e=>{
-    const b=e.target.closest('[data-group]');if(!b)return;
-    const g=groups.find(x=>x.label===b.dataset.group);if(!g)return;
-    if(g.label==='Juguetes'){location.href='galeria.html?categoria='+encodeURIComponent('Juguetes y rascadores');return;}
-    state.pet='Todos';state.category=g.categories.length===1?g.categories[0]:'GRUPO:'+g.label;state.query='';state.limit=24;
-    $('#productSearch').value='';updateActive();renderProducts();$('#catalogo').scrollIntoView({behavior:'smooth'});
-  });
   const catFilter=$('#categoryFilter');
   catFilter.innerHTML=[`<button class="cat-chip active" data-category="Todas">Todas las categorías</button>`,...categories.map(c=>`<button class="cat-chip" data-category="${esc(c)}">${categoryIcons[c]||'🐾'} ${esc(c)}</button>`)].join('');
   catFilter.addEventListener('click',e=>{const btn=e.target.closest('[data-category]');if(!btn)return;state.category=btn.dataset.category;state.limit=24;updateActive();renderProducts()});
@@ -207,7 +194,7 @@
     const existing=state.cart.find(x=>x.key===key);
     if(existing)existing.qty=Math.min(999,existing.qty+state.qty);
     else state.cart.push({key,id:p.id,nombre:p.nombre,categoria:p.categoria,variant:v.label,flavor,color,price:v.price,qty:state.qty,photo:photoForSelected(p,flavor,v,color),photoFallback:fotoElegida(p,flavor,v,color).respaldo,veterinario:p.veterinario});
-    saveCart();closeAll();toast('¡Producto agregado al carrito! 🐾');
+    saveCart();closeAll();if(typeof window.DUTTI_CART_CONFIRM==='function'){window.DUTTI_CART_CONFIRM(p.nombre);}else{toast('¡Producto agregado al carrito! 🐾');}
   });
   $('#consultProduct').addEventListener('click',()=>{
     const p=state.current;if(!p)return;
