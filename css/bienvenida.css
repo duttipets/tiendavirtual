@@ -18,3 +18,8 @@ body.dutti-welcome-open{overflow:hidden}
 @media(max-width:480px){.dutti-welcome{border-radius:23px}.dutti-welcome-copy{padding:27px 30px 0}.dutti-welcome-art{max-height:230px}.dutti-welcome-actions{padding:16px 22px 20px}.dutti-welcome-close{top:10px;right:10px;width:32px;height:32px}.dutti-welcome-sub{font-size:12px}}
 @media(max-height:630px){.dutti-welcome-copy{padding-top:20px}.dutti-welcome-art{max-height:180px}.dutti-welcome-actions{padding-top:12px;padding-bottom:16px}.dutti-welcome h2{font-size:28px}}
 @media(prefers-reduced-motion:reduce){.dutti-welcome[open]{animation:none}}
+.dutti-welcome.dutti-welcome-flyer{width:min(440px,calc(100% - 28px));padding:0;border-radius:24px;background:#93b723}
+.dutti-welcome-flyer-image{display:block;width:100%;height:auto}
+.dutti-welcome-flyer .dutti-welcome-actions{padding:14px 20px 17px;background:#f9fbe9}
+.dutti-welcome-flyer .dutti-welcome-close{border:0;box-shadow:0 2px 10px #203b1840}
+@media(max-height:720px) and (min-width:500px){.dutti-welcome.dutti-welcome-flyer{width:min(370px,calc(100% - 28px))}}
