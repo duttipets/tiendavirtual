@@ -5149,15 +5149,19 @@
   },
   {
     "id": "pr1818",
-    "nombre": "Shampoo medicado pulgoso 300 ml",
+    "nombre": "Shampoo medicado Pulgoso 500 ml",
     "categoria": "Shampoo y colonias",
     "mascota": "Ambos",
-    "descripcion": "",
+    "descripcion": "Shampoo Pulgoso en presentación de 500 ml para la higiene y el cuidado del pelaje de tu perro.",
     "variantes": [],
     "sabores": [],
     "colores": [],
-    "atributos": [],
-    "imagenes": [],
+    "atributos": [
+      "Contenido: 500 ml"
+    ],
+    "imagenes": [
+      "img/productos/faltante-pr1818.webp"
+    ],
     "origen": "Párrafo 1819 del Word",
     "consultar": true,
     "veterinario": false
