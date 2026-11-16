@@ -1824,7 +1824,9 @@
     "sabores": [],
     "colores": [],
     "atributos": [],
-    "imagenes": [],
+    "imagenes": [
+      "img/productos/faltante-pr727.webp"
+    ],
     "origen": "Párrafo 728 del Word",
     "consultar": false,
     "veterinario": false
