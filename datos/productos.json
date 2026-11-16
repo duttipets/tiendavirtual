@@ -3329,7 +3329,9 @@
     "sabores": [],
     "colores": [],
     "atributos": [],
-    "imagenes": [],
+    "imagenes": [
+      "img/productos/faltante-pr1110.webp"
+    ],
     "origen": "Párrafo 1111 del Word",
     "consultar": false,
     "veterinario": false
@@ -3387,7 +3389,9 @@
     ],
     "colores": [],
     "atributos": [],
-    "imagenes": [],
+    "imagenes": [
+      "img/productos/faltante-pr1124.webp"
+    ],
     "origen": "Párrafo 1125 del Word",
     "consultar": false,
     "veterinario": false
@@ -3411,7 +3415,9 @@
     ],
     "colores": [],
     "atributos": [],
-    "imagenes": [],
+    "imagenes": [
+      "img/productos/faltante-pr1131.webp"
+    ],
     "origen": "Párrafo 1132 del Word",
     "consultar": false,
     "veterinario": false
@@ -4601,9 +4607,7 @@
     "colores": [
       "Celeste",
       "Verde menta",
-      "Rosado",
-      "Azul",
-      "Gris"
+      "Rosado"
     ],
     "atributos": [
       "Ideal para: 🐶 Perros | 🐱 Gatos",
@@ -4645,8 +4649,7 @@
       "Ideal para: 🐶 Perros | 🐱 Gatos"
     ],
     "imagenes": [
-      "img/productos/p186.webp",
-      "img/productos/p187.webp"
+      "img/productos/faltante-pr1611.webp"
     ],
     "origen": "Párrafo 1612 del Word",
     "consultar": false,
@@ -4814,10 +4817,7 @@
     "colores": [],
     "atributos": [],
     "imagenes": [
-      "img/productos/p199.webp",
-      "img/productos/p200.webp",
-      "img/productos/p201.webp",
-      "img/productos/p202.webp"
+      "img/productos/faltante-pr1697.webp"
     ],
     "origen": "Párrafo 1698 del Word",
     "consultar": false,
@@ -4825,39 +4825,37 @@
   },
   {
     "id": "pr1708",
-    "nombre": "Limpiadora de Huellas Express TALLA M",
+    "nombre": "Limpiadora de Huellas Express",
     "categoria": "Cepillos y accesorios",
     "mascota": "Ambos",
     "descripcion": "¡Dile adiós a las huellas de barro, tierra y suciedad dentro de tu hogar! Su estructura tipo vaso cuenta con un inserto interno de cerdas de silicona ultra suaves que actúan como pequeños dedos limpiadores. Solo debes agregar un poco de agua (opcionalmente con shampoo para mascotas), introducir la patita, girar suavemente el vaso y retirar para secar con una toalla.",
-    "variantes": [],
-    "sabores": [],
-    "colores": [],
-    "atributos": [
-      "MEDIDAS: 11 x 9 cm"
+    "variantes": [
+      {
+        "label": "Talla M · 11 × 9 cm",
+        "price": null,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla L · 15 × 7.5 cm",
+        "price": null,
+        "units": 1,
+        "kind": "presentacion"
+      }
     ],
+    "sabores": [],
+    "colores": [
+      "Rojo",
+      "Azul",
+      "Rosado",
+      "Celeste",
+      "Verde"
+    ],
+    "atributos": [],
     "imagenes": [
-      "img/productos/p203.webp"
+      "img/productos/faltante-pr1708.webp"
     ],
     "origen": "Párrafo 1709 del Word",
-    "consultar": true,
-    "veterinario": false
-  },
-  {
-    "id": "pr1717",
-    "nombre": "Limpiador de huellas Express Talla L",
-    "categoria": "Cepillos y accesorios",
-    "mascota": "Ambos",
-    "descripcion": "Mantén tu hogar limpio y las patitas de tu engreído libres de suciedad! 🐾 Este práctico limpiador cuenta con un diseño tipo vaso y un interior de suaves cerdas de silicona que ayudan a remover barro, polvo y residuos acumulados en sus almohadillas.",
-    "variantes": [],
-    "sabores": [],
-    "colores": [],
-    "atributos": [
-      "Medidas: 15 x 7.5"
-    ],
-    "imagenes": [
-      "img/productos/p204.webp"
-    ],
-    "origen": "Párrafo 1718 del Word",
     "consultar": true,
     "veterinario": false
   },
