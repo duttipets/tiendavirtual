@@ -53,7 +53,8 @@
     };
     node.src=chosen.url;
   };
-  const minPrice=p=>p.variantes?.length?Math.min(...p.variantes.map(v=>v.price)):null;
+  const hasPrice=v=>v && typeof v.price==='number' && Number.isFinite(v.price);
+  const minPrice=p=>{const prices=(p.variantes||[]).filter(hasPrice).map(v=>v.price);return prices.length?Math.min(...prices):null;};
   const categoryIcons={
     'Alimento húmedo para gatos':'🐱','Alimento húmedo para perros':'🐶','Alimento seco para gatos':'🥣',
     'Alimento seco para perros':'🦴','Snacks para gatos':'🐈','Snacks para perros':'🍖',
@@ -141,7 +142,7 @@
     modalImg.alt='Foto real de '+p.nombre;
     refreshFlavorSelect(p,0);
     refreshProductPhoto();
-    $('#variantWrap').hidden=!p.variantes?.length;$('#variantSelect').innerHTML=(p.variantes||[]).map((v,i)=>`<option value="${i}">${esc(v.label)} — ${money(v.price)}</option>`).join('');
+    $('#variantWrap').hidden=!p.variantes?.length;$('#variantSelect').innerHTML=(p.variantes||[]).map((v,i)=>`<option value="${i}">${esc(v.label)} — ${hasPrice(v)?money(v.price):'Por consultar'}</option>`).join('');
     $('#colorWrap').hidden=!p.colores?.length;$('#colorSelect').innerHTML=(p.colores||[]).map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
     $('#attrWrap').textContent=[...(p.atributos||[]),p.notaVariantes||'',p.notaRevisionPdf||''].filter(Boolean).join(' · ');
     $('#addCart').hidden=!p.variantes?.length;$('#consultProduct').hidden=!!p.variantes?.length;
@@ -183,8 +184,9 @@
   function updateModalPrice(){
     if(!state.current)return;
     const v=state.current.variantes?.[state.variant];
-    $('#modalPrice').textContent=v?money(v.price):'Por consultar';
-    $('#modalSubtotal').textContent=v?money(v.price*state.qty):'Por confirmar';
+    $('#modalPrice').textContent=hasPrice(v)?money(v.price):'Por consultar';
+    $('#addCart').hidden=!hasPrice(v);$('#consultProduct').hidden=!!hasPrice(v);
+    $('#modalSubtotal').textContent=hasPrice(v)?money(v.price*state.qty):'Por confirmar';
     $('#qtyValue').textContent=state.qty;
   }
   $('#modalThumbs').addEventListener('click',e=>{
@@ -198,7 +200,7 @@
   $('#qtyDown').addEventListener('click',()=>{state.qty=Math.max(1,state.qty-1);updateModalPrice()});
   $('#qtyUp').addEventListener('click',()=>{state.qty=Math.min(99,state.qty+1);updateModalPrice()});
   $('#addCart').addEventListener('click',()=>{
-    const p=state.current,v=p?.variantes?.[state.variant];if(!v)return;
+    const p=state.current,v=p?.variantes?.[state.variant];if(!hasPrice(v))return;
     const flavor=p.sabores?.length?$('#flavorSelect').value:'';
     const color=p.colores?.length?$('#colorSelect').value:'';
     const key=[p.id,v.label,flavor,color].join('|');
@@ -209,7 +211,8 @@
   });
   $('#consultProduct').addEventListener('click',()=>{
     const p=state.current;if(!p)return;
-    window.open(waUrl(`Hola Dutti Pet's 🐾, quisiera consultar la disponibilidad y el precio de: ${p.nombre}.`),'_blank','noopener');
+    const options=[p.variantes?.[state.variant]?.label,state.flavor,state.color].filter(Boolean).join(' · ');
+    window.open(waUrl(`Hola Dutti Pet's 🐾, quisiera consultar la disponibilidad y el precio de: ${p.nombre}${options?' — '+options:''}.`),'_blank','noopener');
   });
   function updateCartUI(){
     const n=state.cart.reduce((sum,x)=>sum+x.qty,0);
