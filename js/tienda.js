@@ -87,15 +87,15 @@
   $('#heroPhoto2').src=bedHero?imageFor(bedHero):FALLBACK;
   $('#year').textContent=new Date().getFullYear();
   const catFilter=$('#categoryFilter');
-  catFilter.innerHTML=[`<button class="cat-chip active" data-category="Todas">Todas las categorías</button>`,...categories.map(c=>`<button class="cat-chip" data-category="${esc(c)}">${categoryIcons[c]||'🐾'} ${esc(c)}</button>`)].join('');
-  catFilter.addEventListener('click',e=>{const btn=e.target.closest('[data-category]');if(!btn)return;state.category=btn.dataset.category;state.limit=24;updateActive();renderProducts()});
+  catFilter.innerHTML=`<label class="dutti-category-label" for="categorySelect">Elige una categoría</label><select id="categorySelect" class="dutti-category-select" aria-label="Elegir categoría de productos"><option value="Todas">Todas las categorías</option>${categories.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('')}</select>`;
+  $('#categorySelect').addEventListener('change',e=>{state.category=e.target.value;state.pet='Todos';state.limit=24;updateActive();renderProducts()});
   $$('.pet').forEach(b=>b.addEventListener('click',()=>{state.pet=b.dataset.pet;state.limit=24;updateActive();renderProducts()}));
   $('#productSort').addEventListener('change',e=>{state.sort=e.target.value;renderProducts()});
   $('#productSearch').addEventListener('input',e=>{state.query=e.target.value.trim();state.limit=24;renderProducts()});
   $('#searchTop').addEventListener('click',()=>{$('#catalogo').scrollIntoView({behavior:'smooth'});setTimeout(()=>$('#productSearch').focus(),300)});
   $('#resetFilters').addEventListener('click',()=>{state.pet='Todos';state.category='Todas';state.query='';state.sort='default';state.limit=24;$('#productSearch').value='';$('#productSort').value='default';updateActive();renderProducts()});
   $('#showMore').addEventListener('click',()=>{state.limit+=24;renderProducts()});
-  function updateActive(){ $$('.pet').forEach(b=>b.classList.toggle('active',b.dataset.pet===state.pet)); $$('.cat-chip').forEach(b=>b.classList.toggle('active',b.dataset.category===state.category)); }
+  function updateActive(){ $$('.pet').forEach(b=>b.classList.toggle('active',b.dataset.pet===state.pet)); $('#categorySelect').value=state.category; }
   function filtered(){
     let data=CATALOG.filter(p=>{
       const gp=state.category.startsWith('GRUPO:')?groups.find(g=>g.label===state.category.slice(6)):null;
@@ -156,9 +156,6 @@
     if(chosen.variable){
       // Nunca mostrar en miniaturas fotografías de otros sabores/tamaños.
       $('#modalThumbs').innerHTML='';state.modalPhotos=[];
-      $('#modalImageNote').textContent=chosen.original
-        ?'Imagen de esta variante: foto cargada o, si falta, fotografía documentada del catálogo.'
-        :'La foto de esta presentación está codificada. Si aún falta, se mostrará «Imagen pendiente».';
       return;
     }
     // Las fichas de producto individual conservan su galería original.
@@ -166,7 +163,6 @@
     const thumbs=[chosen.url,...extras].filter((value,idx,arr)=>arr.indexOf(value)===idx).slice(0,12);
     $('#modalThumbs').innerHTML=thumbs.length>1?thumbs.map((photo,i)=>`<button type="button" data-thumb="${i}" class="${i===0?'active':''}" aria-label="Ver imagen ${i+1}"><img src="${esc(photo)}" alt="Vista ${i+1}" loading="lazy"></button>`).join(''):'';
     state.modalPhotos=thumbs;
-    $('#modalImageNote').textContent='Fotografías originales del catálogo Dutti Pet’s.';
   }
   function updateModalPrice(){
     if(!state.current)return;
