@@ -1,0 +1,20 @@
+.dutti-welcome{box-sizing:border-box;position:fixed;inset:0;width:min(540px,calc(100% - 28px));max-height:calc(100dvh - 28px);margin:auto;padding:0;border:0;border-radius:28px;background:#fffaf3;color:#253227;box-shadow:0 28px 100px #15231c40;overflow:auto;text-align:center;font-family:inherit;overscroll-behavior:contain}
+.dutti-welcome::backdrop{background:rgba(24,36,29,.56);backdrop-filter:blur(5px)}
+.dutti-welcome[open]{animation:dutti-welcome-in .3s ease-out}
+.dutti-welcome-close{position:absolute;right:14px;top:14px;z-index:2;width:36px;height:36px;padding:0;border:1px solid #e8e8df;border-radius:50%;background:#fff;color:#253227;font-family:inherit;font-size:26px;line-height:1;cursor:pointer;display:grid;place-items:center}
+.dutti-welcome-copy{padding:29px 42px 0}
+.dutti-welcome-tag{display:inline-block;margin:0 0 10px;padding:6px 12px;border-radius:30px;background:#fff0de;color:#c54d00;font-size:11px;line-height:1.4;letter-spacing:1.4px;font-weight:800}
+.dutti-welcome h2{margin:0;font-size:clamp(27px,5vw,36px);font-weight:800;line-height:1.12;letter-spacing:-1.2px;color:#253227}
+.dutti-welcome h2 span{color:#f56b12}
+.dutti-welcome-sub{margin:10px auto 0;font-size:13px;line-height:1.55;max-width:360px;color:#697467}
+.dutti-welcome-art{display:block;width:100%;height:auto;max-height:270px;object-fit:contain;margin:7px auto 0;background:#fff}
+.dutti-welcome-actions{padding:19px 30px 24px;background:#fff}
+.dutti-welcome-start{display:flex;align-items:center;justify-content:center;gap:16px;width:100%;min-height:50px;border:0;border-radius:15px;background:#ff7019;color:#fff;font-family:inherit;font-size:15px;font-weight:800;line-height:1.3;cursor:pointer;text-decoration:none;transition:background .15s}
+.dutti-welcome-start:hover{background:#e85b05}
+.dutti-welcome-later{display:block;margin:12px auto 0;padding:3px 8px;border:0;background:transparent;color:#657260;font-family:inherit;font-size:12px;font-weight:600;line-height:1.4;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.dutti-welcome button:focus-visible{outline:3px solid #263f2a;outline-offset:3px}
+body.dutti-welcome-open{overflow:hidden}
+@keyframes dutti-welcome-in{from{opacity:0;transform:translateY(16px) scale(.97)}to{opacity:1;transform:none}}
+@media(max-width:480px){.dutti-welcome{border-radius:23px}.dutti-welcome-copy{padding:27px 30px 0}.dutti-welcome-art{max-height:230px}.dutti-welcome-actions{padding:16px 22px 20px}.dutti-welcome-close{top:10px;right:10px;width:32px;height:32px}.dutti-welcome-sub{font-size:12px}}
+@media(max-height:630px){.dutti-welcome-copy{padding-top:20px}.dutti-welcome-art{max-height:180px}.dutti-welcome-actions{padding-top:12px;padding-bottom:16px}.dutti-welcome h2{font-size:28px}}
+@media(prefers-reduced-motion:reduce){.dutti-welcome[open]{animation:none}}
