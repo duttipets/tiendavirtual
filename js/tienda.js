@@ -40,6 +40,7 @@
     return match||null;
   };
   const fotoElegida=(p,flavor,variant,color)=>{
+    if(variant?.foto)return {url:variant.foto,respaldo:FALLBACK,original:null,variable:true};
     if(!tieneOpcionesDeFoto(p))return {url:imageFor(p),respaldo:FALLBACK,original:null,variable:false};
     const original=fotoOriginalExacta(p,flavor,variant);
     return {url:rutaVariante(p,flavor,variant,color),respaldo:original?.foto||FALLBACK,original,variable:true};
@@ -101,7 +102,7 @@
       const gp=state.category.startsWith('GRUPO:')?groups.find(g=>g.label===state.category.slice(6)):null;
       const catOK=state.category==='Todas'||p.categoria===state.category||gp?.categories.includes(p.categoria);
       const petOK=state.pet==='Todos'||p.mascota===state.pet||p.mascota==='Ambos';
-      const queryOK=!state.query||normalized([p.nombre,p.categoria,p.descripcion,(p.sabores||[]).join(' ')].join(' ')).includes(normalized(state.query));
+      const queryOK=!state.query||normalized([p.nombre,p.categoria,p.descripcion,(p.sabores||[]).join(' '),...(p.variantes||[]).map(v=>v.label)].join(' ')).includes(normalized(state.query));
       return catOK&&petOK&&queryOK;
     });
     switch(state.sort){case 'price-asc':data.sort((a,b)=>(minPrice(a)??Infinity)-(minPrice(b)??Infinity));break;
