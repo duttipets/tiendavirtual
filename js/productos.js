@@ -6502,5 +6502,1758 @@ window.DUTTI_PRODUCTOS = [
     "origen": "CATALOGO DUTTI PETS (1).docx · párrafos 177, 183, 189, 198",
     "consultar": false,
     "veterinario": true
+  },
+  {
+    "id": "dutti-doc5-1",
+    "nombre": "Dispensador de Agua o Comida Automático por Gravedad (Modelo Clásico)",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Te presentamos bebedero y comedero automático diseñado para mantener agua fresca y limpia disponible en todo momento sin necesidad de electricidad. Funciona mediante un sistema de gravedad que rellena el plato gradualmente conforme tu mascota bebe. Características: Botellón transparente desmontable que permite controlar fácilmente el nivel de agua. Base estable y antideslizante ideal para evitar derrames. Fácil de desarmar y limpiar. Recomendado para perros pequeños/medianos y gatos. CAPACIDAD : 3 KG / 3 LITROS",
+    "variantes": [
+      {
+        "label": "3 kg / 3 litros",
+        "price": 22,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Celeste",
+      "Rosado",
+      "Verde menta",
+      "Gris"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/gravedad-clasico-1.webp",
+      "img/actualizacion/gravedad-clasico-2.webp",
+      "img/actualizacion/gravedad-clasico-3.webp",
+      "img/actualizacion/gravedad-clasico-4.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotosPorColor": {
+      "Celeste": "img/actualizacion/gravedad-clasico-1.webp",
+      "Rosado": "img/actualizacion/gravedad-clasico-2.webp",
+      "Verde menta": "img/actualizacion/gravedad-clasico-3.webp",
+      "Gris": "img/actualizacion/gravedad-clasico-4.webp"
+    }
+  },
+  {
+    "id": "dutti-doc5-12",
+    "nombre": "Dispensador Doble Automático 2 en 1 (Comida y Agua – Diseño Orejitas)",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Estación de alimentación completa 2 en 1 con un tierno diseño de orejas de gato en la tapa superior. Integra un dispensador automático de alimento seco por gravedad y una botella bebedero en una sola base compacta, asegurando que tu mascota tenga comida y agua fresca todo el día. Características clave: Depósito de alimento: Contenedor transparente de gran capacidad con tapa superior hermética de fácil recarga para mantener las croquetas frescas y crujientes. Sistema de agua: Botella lateral con válvula de nivel constante que evita desbordes y mantiene el agua limpia. Base amplia y estable, ideal para gatos y perros de razas pequeñas o medianas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 35.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Verde menta",
+      "Rosado"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-8.webp",
+      "img/actualizacion/5-9.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotosPorColor": {
+      "Verde menta": "img/actualizacion/5-8.webp",
+      "Rosado": "img/actualizacion/5-9.webp"
+    }
+  },
+  {
+    "id": "dutti-doc5-22",
+    "nombre": "Kit de Biberón / Mamadera para Mascotas Lactantes",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Descripción: Set completo de lactancia diseñado especialmente para la alimentación segura de cachorros, gatitos recién nacidos o mascotas pequeñas en etapa de destete o recuperación. Características clave: Biberón graduado para medir con exactitud las tomas de leche o fórmula. Incluye chupones (tetinas) de silicona suave de repuesto con distintos tamaños/flujos. Incluye cepillo limpiador largo para higienizar fácilmente el interior de la botella.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-11.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc5-33",
+    "nombre": "Plato Doble Comedero y Bebedero con Botella Automática",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Plato doble de diseño curvo que combina un compartimento para alimento seco o húmedo y un bebedero conectado a una botella vertical transparente. Es una opción práctica y compacta para tener comida y agua disponibles en un mismo espacio. Doble función (comida y agua): Cuenta con un espacio para alimento y otro adaptado para recibir el agua de la botella superior. Botella transparente: Permite revisar fácilmente la cantidad de agua restante y rellenarla con comodidad. Base curva compacta: Ocupa poco espacio en el piso y facilita el acceso de gatos y perros pequeños o medianos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Celeste",
+      "Naranja",
+      "Rosado"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-12.webp",
+      "img/actualizacion/5-13.webp",
+      "img/actualizacion/5-14.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotosPorColor": {
+      "Celeste": "img/actualizacion/5-12.webp",
+      "Naranja": "img/actualizacion/5-13.webp",
+      "Rosado": "img/actualizacion/5-14.webp"
+    }
+  },
+  {
+    "id": "dutti-doc5-42",
+    "nombre": "Botella Portátil para Agua (Aqua Dog)",
+    "categoria": "Platos y comederos",
+    "mascota": "Perros",
+    "descripcion": "Botella bebedero portátil pensada para paseos, viajes o salidas al parque con tu mascota. Su tapa superior funciona como plato o recipiente para que el perro tome agua de forma cómoda y práctica fuera de casa. Características clave: Formato portátil y ligero, fácil de llevar en mochila, cartera o en la mano. Tapa superior tipo bebedero/copa de fácil acceso para tu mascota. Cinta o correa negra integrada que facilita sujetar o colgar durante el paseo. Ideal para perros pequeños, medianos o de paseo frecuente.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Celeste / Azul",
+      "Rosado"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-15.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc5-52",
+    "nombre": "Estación Doble con Bebedero Fuente / Cascada (Diseño con Flor)",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Estación de alimentación combinada que reúne un plato para alimento seco y un bebedero de flujo continuo tipo fuente/cascada en una misma base amplia. Su diseño facilita que perros y gatos accedan cómodamente a su comida y a agua en movimiento. Características clave: Plato de alimento: Compartimento lateral integrado, ideal para croquetas o alimento seco. Bebedero tipo fuente: Depósito con flujo constante de agua y filtro visible, pensado para incentivar la hidratación diaria. Medidas referenciales visibles en la imagen verde: Aproximadamente 34 cm de largo, 17.5 cm de ancho y 11.5 cm de alto. Base estable de diseño ergonómico, apta para gatos y perros de talla pequeña a mediana.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 38.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Verde menta",
+      "Rosado pastel"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-16.webp",
+      "img/actualizacion/5-17.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotosPorColor": {
+      "Verde menta": "img/actualizacion/5-16.webp",
+      "Rosado pastel": "img/actualizacion/5-17.webp"
+    }
+  },
+  {
+    "id": "dutti-doc5-63",
+    "nombre": "Fuente Bebedero Cuadrada con Detalle de Flor",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Bebedero compacto de formato cuadrado con tapa superior translúcida y un adorno en forma de flor en la parte superior. Permite visualizar fácilmente el agua en su interior y se adapta bien a espacios reducidos. Características clave: Cuerpo cuadrado con tapa superior que ayuda a mantener el agua contenida y controlada. Detalle superior en forma de margarita/flor que le da una estética decorativa y amigable. Práctico para gatos y perros pequeños en interiores.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 25.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Blanco / Translúcido",
+      "Rosado"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-18.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc5-71",
+    "nombre": "Dispensador Doble de Agua por Gravedad con Botella (Base Curva)",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Base doble con contorno curvo que integra un plato para alimento/snack y un bebedero automático conectado a una botella vertical transparente en la parte central. Características clave: Botella transparente superior para reponer y revisar el nivel de agua con facilidad. Dos compartimentos en una sola pieza, ahorrando espacio en el piso. Estructura liviana y práctica para uso cotidiano en gatos y perros pequeños o medianos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 19.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Celeste",
+      "Verde claro",
+      "Melón"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/imagen-pendiente.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Fotografía del modelo pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc5-80",
+    "nombre": "Comedero y Bebedero con Botella Automática",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Práctico comedero y bebedero doble diseñado para ofrecer alimento y agua en un mismo punto. Combina un compartimento abierto para croquetas y un bebedero conectado a una botella vertical que repone el agua de forma gradual.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [
+      "Negro",
+      "Azul oscuro",
+      "Rosado pastel"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-20.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": true,
+    "veterinario": false,
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc5-83",
+    "nombre": "Dispensador Automático de Gravedad",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Dispensador automático de alimento compuesto por una base blanca de borde redondeado y un depósito superior translúcido con tapa amarilla y detalle superior. Mantiene el suministro constante conforme la mascota consume, reduciendo la frecuencia de recarga y evitando derrames. Ideal para: Gatos y perros pequeños que requieren alimento o hidratación disponible durante el día.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/imagen-pendiente.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Fotografía del modelo pendiente de confirmación."
+  },
+  {
+    "id": "dutti-doc5-86",
+    "nombre": "Dispensadores de croquetas",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Dispensadores automáticos por gravedad con depósito cilíndrico transparente y base en tonos negro, rojo y azul. Permiten dosificar alimento o agua de forma continua, facilitan controlar el nivel restante a simple vista y son prácticos para hogares con más de una mascota o para ofrecer distintas opciones en paralelo. Ideal: Gatos y perros pequeños o medianos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Negro",
+      "Rojo",
+      "Azul"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-21.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc6-1",
+    "nombre": "Tilin Cats (Spray Antipulgas)",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Gatos",
+    "descripcion": "Solución antiparasitaria externa en formato de aerosol o spray formulada específicamente para gatos. Ayuda a combatir y controlar infestaciones de pulgas y otros parásitos externos sobre el pelaje y la piel del felino, ofreciendo una aplicación práctica y directa en zonas específicas del cuerpo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 10.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-6.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-11",
+    "nombre": "Atomil (Talco Antipulga / Polvo Seco)",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Talco antipulgas en polvo seco de Agropsa.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-7.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-17",
+    "nombre": "Tilin Spray Antipulgas para Perros",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Perros",
+    "descripcion": "Spray antipulgas para perros en dos presentaciones.",
+    "variantes": [
+      {
+        "label": "250 ml",
+        "price": 16,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/actualizacion/6-8.webp"
+      },
+      {
+        "label": "500 ml",
+        "price": 23,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/actualizacion/6-9.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-8.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-26",
+    "nombre": "Spray Antiolor para Hembras – No más olores",
+    "categoria": "Higiene y baños",
+    "mascota": "Perros",
+    "descripcion": "Mantén a tu mascota fresca y con un agradable aroma con el Spray Antiolor para Hembras. Su fórmula ayuda a neutralizar y controlar los malos olores, especialmente durante el celo, dejando un delicado perfume en su pelaje. Ideal para mantener a tu engreída limpia, fresca y perfumada por más tiempo. ¡Dale a tu pequeña una sensación de frescura y bienestar!",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 20.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-10.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc6-32",
+    "nombre": "Spray Raza Pets 120 ml (Antipulgas)",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Solución tópica antiparasitaria externa en formato spray para perros y gatos. Formulado con Fipronil al 0.25% para eliminar y prevenir infestaciones de pulgas y garrapatas, enriquecido con Aloe Vera para calmar la irritación, proteger la piel y favorecer la cicatrización tras las picaduras.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-11.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-37",
+    "nombre": "No Más Travieso Vetlinex 260 ml (Repelente)",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "Spray repelente educativo diseñado para evitar que perros y gatos orinen, defequen, muerdan o arañen zonas no deseadas del hogar (muebles, alfombras, paredes, esquinas o llantas). Su aroma resulta desagradable para el olfato sensible de las mascotas sin dañar las superficies ni resultar tóxico para ellas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-12.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc6-42",
+    "nombre": "Pipí Aquí Educador de Cachorros (Spray 60 ml)",
+    "categoria": "Higiene y baños",
+    "mascota": "Perros",
+    "descripcion": "Atrayente educativo en spray formulado con feromonas y esencias naturales (como notas florales y miel) que estimulan el instinto del cachorro o perro adulto para hacer sus necesidades en un lugar específico (pañales entrenadores, periódicos o jardín).",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-13.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc6-47",
+    "nombre": "Matanox 20 E.C. de Agropsa (Fumigación Ambiental)",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Insecticida para ambientes. No aplicar directamente a las mascotas. Consulta los requisitos y la etiqueta del fabricante.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-14.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-51",
+    "nombre": "Efectivon Spray + Shampoo Antipulgas (Pack / Presentación Dual)",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Tratamiento integral contra pulgas y garrapatas para perros y gatos. Spray (a base de Fipronil y extracto de llantén): Solución tópica de acción rápida y efecto residual prolongado (hasta 45 días contra pulgas y 30 días contra garrapatas) que elimina los parásitos por contacto y alivia la piel irritada. Shampoo Antipulgas: Limpia profundamente el pelaje, elimina parásitos presentes durante el baño y deja el manto suave y libre de malos olores.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 25.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-15.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-58",
+    "nombre": "Neutralizador de Olores Vetlinex (Spray 260 ml)",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "Desodorizante ambiental y de superficies de uso veterinario formulado con amonio cuaternario, bicarbonato de sodio, alumbre y esencias frutales. Actúa encapsulando y rompiendo las moléculas orgánicas causantes del mal olor (orina, heces, humedad o olor corporal de mascotas) en muebles, camas, alfombras, cajas de arena y pisos, dejando un aroma fresco sin solo enmascararlo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 25.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-16.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc6-62",
+    "nombre": "Spray Practican 120 ml / 125 ml (Antipulgas)",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Solución cutánea tópica en spray a base de Fipronil, indicada para el tratamiento y control de pulgas, garrapatas y piojos en perros y gatos. Se almacena en las glándulas sebáceas de la piel para liberar protección continua durante varias semanas (hasta 2–3 meses contra pulgas según la especie).",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-17.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-67",
+    "nombre": "Efectivon Spray + Talco Antipulgas",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Combinación antiparasitaria externa diseñada para reforzar el control de pulgas y garrapatas tanto en la mascota como en su entorno directo (camas y mantas). Spray Antipulgas: Protección tópica directa sobre el pelaje del perro o gato con efecto residual contra pulgas y garrapatas. Talco Antipulgas: Polvo insecticida de aplicación en seco que absorbe la humedad, desodoriza el pelaje y elimina parásitos externos; ideal para cachorros, mascotas que no pueden bañarse con frecuencia o para espolvorear sobre sus camas y colchonetas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 25.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-18.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc7-0",
+    "nombre": "Columpio de Madera con Cascabel",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Columpio clásico rectangular fabricado en madera natural ligera con gancho metálico superior para colgar en la jaula y un cascabel en la base para estimular el juego y el equilibrio del ave. Ideal para: Periquitos australianos, agapornis, canarios y diamantes mandarines.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-6.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-4",
+    "nombre": "Columpio de Madera Simple",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Columpio básico de madera natural sin barniz, ideal para el desgaste natural del pico y las uñas. Viene en empaque individual listo para exhibición en tienda (Accesorios para Aves).",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-7.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-8",
+    "nombre": "Columpio Espiral Flexible de Colores",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Percha colgante en forma de espiral revestida con cuentas acrílicas multicolores, broche superior y cascabel inferior. Fomenta el ejercicio, la coordinación y el movimiento dinámico dentro de la jaula.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 17.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-8.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-17",
+    "nombre": "Columpio Aro de Madera con Cascabel",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Columpio circular de madera natural con detalle de cuentas de colores y cascabel colgante en la parte inferior. Proporciona un punto de descanso cómodo y seguro.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-10.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-19",
+    "nombre": "Columpio Aro Grande",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Aro colgante multicolor que incluye una barra de descanso de madera atravesada en el centro y cascabeles decorativos. Ofrece mayor estabilidad para que el ave se pose mientras se balancea.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 20.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-11.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-23",
+    "nombre": "Columpio Puente con Cascabeles",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Columpio amplio de base plana de madera sostenido por dos arcos de cuentas multicolores, equipado con tres cascabeles colgantes en la parte inferior. Permite que dos aves pequeñas se posen al mismo tiempo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 25.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-12.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-25",
+    "nombre": "Juguete Colgante de Bloques de Madera",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Juguete vertical mordedor compuesto por piezas cilíndricas de madera intercaladas con cuentas de colores y un cascabel en la punta. Ayuda a mantener el pico saludable y evita el picaje de plumas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-13.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-28",
+    "nombre": "Columpio Trapecio Alto con Cascabeles",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Columpio triangular/trapezoidal con laterales de cuentas acrílicas multicolores, percha inferior de madera y dos cascabeles colgantes.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-14.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-32",
+    "nombre": "Columpio de Cuerda / Madera en \"A\" con Cascabel",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Columpio colgante de diseño triangular con percha inferior de madera y cascabel central, ligero y fácil de instalar en cualquier barrotes de jaula.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-15.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-35",
+    "nombre": "Escalera Colgante de Madera con Peldaños de Colores",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Escalera vertical u horizontal de madera natural con peldaños pintados en colores llamativos y ganchos metálicos superiores para enganchar entre distintos niveles de la jaula.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-16.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-38",
+    "nombre": "Puente Colgante Tipo Escalera",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Puente colgante flexible de doble extremo con ganchos metálicos, peldaños de madera natural y cuentas de colores en las uniones laterales. Perfecto para cruzar de un lado a otro de la jaula ejercitando las patas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 20.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-17.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-48",
+    "nombre": "Escalera Rustica",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Escalera colgante fabricada con troncos/ramas de madera natural y travesaños rectos, con gancho metálico superior para colgar fácilmente en la jaula. Estimula la actividad física, el equilibrio y el entretenimiento diario del ave. Ideal: Aves pequeñas y medianas que disfrutan trepar y explorar.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-20.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-11",
+    "nombre": "Columpio Aro Multicolores",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Aro colgante rígido decorado con cuentas plásticas de colores vivos y cascabel inferior. Atrae visualmente al ave y reduce el estrés por aburrimiento.",
+    "variantes": [
+      {
+        "label": "14 × 12 cm",
+        "price": 14,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "16 × 14 cm",
+        "price": 16,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "20 × 16 cm",
+        "price": 20,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-9.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc7-41",
+    "nombre": "Nido Redondo de Fibra Natural",
+    "categoria": "Nidos y refugios para aves",
+    "mascota": "Aves",
+    "descripcion": "Nido artesanal tejido con fibras naturales suaves y resistentes, diseñado para brindar calidez y refugio durante la crianza y el descanso. Viene en bolsa transparente con cabecera ilustrada de aves. Ideal para: Canarios, periquitos, diamantes mandarines y aves pequeñas de jaula.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 6.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-18.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-44",
+    "nombre": "Piedra / Bloque de Calcio en Forma de Choclo (\"Super Calcium\" - yucra)",
+    "categoria": "Suplementos para aves",
+    "mascota": "Aves",
+    "descripcion": "Suplemento mineral en forma de mazorca/choclo blanco elaborado con calcio y minerales esenciales. Ayuda a fortalecer los huesos y la cáscara de los huevos, además de favorecer el desgaste natural del pico. Ideal para: Periquitos, ninfas, agapornis y canarios.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-19.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-51",
+    "nombre": "Bloque Mineral / Piedra de Calcio con Soporte",
+    "categoria": "Suplementos para aves",
+    "mascota": "Aves",
+    "descripcion": "Bloque mineral compacto en tono rosado/suave con etiqueta ilustrada de aves, formulado para aportar minerales y apoyar el mantenimiento saludable del pico y el organismo. Ideal: Canarios, periquitos y aves ornamentales de jaula.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 3.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-21.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-54",
+    "nombre": "Bloque de Calcio en Empaque (\"Calciblock\" - yucra)",
+    "categoria": "Suplementos para aves",
+    "mascota": "Aves",
+    "descripcion": "Bloque de calcio de textura firme en presentación empacada con etiqueta de aves. Contribuye al aporte diario de calcio, al bienestar óseo y al desgaste natural del pico. Ideal: Canarios, periquitos y aves de jaula.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 3.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-22.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-59",
+    "nombre": "Nido / Refugio en Caja Ilustrada (\"NIDEK\" - yucra)",
+    "categoria": "Nidos y refugios para aves",
+    "mascota": "Aves",
+    "descripcion": "Nido o refugio para aves presentado en caja de cartón con ilustraciones coloridas de aves y detalle superior. Proporciona un espacio resguardado para descanso o cría dentro del hábitat del ave. Ideal: Periquitos, agapornis y aves pequeñas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 3.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-23.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-69",
+    "nombre": "Vasos de Colores",
+    "categoria": "Comederos y bebederos para aves",
+    "mascota": "Aves",
+    "descripcion": "Pequeños recipientes cilíndricos de plástico ligero en tonos vibrantes (verde, azul, rojo, fucsia, amarillo y naranja), prácticos para ofrecer alpiste, mezclas de semillas, frutas picadas o snacks. Fáciles de lavar y reponer diariamente. Ideal para: Periquitos, canarios, diamantes mandarines y aves ornamentales.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 1.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-25.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-74",
+    "nombre": "Dispensadores de alimento",
+    "categoria": "Comederos y bebederos para aves",
+    "mascota": "Aves",
+    "descripcion": "Dispensadores de alimento de base ancha y estable con depósito cilíndrico translúcido y tapa superior en colores verde y azul. Permiten visualizar el nivel de líquido o grano y mantener una reserva constante para el ave. Ideal para: Aves de jaula, pajareras o espacios de descanso donde se prefiera apoyo estable.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-26.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-78",
+    "nombre": "Dispensadores Verticales para Jaula",
+    "categoria": "Comederos y bebederos para aves",
+    "mascota": "Aves",
+    "descripcion": "Depósito transparente y base/tapa en colores brillantes (verde, azul, fucsia y rojo), pensados para acoplarse o colocarse dentro del espacio del ave y suministrar agua o alimento de forma práctica. Ideal para: Periquitos, canarios y aves pequeñas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-27.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-63",
+    "nombre": "Set de Comederos Esquineros Plásticos",
+    "categoria": "Comederos y bebederos para aves",
+    "mascota": "Aves",
+    "descripcion": "Comederos compactos de plástico resistente con diseño angular para encajar fácilmente en las esquinas de la jaula, ahorrando espacio útil. Disponibles en colores llamativos (rojo, verde, naranja, amarillo, celeste y fucsia) para alimento seco, semillas o suplementos. Ideal para: Canarios, periquitos australianos, agapornis y aves pequeñas de jaula.",
+    "variantes": [
+      {
+        "label": "N.º 1",
+        "price": 4,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "N.º 2",
+        "price": 5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "N.º 3",
+        "price": 7,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-24.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc7-82",
+    "nombre": "Comederos Metálicos Rectangulares para Jaula",
+    "categoria": "Comederos y bebederos para aves",
+    "mascota": "Aves",
+    "descripcion": "Comederos rectangulares de metal plateado resistente, higiénicos y fáciles de desinfectar, diseñados para soportar el uso diario y el picoteo constante sin deformarse. Ideales para semillas, alimento balanceado o grit. Ideal para: Periquitos, agapornis, ninfas y aves de jaula en general.",
+    "variantes": [
+      {
+        "label": "N.º 1 · 10 cm",
+        "price": 8,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/actualizacion/comedero-metal-1.webp"
+      },
+      {
+        "label": "N.º 2 · 15 cm",
+        "price": 10,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/actualizacion/comedero-metal-2.webp"
+      },
+      {
+        "label": "N.º 3 · 18.5 cm",
+        "price": 14,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/actualizacion/comedero-metal-3.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-28.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Imágenes separadas de la foto grupal, ordenadas por tamaño aparente."
+  },
+  {
+    "id": "dutti-doc8-0",
+    "nombre": "Collar trenzado rojo y azul con cadena metálica",
+    "categoria": "Collares y accesorios",
+    "mascota": "Perros",
+    "descripcion": "Material y diseño: Collar artesanal trenzado en tonos azul eléctrico y rojo intenso, con acabado tipo soga o cordón resistente y un tramo de cadena metálica plateada con argolla/gancho para correa. Uso ideal: Ideal para paseos diarios y entrenamiento, combinando resistencia y un estilo llamativo y deportivo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 30.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-6.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-4",
+    "nombre": "Collares estampados con cascabeles",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Línea variada de collares de cinta con estampados coloridos (como motivos florales, geométricos y tonos pastel/iridiscentes), broche plástico de liberación rápida y un pequeño cascabel metálico en el cierre. Excelentes para gatos o perros pequeños, permitiendo localizarlos fácilmente y aportando un toque alegre y colorido.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-7.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-8",
+    "nombre": "Collares corbatín",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Collares de cinta suave en gama de colores clásicos y cálidos (rojo vino, beige/arena, rosa palo y celeste suave) decorados con un lazo o corbatín al frente, argolla metálica y broche ajustable. Perfectos para ocasiones especiales, fotos o mascotas de estilo elegante y discreto.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-8.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-13",
+    "nombre": "Collares con lazo en tonos pastel",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Collares de cinta con detalle de lazo frontal en tonos pastel (lila/lavanda, crema, coral/rosado suave y marrón claro), herrajes metálicos y ajuste regulable. Ideales para mascotas pequeñas que buscan un look dulce, tierno y combinable con distintos outfits.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-9.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-18",
+    "nombre": "Collares lisos ajustables en tonos pastel y negro",
+    "categoria": "Collares y accesorios",
+    "mascota": "Perros",
+    "descripcion": "Material y diseño: Collares de cinta nylon/poliéster resistente y suave al tacto, disponibles en colores sólidos (celeste pastel, negro clásico y rosa pastel). Cuentan con broche plástico curvo de liberación rápida, hebilla regulable y argolla metálica en forma de \"D\" para la correa o placa de identificación. Uso ideal: Ideales para el uso diario, paseos cómodos y seguros, combinando ligereza, resistencia y un estilo minimalista y moderno.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 10.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-10.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-23",
+    "nombre": "Collares Estampado Corazón con Cascabel",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "¡Estilo y seguridad en cada paso! Collares ajustables con divertidos estampados en colores vibrantes. Equipados con un práctico broche de liberación rápida y un cascabel metálico que te permite saber siempre dónde está tu engreído. Ideales para gatos y perros pequeños.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-11.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-27",
+    "nombre": "Collares Elegantes con Moño de Tul y Cascabel",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "¡El toque más tierno y coqueto! Diseñados en tonos pastel y neón (rosa, celeste, amarillo, rojo y morado), cada collar incluye un delicado moño de tul semi-transparente que hará lucir a tu mascota como de revista. Comodidad garantizada: Ligeros, suaves con su pelaje y con cascabel incluido. Perfectos para ocasiones especiales o sesiones de fotos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-12.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-30",
+    "nombre": "Collares Neón y Pastel con Diseños Divertidos",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "¡Full color para mascotas con mucha personalidad! Una colección súper alegre con estampados temáticos (huesos, huellas y caritas) sobre cintas de alta resistencia en verde limón, rojo, azul, rosado y lila. Prácticos y seguros: Cuentan con hebilla regulable para un calce perfecto, argolla metálica y cascabel a juego. ¡Un básico colorido que no puede faltar!",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-13.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-74",
+    "nombre": "Cascabeles para Collar",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Cascabeles metálicos de colores variados (plateado, azul, rojo, morado, fucsia, verde y negro) con broche o argolla para sujetar fácilmente al collar. Ayudan a ubicar a la mascota por el sonido durante sus movimientos en casa o el paseo. Ideal para: Perros pequeños y gatos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 2.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-18.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-88",
+    "nombre": "Collares de Huellitas",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "¡Un clásico irresistible para los amantes de las mascotas! Estampados con tiernas huellas blancas sobre una variada gama de colores (rojo, azul marino, celeste y rosado pastel). Resistencia y confort: Fabricados en cinta super suave que no maltrata el cuello, con broche seguro, ajuste fácil y cascabel metálico.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-20.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-92",
+    "nombre": "Collares Huesitos",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "¡Diseño moderno y súper combinable! Collares con patrón continuo de huesitos blancos sobre fondos intensos y pastel (negro, verde neón, rojo, rosa, celeste y azul rey). Listos para la aventura: Fáciles de poner y quitar gracias a su broche de presión, totalmente graduables y con cascabel para mantener siempre ubicado a tu peludo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-21.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-100",
+    "nombre": "Collar Fosforescente Glow para Gato",
+    "categoria": "Collares y accesorios",
+    "mascota": "Gatos",
+    "descripcion": "¡Brilla suavemente en la oscuridad! Diseñado con efecto fosforescente que emite un sutil tono verdoso en ambientes con poca luz o de noche, ayudándote a ubicar mejor a tu gato en casa. Comodidad y seguridad en cada paso: Elaborado con cinta ligera y resistente, broche práctico y cascabel metálico que aporta un extra de visibilidad auditiva, ideal para el cuello delicado de los felinos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-22.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-33",
+    "nombre": "Collar de Doble Púa para Perros",
+    "categoria": "Collares y accesorios",
+    "mascota": "Perros",
+    "descripcion": "Collar resistente con detalle de doble fila de púas/remaches metálicos y hebilla de ajuste firme, diseñado para brindar mayor estructura y presencia durante el uso diario o el paseo. Ideal para: Perros medianos y grandes que requieren un collar firme y llamativo. Apto para paseos.",
+    "variantes": [
+      {
+        "label": "Talla S",
+        "price": 24.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla M",
+        "price": 26.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla L",
+        "price": 28.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla XL",
+        "price": 30.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-14.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc8-42",
+    "nombre": "Collares de Cuero",
+    "categoria": "Collares y accesorios",
+    "mascota": "Perros",
+    "descripcion": "Collares ajustables con hebilla metálica y argolla para correa, disponibles en tonos variados (rosado, lila, rojo, marrón y azul). Diseño resistente y cómodo para el uso diario y los paseos. Ideal para colocar placas de identificacion o cascabel, para perros pequeños y medianos.",
+    "variantes": [
+      {
+        "label": "Talla 1",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 2",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 3",
+        "price": 10.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 4",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 5",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-15.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc8-56",
+    "nombre": "Collar lazo charol",
+    "categoria": "Collares y accesorios",
+    "mascota": "Perros",
+    "descripcion": "Descripción: Collares de ajuste regulable con aplique decorativo central (en forma de hueso/huella) y cascabel metálico colgante. Disponibles en colores llamativos (rojo, negro, azul y fucsia) para identificar y acompañar a tu engreído en cada salida. Ideal para: Perros pequeños y medianos.",
+    "variantes": [
+      {
+        "label": "Talla M",
+        "price": 6.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla L",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-16.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc8-63",
+    "nombre": "Collar Cuero Aplicacion",
+    "categoria": "Collares y accesorios",
+    "mascota": "Perros",
+    "descripcion": "Collares ligeros y ajustables con diseño estampado y hebilla de sujeción práctica en variedad de colores (rojo, azul, morado, lila y rosado). Aportan un toque alegre y cómodo para el día a día. Ideal para: Perros pequeños y medianos.",
+    "variantes": [
+      {
+        "label": "Talla 0",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 1",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 2",
+        "price": 9.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 3",
+        "price": 10.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 4",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 5",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 6",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-17.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc8-77",
+    "nombre": "Collares Isabelinos / Conos de Recuperación",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Conos protectores translúcidos ligeros con borde de tela/acolchado en distintos colores (azul, rojo, rosado, negro y celeste) y sistema de cierre ajustable. Evitan que la mascota se lama, muerda o rasque heridas, suturas o zonas en tratamiento tras cirugías o problemas dermatológicos. Ideal para: Perros y gatos en recuperación postoperatoria o tratamiento veterinario.",
+    "variantes": [
+      {
+        "label": "Talla XXS",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla XS",
+        "price": 15.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla S",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla M",
+        "price": 20.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla L",
+        "price": 22.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla XL",
+        "price": 28.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla XXL",
+        "price": 35.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-19.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
   }
 ];

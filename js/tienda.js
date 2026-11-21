@@ -40,8 +40,10 @@
     return match||null;
   };
   const fotoElegida=(p,flavor,variant,color)=>{
+    const colorPhoto=p.fotosPorColor?.[color];
+    if(colorPhoto)return {url:colorPhoto,respaldo:imageFor(p),original:null,variable:true};
     if(variant?.foto)return {url:variant.foto,respaldo:FALLBACK,original:null,variable:true};
-    if(!tieneOpcionesDeFoto(p))return {url:imageFor(p),respaldo:FALLBACK,original:null,variable:false};
+    if(p.fotosPorColor||p.fotoDeReferencia||!tieneOpcionesDeFoto(p))return {url:imageFor(p),respaldo:FALLBACK,original:null,variable:false};
     const original=fotoOriginalExacta(p,flavor,variant);
     return {url:rutaVariante(p,flavor,variant,color),respaldo:original?.foto||FALLBACK,original,variable:true};
   };
@@ -88,20 +90,27 @@
   $('#heroPhoto2').src=bedHero?imageFor(bedHero):FALLBACK;
   $('#year').textContent=new Date().getFullYear();
   const catFilter=$('#categoryFilter');
-  catFilter.innerHTML=`<label class="dutti-category-label" for="categorySelect">Elige una categoría</label><select id="categorySelect" class="dutti-category-select" aria-label="Elegir categoría de productos"><option value="Todas">Todas las categorías</option>${categories.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('')}</select>`;
-  $('#categorySelect').addEventListener('change',e=>{state.category=e.target.value;state.pet='Todos';state.limit=24;updateActive();renderProducts()});
-  $$('.pet').forEach(b=>b.addEventListener('click',()=>{state.pet=b.dataset.pet;state.limit=24;updateActive();renderProducts()}));
+  const matchesPet=(p,pet)=>pet==='Todos'||p.mascota===pet||(p.mascota==='Ambos'&&(pet==='Perros'||pet==='Gatos'));
+  function renderCategories(){
+    const visibleCategories=state.pet==='Todos'?categories:[...new Set(CATALOG.filter(p=>matchesPet(p,state.pet)).map(p=>p.categoria))];
+    if(!visibleCategories.includes(state.category))state.category='Todas';
+    catFilter.innerHTML=`<label class="dutti-category-label" for="categorySelect">Elige una categoría</label><select id="categorySelect" class="dutti-category-select" aria-label="Elegir categoría de productos"><option value="Todas">Todas las categorías</option>${visibleCategories.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('')}</select>`;
+    $('#categorySelect').value=state.category;
+  }
+  renderCategories();
+  catFilter.addEventListener('change',e=>{state.category=e.target.value;state.limit=24;updateActive();renderProducts()});
+  $$('.pet').forEach(b=>b.addEventListener('click',()=>{state.pet=b.dataset.pet;state.limit=24;renderCategories();updateActive();renderProducts()}));
   $('#productSort').addEventListener('change',e=>{state.sort=e.target.value;renderProducts()});
   $('#productSearch').addEventListener('input',e=>{state.query=e.target.value.trim();state.limit=24;renderProducts()});
   $('#searchTop').addEventListener('click',()=>{$('#catalogo').scrollIntoView({behavior:'smooth'});setTimeout(()=>$('#productSearch').focus(),300)});
-  $('#resetFilters').addEventListener('click',()=>{state.pet='Todos';state.category='Todas';state.query='';state.sort='default';state.limit=24;$('#productSearch').value='';$('#productSort').value='default';updateActive();renderProducts()});
+  $('#resetFilters').addEventListener('click',()=>{state.pet='Todos';state.category='Todas';state.query='';state.sort='default';state.limit=24;$('#productSearch').value='';$('#productSort').value='default';renderCategories();updateActive();renderProducts()});
   $('#showMore').addEventListener('click',()=>{state.limit+=24;renderProducts()});
   function updateActive(){ $$('.pet').forEach(b=>b.classList.toggle('active',b.dataset.pet===state.pet)); $('#categorySelect').value=state.category; }
   function filtered(){
     let data=CATALOG.filter(p=>{
       const gp=state.category.startsWith('GRUPO:')?groups.find(g=>g.label===state.category.slice(6)):null;
       const catOK=state.category==='Todas'||p.categoria===state.category||gp?.categories.includes(p.categoria);
-      const petOK=state.pet==='Todos'||p.mascota===state.pet||p.mascota==='Ambos';
+      const petOK=matchesPet(p,state.pet);
       const queryOK=!state.query||normalized([p.nombre,p.categoria,p.descripcion,(p.sabores||[]).join(' '),...(p.variantes||[]).map(v=>v.label)].join(' ')).includes(normalized(state.query));
       return catOK&&petOK&&queryOK;
     });
@@ -117,7 +126,7 @@
     $('#emptyState').hidden=!!data.length;$('#showMore').hidden=data.length<=state.limit;
     $('#productsGrid').innerHTML=data.slice(0,state.limit).map((p,i)=>{
       const price=minPrice(p);const hasPhoto=p.imagenes.length>0;
-      return `<article class="product-card" style="animation-delay:${Math.min(i%12,11)*24}ms"><button class="product-image" type="button" data-open="${esc(p.id)}" aria-label="Ver ${esc(p.nombre)}"><img loading="lazy" src="${esc(imageFor(p))}" alt="${esc(hasPhoto?'Foto del catálogo: '+p.nombre:'Imagen del producto: '+p.nombre)}" onerror="this.onerror=null;this.src='img/imagen-pendiente.webp';this.alt='Fotografía pendiente';"><span class="product-tag ${price===null?'no-price':''}">${price===null?'Precio por consultar':p.variantes.length>1?'Variantes disponibles':p.mascota==='Gatos'?'Para gatitos':'Para engreídos'}</span></button><div class="product-body"><span class="product-cat">${esc(p.categoria)}</span><h3 class="product-name">${esc(p.nombre)}</h3><p class="product-description">${esc(p.descripcion||'Ver detalles, características y opciones del artículo.')}</p><div class="product-footer"><div><span class="price-caption">${price===null?'Información comercial':'Desde'}</span><strong class="product-price">${price===null?'Consultar':money(price)}</strong></div><button class="btn-product ${price===null?'consult':''}" type="button" data-open="${esc(p.id)}" aria-label="${price===null?'Consultar':'Elegir opciones'} para ${esc(p.nombre)}">${price===null?'↗':'+'}</button></div></div></article>`;
+      return `<article class="product-card" style="animation-delay:${Math.min(i%12,11)*24}ms"><button class="product-image" type="button" data-open="${esc(p.id)}" aria-label="Ver ${esc(p.nombre)}"><img loading="lazy" src="${esc(imageFor(p))}" alt="${esc(hasPhoto?'Foto del catálogo: '+p.nombre:'Imagen del producto: '+p.nombre)}" onerror="this.onerror=null;this.src='img/imagen-pendiente.webp';this.alt='Fotografía pendiente';"><span class="product-tag ${price===null?'no-price':''}">${price===null?'Precio por consultar':p.variantes.length>1?'Variantes disponibles':p.mascota==='Aves'?'Para aves':p.mascota==='Gatos'?'Para gatitos':'Para engreídos'}</span></button><div class="product-body"><span class="product-cat">${esc(p.categoria)}</span><h3 class="product-name">${esc(p.nombre)}</h3><p class="product-description">${esc(p.descripcion||'Ver detalles, características y opciones del artículo.')}</p><div class="product-footer"><div><span class="price-caption">${price===null?'Información comercial':'Desde'}</span><strong class="product-price">${price===null?'Consultar':money(price)}</strong></div><button class="btn-product ${price===null?'consult':''}" type="button" data-open="${esc(p.id)}" aria-label="${price===null?'Consultar':'Elegir opciones'} para ${esc(p.nombre)}">${price===null?'↗':'+'}</button></div></div></article>`;
     }).join('');
   }
   $('#productsGrid').addEventListener('click',e=>{const b=e.target.closest('[data-open]');if(b)showProduct(b.dataset.open)});
