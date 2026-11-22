@@ -6829,7 +6829,7 @@ window.DUTTI_PRODUCTOS = [
   {
     "id": "dutti-doc6-1",
     "nombre": "Tilin Cats (Spray Antipulgas)",
-    "categoria": "Salud y veterinaria",
+    "categoria": "Sprays y cuidado",
     "mascota": "Gatos",
     "descripcion": "Solución antiparasitaria externa en formato de aerosol o spray formulada específicamente para gatos. Ayuda a combatir y controlar infestaciones de pulgas y otros parásitos externos sobre el pelaje y la piel del felino, ofreciendo una aplicación práctica y directa en zonas específicas del cuerpo.",
     "variantes": [
@@ -6853,7 +6853,7 @@ window.DUTTI_PRODUCTOS = [
   {
     "id": "dutti-doc6-11",
     "nombre": "Atomil (Talco Antipulga / Polvo Seco)",
-    "categoria": "Salud y veterinaria",
+    "categoria": "Sprays y cuidado",
     "mascota": "Ambos",
     "descripcion": "Talco antipulgas en polvo seco de Agropsa.",
     "variantes": [
@@ -6877,7 +6877,7 @@ window.DUTTI_PRODUCTOS = [
   {
     "id": "dutti-doc6-17",
     "nombre": "Tilin Spray Antipulgas para Perros",
-    "categoria": "Salud y veterinaria",
+    "categoria": "Sprays y cuidado",
     "mascota": "Perros",
     "descripcion": "Spray antipulgas para perros en dos presentaciones.",
     "variantes": [
@@ -6909,7 +6909,7 @@ window.DUTTI_PRODUCTOS = [
   {
     "id": "dutti-doc6-26",
     "nombre": "Spray Antiolor para Hembras – No más olores",
-    "categoria": "Higiene y baños",
+    "categoria": "Sprays y cuidado",
     "mascota": "Perros",
     "descripcion": "Mantén a tu mascota fresca y con un agradable aroma con el Spray Antiolor para Hembras. Su fórmula ayuda a neutralizar y controlar los malos olores, especialmente durante el celo, dejando un delicado perfume en su pelaje. Ideal para mantener a tu engreída limpia, fresca y perfumada por más tiempo. ¡Dale a tu pequeña una sensación de frescura y bienestar!",
     "variantes": [
@@ -6933,7 +6933,7 @@ window.DUTTI_PRODUCTOS = [
   {
     "id": "dutti-doc6-32",
     "nombre": "Spray Raza Pets 120 ml (Antipulgas)",
-    "categoria": "Salud y veterinaria",
+    "categoria": "Sprays y cuidado",
     "mascota": "Ambos",
     "descripcion": "Solución tópica antiparasitaria externa en formato spray para perros y gatos. Formulado con Fipronil al 0.25% para eliminar y prevenir infestaciones de pulgas y garrapatas, enriquecido con Aloe Vera para calmar la irritación, proteger la piel y favorecer la cicatrización tras las picaduras.",
     "variantes": [
@@ -6957,7 +6957,7 @@ window.DUTTI_PRODUCTOS = [
   {
     "id": "dutti-doc6-37",
     "nombre": "No Más Travieso Vetlinex 260 ml (Repelente)",
-    "categoria": "Higiene y baños",
+    "categoria": "Sprays y cuidado",
     "mascota": "Ambos",
     "descripcion": "Spray repelente educativo diseñado para evitar que perros y gatos orinen, defequen, muerdan o arañen zonas no deseadas del hogar (muebles, alfombras, paredes, esquinas o llantas). Su aroma resulta desagradable para el olfato sensible de las mascotas sin dañar las superficies ni resultar tóxico para ellas.",
     "variantes": [
@@ -6981,7 +6981,7 @@ window.DUTTI_PRODUCTOS = [
   {
     "id": "dutti-doc6-42",
     "nombre": "Pipí Aquí Educador de Cachorros (Spray 60 ml)",
-    "categoria": "Higiene y baños",
+    "categoria": "Sprays y cuidado",
     "mascota": "Perros",
     "descripcion": "Atrayente educativo en spray formulado con feromonas y esencias naturales (como notas florales y miel) que estimulan el instinto del cachorro o perro adulto para hacer sus necesidades en un lugar específico (pañales entrenadores, periódicos o jardín).",
     "variantes": [
@@ -7005,7 +7005,7 @@ window.DUTTI_PRODUCTOS = [
   {
     "id": "dutti-doc6-47",
     "nombre": "Matanox 20 E.C. de Agropsa (Fumigación Ambiental)",
-    "categoria": "Salud y veterinaria",
+    "categoria": "Sprays y cuidado",
     "mascota": "Ambos",
     "descripcion": "Insecticida para ambientes. No aplicar directamente a las mascotas. Consulta los requisitos y la etiqueta del fabricante.",
     "variantes": [
@@ -7029,7 +7029,7 @@ window.DUTTI_PRODUCTOS = [
   {
     "id": "dutti-doc6-51",
     "nombre": "Efectivon Spray + Shampoo Antipulgas (Pack / Presentación Dual)",
-    "categoria": "Salud y veterinaria",
+    "categoria": "Sprays y cuidado",
     "mascota": "Ambos",
     "descripcion": "Tratamiento integral contra pulgas y garrapatas para perros y gatos. Spray (a base de Fipronil y extracto de llantén): Solución tópica de acción rápida y efecto residual prolongado (hasta 45 días contra pulgas y 30 días contra garrapatas) que elimina los parásitos por contacto y alivia la piel irritada. Shampoo Antipulgas: Limpia profundamente el pelaje, elimina parásitos presentes durante el baño y deja el manto suave y libre de malos olores.",
     "variantes": [
@@ -7053,7 +7053,7 @@ window.DUTTI_PRODUCTOS = [
   {
     "id": "dutti-doc6-58",
     "nombre": "Neutralizador de Olores Vetlinex (Spray 260 ml)",
-    "categoria": "Higiene y baños",
+    "categoria": "Sprays y cuidado",
     "mascota": "Ambos",
     "descripcion": "Desodorizante ambiental y de superficies de uso veterinario formulado con amonio cuaternario, bicarbonato de sodio, alumbre y esencias frutales. Actúa encapsulando y rompiendo las moléculas orgánicas causantes del mal olor (orina, heces, humedad o olor corporal de mascotas) en muebles, camas, alfombras, cajas de arena y pisos, dejando un aroma fresco sin solo enmascararlo.",
     "variantes": [
@@ -7077,7 +7077,7 @@ window.DUTTI_PRODUCTOS = [
   {
     "id": "dutti-doc6-62",
     "nombre": "Spray Practican 120 ml / 125 ml (Antipulgas)",
-    "categoria": "Salud y veterinaria",
+    "categoria": "Sprays y cuidado",
     "mascota": "Ambos",
     "descripcion": "Solución cutánea tópica en spray a base de Fipronil, indicada para el tratamiento y control de pulgas, garrapatas y piojos en perros y gatos. Se almacena en las glándulas sebáceas de la piel para liberar protección continua durante varias semanas (hasta 2–3 meses contra pulgas según la especie).",
     "variantes": [
@@ -7101,7 +7101,7 @@ window.DUTTI_PRODUCTOS = [
   {
     "id": "dutti-doc6-67",
     "nombre": "Efectivon Spray + Talco Antipulgas",
-    "categoria": "Salud y veterinaria",
+    "categoria": "Sprays y cuidado",
     "mascota": "Ambos",
     "descripcion": "Combinación antiparasitaria externa diseñada para reforzar el control de pulgas y garrapatas tanto en la mascota como en su entorno directo (camas y mantas). Spray Antipulgas: Protección tópica directa sobre el pelaje del perro o gato con efecto residual contra pulgas y garrapatas. Talco Antipulgas: Polvo insecticida de aplicación en seco que absorbe la humedad, desodoriza el pelaje y elimina parásitos externos; ideal para cachorros, mascotas que no pueden bañarse con frecuencia o para espolvorear sobre sus camas y colchonetas.",
     "variantes": [

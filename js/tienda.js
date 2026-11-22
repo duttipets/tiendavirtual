@@ -89,6 +89,8 @@
   $('#heroPhoto1').src=mainHero?imageFor(mainHero):FALLBACK;
   $('#heroPhoto2').src=bedHero?imageFor(bedHero):FALLBACK;
   $('#year').textContent=new Date().getFullYear();
+  const spraysButton=$('#showSprays');
+  const spraysCategory='Sprays y cuidado';
   const catFilter=$('#categoryFilter');
   const matchesPet=(p,pet)=>pet==='Todos'||p.mascota===pet||(p.mascota==='Ambos'&&(pet==='Perros'||pet==='Gatos'));
   function renderCategories(){
@@ -100,12 +102,22 @@
   renderCategories();
   catFilter.addEventListener('change',e=>{state.category=e.target.value;state.limit=24;updateActive();renderProducts()});
   $$('.pet').forEach(b=>b.addEventListener('click',()=>{state.pet=b.dataset.pet;state.limit=24;renderCategories();updateActive();renderProducts()}));
+  spraysButton.addEventListener('click',()=>{
+    if(!CATALOG.some(p=>p.categoria===spraysCategory&&matchesPet(p,state.pet)))state.pet='Todos';
+    state.category=spraysCategory;
+    state.query='';
+    state.limit=24;
+    $('#productSearch').value='';
+    renderCategories();
+    updateActive();
+    renderProducts();
+  });
   $('#productSort').addEventListener('change',e=>{state.sort=e.target.value;renderProducts()});
   $('#productSearch').addEventListener('input',e=>{state.query=e.target.value.trim();state.limit=24;renderProducts()});
   $('#searchTop').addEventListener('click',()=>{$('#catalogo').scrollIntoView({behavior:'smooth'});setTimeout(()=>$('#productSearch').focus(),300)});
   $('#resetFilters').addEventListener('click',()=>{state.pet='Todos';state.category='Todas';state.query='';state.sort='default';state.limit=24;$('#productSearch').value='';$('#productSort').value='default';renderCategories();updateActive();renderProducts()});
   $('#showMore').addEventListener('click',()=>{state.limit+=24;renderProducts()});
-  function updateActive(){ $$('.pet').forEach(b=>b.classList.toggle('active',b.dataset.pet===state.pet)); $('#categorySelect').value=state.category; }
+  function updateActive(){ $$('.pet').forEach(b=>b.classList.toggle('active',b.dataset.pet===state.pet)); $('#categorySelect').value=state.category; spraysButton.setAttribute('aria-pressed', String(state.category===spraysCategory)); }
   function filtered(){
     let data=CATALOG.filter(p=>{
       const gp=state.category.startsWith('GRUPO:')?groups.find(g=>g.label===state.category.slice(6)):null;
