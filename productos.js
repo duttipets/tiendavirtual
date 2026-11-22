@@ -1,0 +1,8259 @@
+window.DUTTI_PRODUCTOS = [
+  {
+    "id": "pr2",
+    "nombre": "Leonardo Quality Selection",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento húmedo Super Premium de origen alemán, elaborado con hasta un 70% de carne fresca seleccionada cocida suavemente en su propio caldo. Su receta 100% libre de granos, enriquecida con aceite de salmón y minerales esenciales, favorece una digestión perfecta, un pelaje radiante y una hidratación adecuada para la salud renal.",
+    "variantes": [
+      {
+        "label": "Unidad · 200 gr",
+        "price": 13.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x6 · 200 gr",
+        "price": 75.0,
+        "units": 6,
+        "kind": "pack"
+      },
+      {
+        "label": "Unidad · 400 gr",
+        "price": 21.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x6 · 400 gr",
+        "price": 120.0,
+        "units": 6,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Kitten",
+      "Adulto conejo",
+      "Adulto pato",
+      "Adulto pescado marino",
+      "Adulto ave"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 3 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr19",
+    "nombre": "Drinks - Leonardo",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Los gatos por naturaleza tienen un bajo instinto de sed, lo que suele desencadenar problemas urinarios o renales. Leonardo Drink es el complemento hídrico premium perfecto para incentivar de forma natural el hábito de beber. Elaborado a base de un exquisito caldo natural enriquecido con jugosos trozos de carne , aporta aminoácidos esenciales como la taurina para cuidar su corazón y su visión. Es la solución ideal…",
+    "variantes": [
+      {
+        "label": "Unidad · 40 gr",
+        "price": 5.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x20 · 40 gr",
+        "price": 100.0,
+        "units": 20,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Ternera:",
+      "Pato",
+      "Salmón"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 20 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr31",
+    "nombre": "Leonardo Finest Selection",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Nutrición Super Premium de origen alemán para los felinos más exigentes. Elaborado con más del 70% de carnes seleccionadas cocidas lentamente al vapor en servido individual. Su fórmula 100% libre de granos y enriquecida con aceite de salmón garantiza una digestibilidad óptima, piel sana y protección renal a través de una hidratación natural. La opción gourmet ideal para mimar a tu gato día a día.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 10.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x16 · 85 gr",
+        "price": 150.0,
+        "units": 16,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Kitten ave puro",
+      "trucha y catnip",
+      "pato y queso",
+      "pescado y camarones",
+      "pollo puro",
+      "senior pollo puro"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 32 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr46",
+    "nombre": "Ricocat Lata",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Nutrición Premium 100% completa y balanceada para tu felino. Elaborado con ingredientes seleccionados de alta calidad, Ricocat ofrece delicadas texturas en paté y jugosos trozos que garantizan una máxima palatabilidad.",
+    "variantes": [
+      {
+        "label": "Unidad · 330 gr",
+        "price": 5.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x24 · 330 gr",
+        "price": 119.0,
+        "units": 24,
+        "kind": "pack"
+      },
+      {
+        "label": "Unidad · 180 gr",
+        "price": 3.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x24 · 180 gr",
+        "price": 82.0,
+        "units": 24,
+        "kind": "pack"
+      },
+      {
+        "label": "Unidad · 190 gr",
+        "price": 3.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x24 · 190 gr",
+        "price": 82.0,
+        "units": 24,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Sardina y pollo",
+      "Higado y pollo",
+      "Pavo e higado",
+      "pate salmon",
+      "pate adulto atun y pescado",
+      "pate adulto carne",
+      "pate esterilizados",
+      "pate cachorro carne y pollo",
+      "trocitos en salsa adulto pollo",
+      "trocitos en salsa adulto pescado"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 47 del Word",
+    "consultar": false,
+    "veterinario": false,
+    "saboresPorTamanio": {
+      "330 gr": [
+        "Sardina y pollo",
+        "Higado y pollo",
+        "Pavo e higado"
+      ],
+      "180 gr": [
+        "pate salmon",
+        "pate adulto atun y pescado",
+        "pate adulto carne",
+        "pate esterilizados",
+        "pate cachorro carne y pollo"
+      ],
+      "190 gr": [
+        "trocitos en salsa adulto pollo",
+        "trocitos en salsa adulto pescado"
+      ]
+    }
+  },
+  {
+    "id": "pr76",
+    "nombre": "Ricocat pounch",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Nutrición Premium para consentir a tu felino en cada ración. Elaborado con tiernos trozos de carne y pescado al vapor en una irresistible salsa, enriquecido con taurina, vitaminas y minerales que protegen su salud urinaria y renal.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 2.2,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x15 · 85 gr",
+        "price": 30.0,
+        "units": 15,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Trocitos pescado adulto",
+      "Trocitos salmón adulto",
+      "Trocitos pollo adulto",
+      "Trocitos sabores marinos adulto",
+      "Trocitos carne cachorro"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 77 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr88",
+    "nombre": "Super cat pounch",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Elaborado con nutrientes esenciales, taurina y un extra de hidratación que promueve la salud renal e integral de tu mascota. Su empaque individual asegura la frescura y el sabor en cada comida. Servir solo o mezclado con su alimento seco favorito.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 2.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x15 · 85 gr",
+        "price": 28.5,
+        "units": 15,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Delicias en salsa adulto atun",
+      "Delicias en salsa cachorro pescado"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 89 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr99",
+    "nombre": "Super cat lata",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Textura suave fácil de masticar, formulada para apoyar el crecimiento con aporte proteico equilibrado e ingredientes de alta digestibilidad, alta palatabilidad y un aporte óptimo de hidratación a un precio accesible.",
+    "variantes": [
+      {
+        "label": "Unidad · 180 gr",
+        "price": 3.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x24 · 180 gr",
+        "price": 70.0,
+        "units": 24,
+        "kind": "pack"
+      },
+      {
+        "label": "Unidad · 160 gr",
+        "price": 3.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x24 · 160 gr",
+        "price": 70.0,
+        "units": 24,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "pate higado y pavo",
+      "atun y sardina",
+      "pate carne",
+      "delicias en salsa pescado",
+      "delicias en salsa pavo",
+      "delicias en salsa atún"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 100 del Word",
+    "consultar": false,
+    "veterinario": false,
+    "saboresPorTamanio": {
+      "180 gr": [
+        "pate higado y pavo",
+        "atun y sardina",
+        "pate carne"
+      ],
+      "160 gr": [
+        "delicias en salsa pescado",
+        "delicias en salsa pavo",
+        "delicias en salsa atún"
+      ]
+    }
+  },
+  {
+    "id": "pr119",
+    "nombre": "Canbo lata",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Favorece el desarrollo y mantenimiento muscular, con Taurina, aminoácido esencial para la función cardíaca y la salud retiniana, además de contribuir al control del pH urinario. Mantiene la piel sana y el pelaje brillante: Contiene Omega 3 y 6 (aceite de pescado), contiene fibra natural para la absorción eficiente de nutrientes ( sin colorantes).",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 6.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x24 · 85 gr",
+        "price": 144.0,
+        "units": 24,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "paté cachorro pollo e hígado",
+      "paté esterilizado adulto pollo",
+      "paté adulto pollo y pavo"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 120 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr131",
+    "nombre": "Gourmet ( ricocat)",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento húmedo Premium completo y balanceado para gatos, diseñado para los paladares más exigentes por estar inspirado en la alta cocina con carne de muy alta calidad que lo hace muy sabroso.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 3.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x24 · 85 gr",
+        "price": 81.0,
+        "units": 24,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "paté adulto pollo",
+      "paté adulto salmón",
+      "paté cachorro carne"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 132 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr142",
+    "nombre": "Felix lata",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Deliciosa combinación de sabores, un suave y agradable paté que tendrán a tu gato esperando con impaciencia la hora de comer todos los días.",
+    "variantes": [
+      {
+        "label": "Unidad · 156 gr",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x24 · 156 gr",
+        "price": 115.0,
+        "units": 24,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Felix pavo y menudencias",
+      "Felix salmon",
+      "Felix atun y pescado"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 143 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr153",
+    "nombre": "Felix pounch",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Tu gato disfrutará de una deliciosa combinación balanceada que satisfará el 100% del requerimiento nutricional, contiene vitaminas D y E, combinación de minerales, Omega 6 y proteínas. Con un 80% de humedad, es ideal para ayudar a mantener la correcta hidratación de tu gato. Cada bolsita de alimento húmedo para gatos Felix está repleta de tiernos trozos en una suculenta salsa que hará que tu gato se relama de…",
+    "variantes": [
+      {
+        "label": "Unidad · 85 GR",
+        "price": 3.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x3 · 85 GR",
+        "price": 10.0,
+        "units": 3,
+        "kind": "pack"
+      },
+      {
+        "label": "Pack x15 · 85 GR",
+        "price": 49.0,
+        "units": 15,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Pollo",
+      "Pavo",
+      "Atún",
+      "Salmón",
+      "MegaMix Gatitos",
+      "MegaMix Adultos"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p001.webp",
+      "img/productos/p002.webp",
+      "img/productos/p003.webp",
+      "img/productos/p004.webp",
+      "img/productos/p005.webp",
+      "img/productos/p006.webp"
+    ],
+    "origen": "Párrafo 154 del Word",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Variedades identificadas visualmente en los empaques fotografiados dentro del Word."
+  },
+  {
+    "id": "pr172",
+    "nombre": "Fancy lata",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡El amor se sirve todos los días con Fancy Feast! Eleva la experiencia gastronómica de tu gato con nuestra deliciosa línea gourmet con ingredientes de la más alta calidad, con altos niveles de proteína, sin colorantes artificiales, con texturas y sabores que brindan toda una experiencia gourmet que garantizan una nutrición 100% completa y balanceada.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x24 · 85 gr",
+        "price": 112.0,
+        "units": 24,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "gravy lovers chicken feast",
+      "trout feast flaked",
+      "classic pate cod, sole & shrimp feast",
+      "salmón feast in gravy grilled",
+      "tuna feast in gravy grilled"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p007.webp",
+      "img/productos/p008.webp",
+      "img/productos/p009.webp",
+      "img/productos/p010.webp",
+      "img/productos/p011.webp"
+    ],
+    "origen": "Párrafo 173 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr188",
+    "nombre": "Fancy pounch",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Comida húmeda súper premium para gatos, alimento completo y equilibrado para gatos adultos. Sorprende a tu gato con recetas únicas y 100% equilibradas.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x15 · 85 gr",
+        "price": 70.0,
+        "units": 15,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Casserole atun con salmon",
+      "petit filetes salmon",
+      "demi glace pollo",
+      "Supremo pescado blanco",
+      "Supremo carne",
+      "Supremo bacalao"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p012.webp",
+      "img/productos/p013.webp",
+      "img/productos/p014.webp",
+      "img/productos/p015.webp",
+      "img/productos/p016.webp",
+      "img/productos/p017.webp"
+    ],
+    "origen": "Párrafo 189 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr204",
+    "nombre": "Purina one pounch",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento húmedo completo y balanceado apto para todas las etapas de vida, con exquisito sabor. Contiene quinoa, camote y linaza, alimentos de alta densidad nutricional que traen beneficios a la salud y el bienestar de tu gato.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 6.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "One Adulto y Esterilizado Superfoods con Salmón",
+      "One Adulto y Gatito Super Nutrientes con Carne",
+      "One Adulto y Esterilizado Super Nutrientes con Carne"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p018.webp",
+      "img/productos/p019.webp",
+      "img/productos/p020.webp"
+    ],
+    "origen": "Párrafo 205 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr221",
+    "nombre": "Cat chow pounch",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento húmedo 100% completo y balanceado una combinación exclusiva de prebiótico natural, antioxidantes, vitaminas y minerales que ayudan a fortalecer las defensas naturales de tu gato. Ayuda a la hidratación y a la protección del tracto urinario de tu gato, dándoles una vida mejor.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x15 · 85 gr",
+        "price": 55.0,
+        "units": 15,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Adultos con pescado",
+      "Adultos con pollo",
+      "Esterilizados Castrados",
+      "Gatitos pollo"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p021.webp",
+      "img/productos/p022.webp",
+      "img/productos/p023.webp",
+      "img/productos/p024.webp"
+    ],
+    "origen": "Párrafo 222 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr240",
+    "nombre": "Brit grain free veterinary diet",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Dale a tu felino el soporte médico que necesita para tratar y controlar las afecciones de salud más comunes en los gatos, esta gama combina nutrición terapéutica avanzada con una alta palatabilidad, garantizando que tu mascota reciba su tratamiento sin resistirse al sabor.",
+    "variantes": [
+      {
+        "label": "Unidad · 200gr",
+        "price": 15.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x6 · 200gr",
+        "price": 87.0,
+        "units": 6,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Gastrointestinal (Salmón y Guisantes)",
+      "Renal (Atún y Salmón)",
+      "Urinary / Struvite (Pollo y Guisantes)",
+      "Hypoallergenic (Salmón y Guisantes)"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p025.webp",
+      "img/productos/p026.webp",
+      "img/productos/p027.webp",
+      "img/productos/p028.webp"
+    ],
+    "origen": "Párrafo 241 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr258",
+    "nombre": "APPLAWS",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Sorprende al paladar de tu felino con alimento húmedo complementario elaborado exclusivamente con ingredientes de grado humano, proteínas animales seleccionadas y un delicioso caldo natural. Libre de cereales, gluten, subproductos o aditivos artificiales. Al ver los filetes reales y desmenuzados a simple vista, entenderás por qué es la opción favorita para abrir el apetito de los gatos más exigentes y cuidar…",
+    "variantes": [
+      {
+        "label": "Pack x24 · 70 gr",
+        "price": 185.0,
+        "units": 24,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Filete de Atún",
+      "Atún con Cangrejo",
+      "Atún con Camarón (Gambas)",
+      "Atún con Algas Marinas",
+      "Pescado Azul (Caballa con Atún)",
+      "Caballa con Sardina",
+      "Pechuga de Pollo",
+      "Pechuga de Pollo con Queso",
+      "Pechuga de Pollo con Pato",
+      "Pechuga de Pollo con Atún",
+      "Kitten - Filete de Atún"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p029.webp",
+      "img/productos/p030.webp",
+      "img/productos/p031.webp",
+      "img/productos/p032.webp"
+    ],
+    "origen": "Párrafo 259 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr284",
+    "nombre": "MOOCHIE",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento húmedo balanceado y complementario formulado con ingredientes naturales de alta calidad. Diseñado sin cereales, colorantes ni conservantes artificiales, ofrece una nutrición completa rica en sabor y alta hidratación. Healthy Growth (Gatitos): Crecimiento fuerte y sano.",
+    "variantes": [
+      {
+        "label": "Unidad · 70 gr",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x12 · 70 gr",
+        "price": 45.0,
+        "units": 12,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Weight Control: Control de peso con L-Carnitina",
+      "Mouse Atun con leche de cabra",
+      "Mouse atun con salmon"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p039.webp",
+      "img/productos/p040.webp",
+      "img/productos/p041.webp",
+      "img/productos/p042.webp",
+      "img/productos/p043.webp",
+      "img/productos/p044.webp"
+    ],
+    "origen": "Párrafo 285 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr304",
+    "nombre": "ORIGENS",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Innovadora línea de alimento húmedo formulada a base de auténtico filete de atún combinado con trozos de frutas reales. Creado por médicos veterinarios, es un alimento 100% natural, libre de gluten, conservantes y colorantes artificiales. Combina una nutrición completa de alta palatabilidad con el aporte de vitaminas, antioxidantes e hidratación esencial para cuidar la salud renal de los gatos de todas las edades.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 7.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x24 · 85 gr",
+        "price": 175.0,
+        "units": 24,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Filete de Atún con Piña",
+      "Filete de Atún con Papaya",
+      "Filete de Atún con Durazno",
+      "Filete de Atún con Manzana",
+      "Filete de Atún con Melón",
+      "Filete de Atún con Arándanos",
+      "Filete de Atún con Pitahaya",
+      "Filete de Atún con Sandía"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-pr304.webp"
+    ],
+    "origen": "Párrafo 305 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "brit-care-fillets-85",
+    "nombre": "Brit Care Pouch Fillets in Gravy 85 gr",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Sabrosos filetes sin granos para gatos adultos, con extracto de romero como antioxidante natural. Una opción para gatos exigentes. Fórmulas para adultos y esterilizados según el sabor elegido.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 7,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Salmón y atún",
+      "Salmón",
+      "Pavo tierno",
+      "Pavo tierno y salmón"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-brit-care-fillets-85.webp"
+    ],
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr321",
+    "nombre": "Gran plus pounch",
+    "categoria": "Alimento húmedo para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento húmedo completo y balanceado, ideal para consentir a tu michi con una comida deliciosa y de alta palatabilidad. Aporta hidratación y nutrientes esenciales, incluyendo taurina y ácidos grasos Omega 3, que contribuyen al bienestar, la vitalidad y el cuidado de su piel y pelaje. Una excelente opción para complementar su alimentación diaria.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 5.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x15 · 85 gr",
+        "price": 62.0,
+        "units": 15,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Gatito – Pollo",
+      "Adulto – Carne",
+      "Adulto Castrado – Pollo",
+      "Adulto Castrado – Cordero",
+      "Adulto Castrado – Salmón y Pollo",
+      "Adulto Castrado – Pavo y Arroz",
+      "Adulto – Atún"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 322 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr337",
+    "nombre": "Ricocan trocitos en salsa pounch",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "Es un alimento húmedo completo y balanceado, elaborado mediante cocción al vapor con deliciosos bocados de carne, libre de preservantes artificiales, está enriquecida con proteínas de alta calidad, multivitaminas, minerales orgánicos y antioxidantes que garantizan una óptima nutrición y digestibilidad.",
+    "variantes": [
+      {
+        "label": "Unidad · 100 gr",
+        "price": 2.2,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x15 · 100 gr",
+        "price": 30.0,
+        "units": 15,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Adulto Carne",
+      "Adulto Pollo",
+      "Adulto Cordero",
+      "Cachorro Pollo",
+      "Cachorro Cordero"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 338 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr350",
+    "nombre": "Ricocan trocitos en salsa lata",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "Es una combinación de jugosos bocados de carne bañados en abundante salsa cocinados al vapor para preservar su sabor. Formulado con ingredientes seleccionados, vitaminas y minerales esenciales, es la opción perfecta para brindarle a tu mascota una comida altamente palatable, de fácil digestión y llena de energía todos los días. Ideal para servir solo o mezclado con sus galletas favoritas.",
+    "variantes": [
+      {
+        "label": "Unidad · 290 gr",
+        "price": 4.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x24 · 290 gr",
+        "price": 106.0,
+        "units": 24,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Carne y verduras",
+      "Pollo y verduras",
+      "Cordero y arroz"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 351 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr361",
+    "nombre": "Ricocan pate",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "El alimento húmedo Ricocan Paté es una fórmula de textura suave y cremosa, altamente digestible y rica en nutrientes.",
+    "variantes": [
+      {
+        "label": "Unidad · 330 gr",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x15 · 330 gr",
+        "price": 110.0,
+        "units": 15,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Carne (Adultos)",
+      "Pollo (Adultos)",
+      "Cordero (Adultos)",
+      "Babycan (Especial para cachorros y hembras gestantes o lactantes)"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 362 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr374",
+    "nombre": "Moochie pounch",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "Es un alimento húmedo de calidad súper premium formulado con ingredientes de grado humano, sin cereales y sin conservantes artificiales.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x15 · 85 gr",
+        "price": 45.0,
+        "units": 15,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Cuidado Digestivo",
+      "Crecimiento Saludable",
+      "Piel y Pelaje Sano",
+      "Control de Peso"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 375 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr387",
+    "nombre": "Dog chow High Protein",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "Es una línea diseñada para satisfacer las necesidades nutricionales de perros con alta actividad física o que requieren un mayor aporte proteico. Carne, pollo y huevo como fuentes proteicas principales. El 60% de la proteína proviene de origen animal.",
+    "variantes": [
+      {
+        "label": "Unidad · 368 gr",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x15 · 368 gr",
+        "price": 99.0,
+        "units": 15,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Carne de res",
+      "pollo",
+      "cordero"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 388 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr399",
+    "nombre": "Canbo Lata Hipoalergenico",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimentación nutritiva para adultos y cachorros, su fórmula con carne de cordero y nutrientes seleccionados favorece una buena digestión y ayuda a cuidar la piel y el pelaje, manteniéndolos saludables y brillantes. Su textura suave y alta palatabilidad lo hacen irresistible para tu engreído. Libre de preservantes y colorantes. Ideal para perros adultos de todas las razas.",
+    "variantes": [
+      {
+        "label": "Unidad · 330 gr",
+        "price": 12.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x6 · 330 gr",
+        "price": 72.0,
+        "units": 6,
+        "kind": "pack"
+      },
+      {
+        "label": "Pack x12 · 330 gr",
+        "price": 140.0,
+        "units": 12,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Adulto cordero",
+      "Cachorro cordero"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 400 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr410",
+    "nombre": "Canbo Patè",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "Es una línea de alimento húmedo completo y balanceado para perros, con diferentes fórmulas diseñadas para acompañar sus necesidades en cada etapa y condición. Su textura suave y deliciosa ofrece una excelente palatabilidad, mientras aporta nutrientes que contribuyen al bienestar, vitalidad y salud integral de tu engreído.",
+    "variantes": [
+      {
+        "label": "Unidad · 330 gr",
+        "price": 10.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x6 · 330 gr",
+        "price": 60.0,
+        "units": 6,
+        "kind": "pack"
+      },
+      {
+        "label": "Pack x12 · 330 gr",
+        "price": 117.0,
+        "units": 12,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "flexibilidad y movilidad",
+      "recuperación y rendimiento",
+      "óptima digestión",
+      "piel sensible"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 411 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr423",
+    "nombre": "Canbo pounch",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento húmedo completo y balanceado para perros, elaborado en prácticos trocitos en salsa. Ideal para complementar su alimentación diaria y hacer sus comidas más apetitosas.",
+    "variantes": [],
+    "sabores": [
+      "Adulto cordero",
+      "Adulto pavo",
+      "Cachorro cordero",
+      "Cachorro pavo"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 424 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr431",
+    "nombre": "Brit pate & meat",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "Delicioso alimento húmedo para perros elaborado con un alto contenido de carne y órganos en un suave y apetitoso paté, acompañado de trozos reales de carne. Su fórmula incluye aceite de salmón, fuente de Omega-3, y ayuda a mejorar la ingesta y aportar hidratación. Ideal para complementar su alimentación diaria. Sin cereales, sin soya y sin OGM.",
+    "variantes": [
+      {
+        "label": "Unidad · 400 gr",
+        "price": 15.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x6 · 400 gr",
+        "price": 86.0,
+        "units": 6,
+        "kind": "pack"
+      },
+      {
+        "label": "Pack x12 · 400 gr",
+        "price": 168.0,
+        "units": 12,
+        "kind": "pack"
+      },
+      {
+        "label": "Unidad · 800 gr",
+        "price": 23.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x6 · 800 gr",
+        "price": 133.0,
+        "units": 6,
+        "kind": "pack"
+      },
+      {
+        "label": "Pack x12 · 800 gr",
+        "price": 262.0,
+        "units": 12,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Puppy – Pollo y pavo",
+      "Chicken – Pollo y res",
+      "Lamb – Cordero y pollo",
+      "Salmon – Salmón y pollo",
+      "Beef – Res y pavo",
+      "Turkey – Pavo y pollo",
+      "Rabbit – Conejo y pollo",
+      "Venison – Venado y pollo",
+      "Duck – Pato y pollo"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 432 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr453",
+    "nombre": "Brit mono protein",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento húmedo completo y balanceado para perros, elaborado con una sola fuente de proteína animal. Su fórmula es ideal para perros con digestión sensible, alergias o intolerancias alimentarias. Su textura suave tipo paté facilita la digestión y resulta muy apetecible, además de ayudar a complementar la alimentación y aportar hidratación. Sin gluten, sin soya y sin OGM",
+    "variantes": [
+      {
+        "label": "Unidad · 400 gr",
+        "price": 17.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x6 · 400 gr",
+        "price": 100.0,
+        "units": 6,
+        "kind": "pack"
+      },
+      {
+        "label": "Pack x12 · 400 gr",
+        "price": 196.0,
+        "units": 12,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Carne de res",
+      "Carne de res con arroz",
+      "Cordero",
+      "Cordero con arroz",
+      "Conejo",
+      "Pavo",
+      "Pavo con camote",
+      "Atún con camote"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 454 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr470",
+    "nombre": "Belcando latas",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "Es un alimento húmedo premium monoproteico ideal para caninos de todas las razas, especialmente aquellos con sensibilidad estomacal. Elaborado en Alemania, conserva los nutrientes y jugos naturales de la carne sin añadir agua. Es la opción perfecta para comparar y elegir si buscas alta tolerancia digestiva y una nutrición libre de carnes procesadas.",
+    "variantes": [
+      {
+        "label": "Unidad · 400 gr",
+        "price": 17.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x6 · 400 gr",
+        "price": 103.0,
+        "units": 6,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Junior Ave y huevo",
+      "pavo arroz y calabacín",
+      "ternera con patatas y guisantes",
+      "Cordero arroz y tomates",
+      "Cerdo iberico con garbanzos y arándanos"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 471 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr483",
+    "nombre": "Belcando pounch",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "es un alimento húmedo súper premium de calidad holística, elaborado en Alemania con finos cortes de carne fresca cocinados delicadamente en su propio jugo. Su fórmula incorpora superalimentos como amaranto, arándanos o mijo, enriquecidos con aceite de cardo y salmón para promover una piel sana y un pelaje deslumbrante.",
+    "variantes": [
+      {
+        "label": "Unidad · 125 gr",
+        "price": 11.9,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x12 · 125 gr",
+        "price": 132.0,
+        "units": 12,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Junior pollo con zanahoria",
+      "venado con mijo y arándanos",
+      "cordero con patatas y arándanos"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 484 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr494",
+    "nombre": "Nuevo Sensitive",
+    "categoria": "Alimento húmedo para perros",
+    "mascota": "Perros",
+    "descripcion": "Es un alimento húmedo completo para perros adultos, especialmente pensado para perros con digestión sensible. Elaborado con 72% de cordero y vísceras de calidad como corazón, hígado y pulmones frescos. Su fórmula es monoproteica, sin cereales ni gluten, y contiene aceite de linaza, fuente de Omega 3 y Omega 6 que contribuyen al cuidado de la piel y el brillo del pelaje.",
+    "variantes": [
+      {
+        "label": "Unidad · 400 gr",
+        "price": 15.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x6 · 400 gr",
+        "price": 85.0,
+        "units": 6,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 495 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr507",
+    "nombre": "Dentitoy",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Premio masticable para perros que ayuda a mantener una buena higiene bucal mediante la acción mecánica de la masticación. Ayuda a reducir la acumulación de residuos en los dientes.",
+    "variantes": [
+      {
+        "label": "Unidad · 500 gr",
+        "price": 20.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 250 gr",
+        "price": 12.5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 6 unidades",
+        "price": 4.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 508 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr535",
+    "nombre": "Dentitoy ahumado",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Snack masticable con delicioso sabor ahumado, ideal para mantenerlo entretenido mientras la masticación contribuye a la higiene dental. Sabor ahumado irresistible",
+    "variantes": [
+      {
+        "label": "Unidad · 500 gr",
+        "price": 20.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Favorece la limpieza mecánica de los dientes"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 536 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr546",
+    "nombre": "Dentitoy cordero",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Premio masticable con delicioso sabor a cordero, ideal para consentir y entretener a tu engreído. Su textura favorece la masticación y ayuda a mantener sus dientes más limpios, mientras disfruta de un snack sabroso.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 unidades",
+        "price": 13.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-pr546.webp"
+    ],
+    "origen": "Párrafo 547 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr558",
+    "nombre": "Rex",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Deliciosos torbellinos masticables con irresistible sabor a tocino ahumado. Su textura semidura proporciona diversión prolongada mientras tu engreído disfruta cada mordida. Además, la masticación ayuda a remover el sarro y contribuye a mantener una buena higiene bucal.",
+    "variantes": [
+      {
+        "label": "Unidad · 85 gr",
+        "price": 7.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p046.webp"
+    ],
+    "origen": "Párrafo 559 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr566",
+    "nombre": "REX 20 unidades",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Deliciosos torbellinos masticables con irresistible sabor a tocino ahumado. Su textura semidura proporciona diversión prolongada mientras tu engreído disfruta cada mordida. Además, la masticación ayuda a remover el sarro y contribuye a mantener una buena higiene bucal.",
+    "variantes": [
+      {
+        "label": "Unidad · 16 gr",
+        "price": 19.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p047.webp"
+    ],
+    "origen": "Párrafo 567 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr576",
+    "nombre": "Yami rollitos sabor carne a la parrilla 80 gr",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Deliciosos rollitos suaves con irresistible sabor a carne a la parrilla y un atractivo aroma ahumado. Perfectos para consentir a tu engreído, premiarlo por su buen comportamiento o motivarlo durante sus sesiones de entrenamiento.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p048.webp"
+    ],
+    "origen": "Párrafo 577 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr583",
+    "nombre": "Yami filetitos sabor tocino ahumado 80 gr",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Sabrosos filetitos de textura suave y delicioso sabor a tocino ahumado, ideales para consentir a tu peludito en cualquier momento del día. Una excelente opción para premiarlo, fortalecer el vínculo contigo y hacer más divertidas sus sesiones de entrenamiento.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p049.webp"
+    ],
+    "origen": "Párrafo 584 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr588",
+    "nombre": "Yami piernitas sabor pollo a la leña 80 gr",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Divertidos bocaditos en forma de piernitas, con un tentador sabor a pollo a la leña y aroma ahumado. Ideales para engreír a tu mascota, recompensar sus buenos hábitos y convertir cada momento juntos en una experiencia deliciosa",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p050.webp"
+    ],
+    "origen": "Párrafo 589 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr606",
+    "nombre": "Churu funcional para perros 56 gr",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Snack cremoso para perros en presentación de 4 tubos (56 gr). Elige tu sabor favorito.",
+    "variantes": [
+      {
+        "label": "Unidad · 56 gr",
+        "price": 12,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Pollo con vegetales",
+      "Pollo",
+      "Pollo con queso",
+      "Pollo con salmón"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p054.webp"
+    ],
+    "origen": "Párrafo 607 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr615",
+    "nombre": "NATURALISTIC CLASSIC DUCK STRIPS",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Deliciosas tiras elaboradas a base de pechuga de pato, ideales para consentir a tu engreído con un premio sabroso y diferente. Su textura facilita ofrecerlas como recompensa durante el entrenamiento o entre comidas. Contienen ácidos grasos Omega 3 y 6, que contribuyen al cuidado de la piel y el pelaje.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p055.webp"
+    ],
+    "origen": "Párrafo 616 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr621",
+    "nombre": "NATURALISTIC CLASSIC LAMB STICK",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Un delicioso snack a base de cordero, perfecto para variar los premios de tu perrito. Su atractivo sabor y textura lo convierten en una excelente opción para recompensar su buen comportamiento, motivarlo durante el entrenamiento o engreírlo en cualquier momento del día.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p056.webp"
+    ],
+    "origen": "Párrafo 622 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr626",
+    "nombre": "NATURALISTIC CLASSIC SALMON NUGGETS",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Sabrosos bocaditos de salmón ideales para consentir a tu mascota con un premio lleno de sabor. El salmón aporta proteínas y ácidos grasos Omega 3, que contribuyen al mantenimiento de una piel saludable y un pelaje brillante. Perfectos para premiar a tu engreído y complementar su rutina diaria de alimentación.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p057.webp"
+    ],
+    "origen": "Párrafo 627 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr631",
+    "nombre": "NATURALISTIC CLASSIC CHICKEN SUSHI",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Una exquisita combinación de pechuga de pollo y bacalao que ofrece a tu engreído un snack diferente y apetitoso. Su fórmula es libre de gluten y cereales, y contiene Omega 3 y 6, que contribuyen al cuidado de la piel y el pelaje. Ideal para premiar a tu perrito y darle variedad a sus momentos de recompensa.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p058.webp"
+    ],
+    "origen": "Párrafo 632 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr640",
+    "nombre": "Natural Home",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Snacks naturales elaborados con ingredientes de origen animal cuidadosamente deshidratados para conservar su sabor y nutrientes. Ideales para premiar, consentir o complementar los momentos de entrenamiento de tu engreído.",
+    "variantes": [
+      {
+        "label": "Unidad · 70 gr",
+        "price": 10.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Pulmón de res",
+      "Mollejas de pollo",
+      "Corazón de pollo",
+      "Hígado de res",
+      "Pollo deshidratado"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 641 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr649",
+    "nombre": "BRIT CARE CRUNCHY CRACKER",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Snack crujiente con proteína de insectos, ideal como premio o recompensa durante el entrenamiento. Su combinación de ingredientes ofrece una opción sabrosa y de fácil digestión para consentir a tu mascota entre comidas. Insectos + Cordero, enriquecido con frambuesas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 19.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 650 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr661",
+    "nombre": "Barker bites",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Pequeños bocaditos irresistibles para premiar a tu engreído en cualquier momento. Perfectos para reforzar buenos comportamientos, acompañar el entrenamiento o simplemente darle un gustito durante el día. ¡Una forma deliciosa de consentirlo! Mix — contiene hígado de res, pulmón de res, mollejas de pollo y pechuga de pollo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 17.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Pechuga de pollo",
+      "Mollejas de pollo",
+      "Hígado de res",
+      "Bazo de res"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 662 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr670",
+    "nombre": "Barker long lasting",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Snack masticable de larga duración, pensado para mantener a tu engreído entretenido mientras disfruta de su sabor. Ideal para perros que aman morder y necesitan una opción para pasar el tiempo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 18.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Patas de pollo — 20 unidades",
+      "Orejas de cerdo — 4 unidades",
+      "Casquitos de cerdo",
+      "Alitas de pollo — 50 unidades",
+      "Orejas de res — 3 unidades",
+      "Tráqueas de res — 4 unidades",
+      "Mix — patas, orejas y tráqueas, 8 unidades"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 671 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr685",
+    "nombre": "Barker hueso deshidratado",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Hueso Deshidratado de Paleta de Cerdo",
+      "Hueso Deshidratado de Fémur de Cerdo",
+      "Hueso Ahumado Deshidratado de Paleta de Cerdo",
+      "Hueso Ahumado Deshidratado de Fémur de Cerdo"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 686 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr694",
+    "nombre": "Barker tráquea deshidratado",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Masticable 100% natural, elaborado con tráquea de res deshidratada. Ideal para entretener a tu perrito y satisfacer su necesidad natural de masticar.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 9.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 695 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr699",
+    "nombre": "Ricocrack",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Un premio delicioso para consentir a tu engreído! 🦴✨ Snack crocante y sabroso, ideal para premiar, complementar su alimentación o simplemente darle un gustito durante el día.",
+    "variantes": [
+      {
+        "label": "Unidad · 28 gr",
+        "price": 1.2,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 200 gr",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 500 gr",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Cordero",
+      "Leche — presentación para cachorros",
+      "Frutas / Festival de Frutas",
+      "Multisabores — incluye sabores como leche, espinaca, zanahoria, trigo y arroz"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 700 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr712",
+    "nombre": "Carnaza Croki Pet",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Es un snack masticable elaborado con carnaza de ganado vacuno y deshidratado, pensado para satisfacer el instinto natural de masticar del perro. Favorece la limpieza mecánica de los dientes mediante la masticación.",
+    "variantes": [
+      {
+        "label": "Unidad · 1 kg",
+        "price": 33.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 713 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr722",
+    "nombre": "Dental life",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Snack dental de textura porosa que ayuda a limpiar los dientes y reducir la acumulación de sarro, mientras tu perrito disfruta de un delicioso premio. Ideal para complementar su higiene bucal diaria.",
+    "variantes": [
+      {
+        "label": "Unidad · 42 gr",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 723 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr727",
+    "nombre": "Deliziosos barra XL ganado vacuno",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Masticable natural elaborado a base de ganado vacuno, ideal para perros que disfrutan de masticar. Su textura firme proporciona entretenimiento y ayuda a satisfacer su instinto natural de masticación.",
+    "variantes": [
+      {
+        "label": "Unidad · 90 gr",
+        "price": 5.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-pr727.webp"
+    ],
+    "origen": "Párrafo 728 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr733",
+    "nombre": "Oreja ganado vacuno 2 Unidades",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Una opción irresistible para los engreídos que aman masticar. Su textura firme y sabor natural convierten cada mordida en un momento de diversión y satisfacción. Ideal para mantenerlo entretenido y darle un premio diferente, delicioso y especial.",
+    "variantes": [
+      {
+        "label": "Unidad · 90 gr",
+        "price": 6.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-pr733.webp"
+    ],
+    "origen": "Párrafo 734 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr741",
+    "nombre": "CANBO BISCUITS CACHORRO",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Deliciosas galletas horneadas con sabor a cordero, especialmente formuladas para consentir y premiar a los cachorros. Su fórmula contiene harina de cordero, selenio orgánico y linaza, que aportan nutrientes relacionados con el cuidado de la piel y el pelaje. Además, incorpora glucosamina para ayudar a mantener una buena movilidad y hexametafosfato de sodio, que contribuye al cuidado dental.",
+    "variantes": [
+      {
+        "label": "Unidad · 200 gr",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 742 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr750",
+    "nombre": "CANBO BISCUITS ADULTO",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Un delicioso premio para consentir a tu engreído! 🐶✨ Galletas horneadas con sabor a cordero, ideales para recompensar a tu perro y complementar su alimentación. 💚 Su fórmula combina harina de cordero, selenio orgánico y linaza, asociados al cuidado de la piel y el pelaje. También contiene glucosamina, que ayuda a mantener una óptima movilidad, y hexametafosfato de sodio, que contribuye al cuidado dental y al…",
+    "variantes": [
+      {
+        "label": "Unidad · 200 gr",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 751 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr757",
+    "nombre": "MÍO CANE LUCKY TREATS",
+    "categoria": "Snacks para perros",
+    "mascota": "Perros",
+    "descripcion": "Un delicioso premio para consentir a tu engreído 🐶✨ Lucky Treats de Mío Cane son bocaditos ideales para recompensar a tu perrito, reforzar buenos comportamientos o simplemente darle un gustito durante el día. Perfectos para entrenamiento, premios y momentos de cariño. Su práctico formato te permite tenerlos siempre a la mano y convertir cada pequeño logro en una deliciosa recompensa.",
+    "variantes": [
+      {
+        "label": "Unidad · 200 gr",
+        "price": 13.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 758 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr767",
+    "nombre": "Kissito",
+    "categoria": "Snacks para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Snack lamible para gatos adultos enriquecido, con vitaminas y aminoácidos y minerales orgánicos. Altamente sabroso, favorece la hidratación de los gatos.",
+    "variantes": [],
+    "sabores": [
+      "Atún y pollo",
+      "Pollo",
+      "Atún y salmón"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 768 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr775",
+    "nombre": "Churu cremoso clásico",
+    "categoria": "Snacks para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Delicioso snack cremoso elaborado con ingredientes de alta calidad, ideal para consentir a tu michi. Tiene un alto contenido de humedad, es bajo en calorías y está enriquecido con taurina y vitamina E. Sin cereales, colorantes ni preservantes artificiales. Puedes ofrecerlo directamente del tubo o como topping sobre su comida.",
+    "variantes": [],
+    "sabores": [
+      "Atún",
+      "Atún con vieira",
+      "Atún con pollo",
+      "Atún con salmón",
+      "Atún con cangrejo",
+      "Atún con mariscos",
+      "Pollo",
+      "Pollo con salmón"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 776 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr786",
+    "nombre": "Churu funcional",
+    "categoria": "Snacks para gatos",
+    "mascota": "Gatos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Hairball Control de atún",
+      "Hairball Control de pollo",
+      "Kitten de atún",
+      "Kitten de pollo"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-pr786.webp"
+    ],
+    "origen": "Párrafo 787 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr794",
+    "nombre": "Churu fun bites",
+    "categoria": "Snacks para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Deliciosos bocaditos suaves con doble textura: una cubierta tierna horneada y un irresistible relleno cremoso Churu en el centro. ¡Una combinación que convierte cada premio en una experiencia especial! 72% de humedad: ayuda a complementar su consumo de líquidos.",
+    "variantes": [
+      {
+        "label": "Unidad · 60 gr",
+        "price": 15.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "También puede utilizarse para ayudar a ocultar medicamentos, cuando sea apropiado",
+      "Fun Bites: pollo envuelve atún",
+      "Fun Bites: pollo envuelve atún con vieira",
+      "Fun Bites: pollo envuelve pollo"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 795 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr806",
+    "nombre": "Dentalife gato:",
+    "categoria": "Snacks para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Un snack delicioso sabor a pollo que también ayuda a cuidar la sonrisa de tu michi! Textura crujiente y porosa: está diseñada para que el diente penetre en el snack durante la masticación, ayudando a reducir la acumulación de sarro.",
+    "variantes": [
+      {
+        "label": "Unidad · 40 gr",
+        "price": 9.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-pr806.webp"
+    ],
+    "origen": "Párrafo 807 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr814",
+    "nombre": "Cremi",
+    "categoria": "Snacks para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Consiente a tu michi con Cremi! Un delicioso snack de textura suave y cremosa, ideal para premiarlo, complementar sus comidas o fortalecer el vínculo contigo. Su alto contenido de humedad contribuye a su hidratación y su irresistible sabor lo convierte en el complemento perfecto para engreír a tu felino. Puedes ofrecerlo directamente del sobre o añadirlo a sus croquetas para hacerlas más apetitosas.",
+    "variantes": [
+      {
+        "label": "Unidad · 60 gr",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x6 · 60 gr",
+        "price": 45.0,
+        "units": 6,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Pollo 🍗",
+      "Atún 🐟",
+      "Pollo con atún",
+      "Pollo con camarón",
+      "Salmón con atún",
+      "Salmón con camarón"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 815 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr827",
+    "nombre": "CHURU BROTH",
+    "categoria": "Snacks para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Delicioso caldo premium diseñado como alimento complementario para gatos. A diferencia del Churu tradicional en tubo, este formato se presenta en prácticas bolsitas tipo pouch que contienen un caldo cremoso con finas hebras y trocitos de carne real, haciéndolo irresistible con su contenido de 90% y 93% de humedad, ideal para proteger el sistema urinario y los riñones de los gatos que toman poca agua. Chicken…",
+    "variantes": [
+      {
+        "label": "Unidad · 40 gr",
+        "price": 6.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Pack x6 · 40 gr",
+        "price": 34.0,
+        "units": 6,
+        "kind": "pack"
+      }
+    ],
+    "sabores": [
+      "Chicken & Scallop Recipe"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 828 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr839",
+    "nombre": "Bruno Adulto – Carne y Quinua | 15 kg",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo para perros adultos de todas las razas, elaborado a base de carne de res y MaxiQuinua. Su fórmula combina proteínas, quinua, vitaminas y minerales que ayudan a mantener una buena digestión, una piel saludable y un pelaje fuerte. Una opción nutritiva y de sabor irresistible para acompañar la alimentación diaria de tu engreído.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 63.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 840 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr843",
+    "nombre": "Mimaskot Adulto Raza Pequeña",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado especialmente formulado para perros adultos de razas pequeñas. Sus croquetas están adaptadas a mandíbulas pequeñas y su fórmula aporta Omega 3 y 6, vitaminas, minerales y antioxidantes, ayudando a mantener un pelaje sano y brillante, favorecer el funcionamiento del organismo y fortalecer sus defensas.",
+    "variantes": [
+      {
+        "label": "15 kg",
+        "price": 100.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "24 kg",
+        "price": 138.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Cordero y Carnes."
+    ],
+    "colores": [],
+    "atributos": [
+      "Presentaciones disponibles: 15 kg y 22 kg."
+    ],
+    "imagenes": [],
+    "origen": "Párrafo 844 del Word",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Revisar presentación grande: el Word indica 22 kg en una línea y precio para 24 kg en otra. No se ha corregido ni supuesto equivalencia."
+  },
+  {
+    "id": "pr849",
+    "nombre": "Mimaskot Cachorro Raza Pequeña",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado para cachorros de razas pequeñas, ideal desde el destete. Su fórmula aporta proteínas, DHA, prebióticos, vitaminas y minerales que ayudan al desarrollo cerebral y visual, fortalecimiento de huesos y dientes, una buena digestión y el desarrollo saludable durante su etapa de crecimiento.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 100.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 24 kg",
+        "price": 138.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carnes y leche"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 850 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr856",
+    "nombre": "Ricocan Adulto Raza Pequeña",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado especialmente desarrollado para perros adultos de razas pequeñas. Su fórmula de cordero y cereales proporciona nutrientes para ayudar a mantener la vitalidad y una alimentación equilibrada, con croquetas adaptadas a las necesidades de los perros pequeños.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 107.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 22 kg",
+        "price": 153.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Cordero y Cereales"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 857 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr863",
+    "nombre": "Ricocan Cachorro Raza Pequeña",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado para cachorros de razas pequeñas, formulado para acompañar su crecimiento desde los primeros meses. Su fórmula contiene DHA, EPA, prebióticos, proteínas, minerales orgánicos y multivitaminas, nutrientes que contribuyen al desarrollo del cerebro y la visión, formación de huesos y músculos, una buena digestión y el fortalecimiento de sus defensas.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 115.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 22 kg",
+        "price": 160.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne y Leche"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 864 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr870",
+    "nombre": "Breeder Adulto",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco premium para perros adultos, elaborado con una fórmula completa y equilibrada. Su receta con cordero ofrece alta palatabilidad y es una alternativa adecuada para perros con sensibilidad alimentaria. Contiene nutrientes que ayudan a mantener una piel saludable, pelaje en buenas condiciones y articulaciones sanas.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 127.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Cordero"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 871 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr875",
+    "nombre": "BREEDER CACHORRO",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco premium formulado especialmente para cachorros durante su etapa de crecimiento. Su receta a base de cordero aporta proteínas para favorecer un desarrollo saludable y una nutrición equilibrada. Además, contiene nutrientes que contribuyen al desarrollo cerebral, fortalecimiento del sistema inmunológico y crecimiento óptimo.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 127.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Cordero"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 876 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr880",
+    "nombre": "DOG CHOW ADULTO Minis y Pequeños",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado para perros adultos de razas mini y pequeñas. Contiene probióticos naturales que ayudan a equilibrar la flora intestinal, además de Omega 3 y 6 que contribuyen al cuidado de la piel y el brillo del pelaje. Su fórmula también aporta nutrientes para ayudar a mantener músculos y huesos fuertes y una buena salud oral.",
+    "variantes": [
+      {
+        "label": "Unidad · 17 kg",
+        "price": 144.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne y Pollo"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 881 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr885",
+    "nombre": "Dog Chow Adultos Medianos y Grandes",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado para perros adultos de razas medianas y grandes. Su fórmula contiene probióticos naturales, omega 3 y 6, vitaminas y minerales que ayudan a mantener una buena digestión, músculos y huesos fuertes, además de contribuir a un pelaje brillante y a una buena salud general.",
+    "variantes": [
+      {
+        "label": "Unidad · 21 kg",
+        "price": 174.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne y pollo"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 886 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr890",
+    "nombre": "Dog Chow Gran Comienzo Cachorros Minis y Pequeños",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento completo y balanceado, especialmente formulado para cachorros de razas mini y pequeñas. Contiene 27 % de proteína y EXTRALIFE®, una combinación de antioxidantes, vitaminas y minerales que contribuye al desarrollo del cerebro y del sistema inmunológico. También aporta nutrientes que favorecen un crecimiento saludable y un corazón fuerte.",
+    "variantes": [
+      {
+        "label": "Unidad · 21 kg",
+        "price": 177.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne, pollo, frutas y leche"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 891 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr898",
+    "nombre": "Allkjoy Senior",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado para perros senior de todas las razas. Su fórmula aporta 28 % de proteína y nutrientes que ayudan a mantener la masa muscular, controlar el peso y favorecer una digestión saludable. Contiene glucosamina y condroitina, que contribuyen al cuidado de las articulaciones, además de nutrientes para mantener una piel y pelaje saludables.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 149.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Res"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 899 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr903",
+    "nombre": "Allkjoy Cachorro Razas Pequeñas y Grandes",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado especialmente formulado para cachorros. Elaborado a base de carne de res, aporta proteínas que favorecen el crecimiento y desarrollo saludable durante esta etapa. Su fórmula proporciona nutrientes esenciales para fortalecer músculos, huesos y sistema inmunológico, acompañando a tu cachorro durante su crecimiento.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 149.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne de res"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 904 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr908",
+    "nombre": "Allkjoy Adulto Razas Medianas y Grandes",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco premium completo y balanceado para perros adultos de razas medianas y grandes. Su fórmula contiene proteínas de carne, omega 3 y 6 y DHA, nutrientes que contribuyen al mantenimiento de músculos, piel y pelaje saludables. También aporta nutrientes que favorecen una buena digestión, dientes fuertes y el adecuado funcionamiento del corazón y sistema nervioso.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 149.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne de res"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 909 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr913",
+    "nombre": "Allkjoy Adulto Razas Pequeñas",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado especialmente formulado para perros adultos de razas pequeñas, de 1 a 7 años. Contiene 26 % de proteína y una combinación de vitaminas, minerales y antioxidantes que ayudan al mantenimiento muscular. Su fórmula también contribuye a una buena digestión, un pelaje brillante y saludable, además de aportar nutrientes para el cuidado del corazón y las defensas.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 149.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 914 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr918",
+    "nombre": "Mío Cane Premium Adulto",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado para perros adultos de todas las razas. Su fórmula aporta proteínas de alto valor biológico, minerales esenciales como calcio y fósforo y ácidos grasos que contribuyen al cuidado de la piel y el pelaje. Además, ayuda a mantener una adecuada salud oral y una nutrición equilibrada durante la etapa adulta.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 140.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 919 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr923",
+    "nombre": "Mío Cane Super Premium Cachorro",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco super premium formulado para cachorros durante su etapa de crecimiento. Elaborado con harina de carne de res y enriquecido con nutrientes esenciales, prebióticos, avena, arándanos y aceites con Omega 3 y 6. Su fórmula aporta proteínas para el crecimiento y nutrientes que favorecen el desarrollo cerebral, visual e inmunológico.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 200.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 924 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr928",
+    "nombre": "Mío Cane Super Premium Adulto Razas Pequeñas",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco super premium especialmente formulado para perros adultos de razas pequeñas. Su fórmula contiene prebióticos y avena para favorecer una microbiota saludable, arándanos con antioxidantes, aceite de linaza como fuente de Omega 3 y zanahoria y manzana que aportan vitamina A y fibra. Además, posee una densidad energética adecuada para las necesidades de los perros pequeños.",
+    "variantes": [
+      {
+        "label": "Unidad · 7 kg",
+        "price": 100.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 929 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr933",
+    "nombre": "Canbo Super Premium Cachorro Razas Pequeñas",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco super premium completo y balanceado para cachorros de razas pequeñas. Elaborado con harina de cordero y enriquecido con DHA, glucosamina, prebióticos, vitaminas y minerales. Ayuda al desarrollo neurológico, cognitivo y visual, favorece el crecimiento de huesos y articulaciones, mejora la digestibilidad y contribuye al fortalecimiento de las defensas",
+    "variantes": [
+      {
+        "label": "Unidad · 1 kg",
+        "price": 21.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 7 kg",
+        "price": 105.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Cordero"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 934 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr940",
+    "nombre": "Canbo Super Premium Adulto Razas Pequeñas",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco super premium completo y balanceado para perros adultos de razas pequeñas. Su fórmula con harina de cordero aporta un nivel adecuado de proteínas y grasas para las necesidades de los perros pequeños. Contiene Omega 3 y 6, minerales orgánicos, vitaminas y fibra prebiótica que contribuyen al cuidado de las defensas, piel, pelaje y digestión. Sus croquetas están adaptadas al tamaño de las razas…",
+    "variantes": [
+      {
+        "label": "Unidad · 7 kg",
+        "price": 105.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Cordero"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 941 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr947",
+    "nombre": "Canbo Super Premium Cachorro Razas Medianas y Grandes",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco super premium completo y balanceado para cachorros de razas medianas y grandes. Elaborado con harina de cordero y enriquecido con glucosamina para el desarrollo osteoarticular, DHA para el desarrollo neurológico y visual, además de vitaminas y minerales que favorecen un crecimiento saludable y equilibrado.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 205.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Cordero"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 948 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr952",
+    "nombre": "Canbo Super Premium Adulto Razas Medianas y Grandes",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco super premium completo y balanceado para perros adultos de razas medianas y grandes. Elaborado con harina de cordero y enriquecido con vitaminas y minerales orgánicos, Omega 3 y 6 y fibra prebiótica. Ayuda a mantener las defensas, una piel saludable y un pelaje resistente y brillante. La textura de sus croquetas también favorece la higiene dental mediante el efecto mecánico de la masticación.",
+    "variantes": [
+      {
+        "label": "Unidad · 3 kg",
+        "price": 53.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 15 kg",
+        "price": 200.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Cordero"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 953 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr959",
+    "nombre": "CANBO SKIN PROTECTION",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco especializado para perros adultos de todas las razas con piel sensible. Su fórmula utiliza salmón como proteína de alta digestibilidad y combina prebióticos MOS, FOS, GOS y betaglucanos, además de minerales orgánicos y vitaminas. Ayuda a fortalecer la barrera cutánea y a mantener una piel saludable y un pelaje fuerte y brillante.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 205.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Salmón"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 960 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr964",
+    "nombre": "Canbo Protect Balance Senior",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado especialmente formulado para perros adultos mayores. Su fórmula incorpora prebióticos MOS, FOS y GOS, betaglucanos, minerales orgánicos, glucosamina y sulfato de condroitina. Aporta nutrientes que ayudan al mantenimiento de músculos y articulaciones y contribuyen al adecuado funcionamiento del sistema inmunológico durante la etapa senior.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 200.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Pollo y arroz"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 965 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr969",
+    "nombre": "Ducca Cachorro",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo para cachorros de todas las razas, también adecuado para perras gestantes y lactantes. Su fórmula está diseñada para acompañar el crecimiento y desarrollo físico, aportando un alto nivel de proteína y grasa. Incluye plasma porcino y Omega 3, 6 y 9, nutrientes que contribuyen al desarrollo saludable y al cuidado de la piel y el pelaje.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 200.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 970 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr974",
+    "nombre": "Ducca Adulto Raza Pequeña",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado especialmente formulado para perros adultos de razas pequeñas. Aporta nutrientes para mantener su energía, peso y bienestar general. Contiene Omega 3 y 6, glucosamina y condroitina, además de nutrientes que favorecen una piel saludable, un pelaje brillante y el cuidado de las articulaciones.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 97.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 975 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr979",
+    "nombre": "DUCCA ADULTO RAZA MEDIANA Y GRANDE",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco completo y balanceado para perros adultos de todas las razas, incluyendo perros medianos y grandes. Su fórmula aporta 28 % de proteína y 16 % de grasa, además de Omega 3 y 6, glucosamina y condroitina. Contribuye al mantenimiento de músculos, articulaciones, piel y pelaje, y proporciona una nutrición equilibrada para la vida adulta.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 150.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 980 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr984",
+    "nombre": "Ducca Senior & Light",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco formulado para perros adultos mayores y perros con tendencia al sobrepeso. Su fórmula proporciona una nutrición equilibrada con 25 % de proteína y 9 % de grasa, ayudando a mantener la masa muscular y controlar el aporte energético. Además, contiene glucosamina y condroitina, que contribuyen al cuidado de las articulaciones, junto con Omega 3 y 6 para apoyar la salud de la piel y el pelaje.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 150.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 985 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr989",
+    "nombre": "Brit Premium by Nature Sensitive Lamb",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento completo para perros adultos de todas las razas, elaborado con carne de cordero y sin trigo. Está indicado para perros con digestión delicada y aporta nutrientes que favorecen una digestión saludable, una piel sana y un pelaje brillante. Además, contiene ingredientes que contribuyen al cuidado de las articulaciones y ácidos grasos Omega 3.",
+    "variantes": [
+      {
+        "label": "Unidad · 3 kg",
+        "price": 72.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 15 kg",
+        "price": 225.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Cordero"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 990 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr996",
+    "nombre": "Brit Care Adult Small Breed Lamb & Rice",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento super premium hipoalergénico para perros adultos de razas pequeñas de 1 a 10 kg. Su fórmula contiene un alto porcentaje de carne de cordero, arroz y aceite de salmón. Aporta proteínas de calidad y nutrientes como glucosamina, condroitina, Omega 3 y prebióticos que ayudan al cuidado de las articulaciones, la digestión, la piel y el pelaje.",
+    "variantes": [
+      {
+        "label": "Unidad · 7 kg",
+        "price": 188.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Cordero y arroz"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 997 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1001",
+    "nombre": "Brit Care Dog Hypoallergenic Puppy Lamb",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento super premium hipoalergénico para cachorros de todas las razas, desde el destete hasta los 12 meses. Su fórmula utiliza cordero como única fuente principal de proteína animal y aporta nutrientes para acompañar el desarrollo de huesos, articulaciones y dientes. Además, contiene prebióticos que favorecen una microbiota intestinal equilibrada y cardo mariano como apoyo a la función hepática.",
+    "variantes": [
+      {
+        "label": "Unidad · 12 kg",
+        "price": 312.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Cordero y arroz"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1002 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1007",
+    "nombre": "PRO PLAN ADULTO CORDERO",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento seco de nutrición avanzada para perros adultos de 1 a 7 años. Contiene carne de pollo como ingrediente principal y tecnología OptiHealth®, con una combinación de nutrientes que ayuda a mantener una buena condición física, fortalecer las defensas y favorecer una piel saludable y un pelaje resistente y brillante. También contiene spirulina, que contribuye al cuidado del sistema inmunológico y digestivo.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 320.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1008 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1011",
+    "nombre": "Purina Pro Plan Sensitive Skin Cordero Puppy",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento super premium para cachorros, hembras gestantes y lactantes de todas las razas con piel sensible. El cordero es el primer ingrediente y actúa como fuente alternativa de proteína, mientras que los ácidos grasos Omega 3 y 6 ayudan a reforzar la barrera cutánea y mantener una piel saludable y un pelaje brillante. También contiene antioxidantes, minerales y calostro para apoyar las defensas y una buena digestión",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 325.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1012 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1016",
+    "nombre": "PAWNER Cachorro – Todas las Razas",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento super premium para cachorros, elaborado con carnes como primeros ingredientes y proteínas de alto valor biológico. Contiene prebióticos, betaglucanos, vitaminas y minerales que ayudan a favorecer una buena digestión y fortalecer las defensas. Su aporte nutricional acompaña el crecimiento de músculos, huesos y articulaciones.",
+    "variantes": [
+      {
+        "label": "Unidad · 15 kg",
+        "price": 165.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Pollo y carne"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1017 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1023",
+    "nombre": "Bravery adulto raza pequeña Iberian pork",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento súper premium para perros adultos de razas pequeñas. Elaborado con carne de cerdo ibérico deshidratada como fuente principal de proteína. Su fórmula es monoproteica, hipoalergénica y libre de granos y gluten, ideal para contribuir a una nutrición equilibrada y favorecer la vitalidad de tu engreído.",
+    "variantes": [
+      {
+        "label": "Unidad · 7 kg",
+        "price": 185.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p059.webp"
+    ],
+    "origen": "Párrafo 1024 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1029",
+    "nombre": "Bravery adulto raza mediana y grande Iberian pork",
+    "categoria": "Alimento seco para perros",
+    "mascota": "Perros",
+    "descripcion": "Alimento súper premium formulado para perros adultos de razas medianas y grandes. Contiene carne de cerdo ibérico deshidratada, es monoproteico y libre de granos y gluten. Sus ingredientes de alta digestibilidad ayudan a aprovechar los nutrientes necesarios para mantener la energía y el bienestar diario. Además, contiene glucosamina y condroitina que contribuyen al cuidado de las articulacio",
+    "variantes": [
+      {
+        "label": "Unidad · 12 kg",
+        "price": 255.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p060.webp"
+    ],
+    "origen": "Párrafo 1030 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1036",
+    "nombre": "Michicat",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento seco completo y balanceado para gatos adultos. Su fórmula aporta proteínas, vitaminas y minerales esenciales para ayudar a mantener una nutrición equilibrada y el buen estado general de tu gato. Sus tres sabores combinados hacen que la alimentación diaria sea más atractiva y palatable.",
+    "variantes": [
+      {
+        "label": "Unidad · 9 kg",
+        "price": 62.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 18 kg",
+        "price": 118.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Pollo, sardina y atún"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1037 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1044",
+    "nombre": "Súper Cat bebé",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento premium completo y balanceado especialmente formulado para gatitos de 1 a 12 meses. Contiene proteínas de calidad y prebióticos MOS que ayudan al desarrollo de un sistema inmunológico saludable. Sus croquetas están adaptadas a la etapa de crecimiento y ofrecen una combinación de carne y leche que favorece una buena aceptación.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 78.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne y leche",
+      "Delicias felinas",
+      "kg:"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1045 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1051",
+    "nombre": "Súper Cat adulto",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento premium completo y balanceado para gatos adultos. Su fórmula contiene fibras de origen natural que ayudan a controlar la formación de bolas de pelo. Sus croquetas en forma de pez combinan tres sabores —carne, pollo y leche— para ofrecer una alimentación sabrosa y atractiva.",
+    "variantes": [
+      {
+        "label": "Unidad · 9 kg",
+        "price": 75.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 15 kg",
+        "price": 120.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne, pollo y leche",
+      "Delicias felinas"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1052 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1060",
+    "nombre": "Ricocat Adulto",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento seco completo y balanceado para gatos adultos. Su fórmula combina proteínas y nutrientes esenciales para contribuir al mantenimiento de músculos, energía y bienestar general. La combinación de carne, salmón y leche proporciona una opción sabrosa y atractiva para la alimentación diaria.",
+    "variantes": [
+      {
+        "label": "9 kg",
+        "price": 83.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "15 kg",
+        "price": 136.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Festival de sabores",
+      "Pollo, sardina, salmón",
+      "Carne, salmón y leche"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1061 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1068",
+    "nombre": "Ricocat Gatitos",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento seco completo y balanceado especialmente formulado para gatitos. Su fórmula aporta nutrientes esenciales para acompañar esta importante etapa de crecimiento y desarrollo. La combinación de carne, pescado y leche ofrece un sabor atractivo para los pequeños y ayuda a proporcionar una alimentación equilibrada.",
+    "variantes": [
+      {
+        "label": "9 kg",
+        "price": 89.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "15 kg",
+        "price": 140.9,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Carne, pescado y leche"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1069 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1073",
+    "nombre": "Cat Chow Gatitos Defense Plus",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento completo y balanceado para gatitos desde el destete hasta los 12 meses. Contiene DHA y vitamina A para apoyar el desarrollo del cerebro y la visión, calcio para huesos y dientes, además de zinc y Omega 3 y 6 para una piel y pelaje saludables. Incluye prebiótico natural que favorece una buena digestión y Defense Plus para apoyar sus defensas.",
+    "variantes": [
+      {
+        "label": "8 kg",
+        "price": 100.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "15 kg",
+        "price": 180.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Pescado, carne y leche"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1074 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1078",
+    "nombre": "Cat Chow Esterilizados Defense Plus",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento completo y balanceado para gatos esterilizados. Su fórmula contiene 36% de proteína y 9% de grasa, ayudando al control del peso y al mantenimiento de músculos fuertes. Aporta fibras de alta digestibilidad y macrominerales balanceados que contribuyen al cuidado del tracto urinario. También contiene Defense Plus para apoyar sus defensas naturales.",
+    "variantes": [
+      {
+        "label": "8 kg",
+        "price": 100.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "15 kg",
+        "price": 180.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Pescado"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1079 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1084",
+    "nombre": "Cat Chow Delimix Adultos",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "Alimento completo y balanceado para gatos adultos de todas las razas. Combina tres deliciosas fuentes de proteína y aporta 25 vitaminas y minerales esenciales. Contiene taurina, que contribuye al cuidado del corazón y la visión, además de nutrientes que ayudan a mantener músculos fuertes y una buena condición general.",
+    "variantes": [
+      {
+        "label": "8 kg",
+        "price": 100.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "15 kg",
+        "price": 180.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Salmón, carne y pollo"
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1085 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1090",
+    "nombre": "PURINA FRISKIES ADULTO",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Nutrición y delicioso sabor para tu michi! Alimento completo y balanceado para gatos adultos, con proteínas que ayudan a mantener músculos fuertes y sanos. Aporta vitaminas y minerales esenciales para su bienestar diario. Su combinación de sabores lo convierte en una opción deliciosa para alimentar a tu felino todos los días.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 90.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Mar de Sabores: atún, salmón y camarones.",
+      "Selección Especial: mezcla de proteínas y sabores."
+    ],
+    "colores": [],
+    "atributos": [
+      "Presentación: 7.50"
+    ],
+    "imagenes": [],
+    "origen": "Párrafo 1091 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1097",
+    "nombre": "PURINA FRISKIES GATITOS",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡El comienzo perfecto para un michi lleno de energía! Alimento completo y balanceado para gatitos desde el destete hasta los 12 meses. Su fórmula con DHA, taurina, calcio, vitaminas y minerales esenciales contribuye al desarrollo de su cerebro, visión, huesos y músculos, acompañándolo durante su etapa de crecimiento.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 90.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Pollo, zanahoria y leche."
+    ],
+    "colores": [],
+    "atributos": [
+      "Presentación: 7.50"
+    ],
+    "imagenes": [],
+    "origen": "Párrafo 1098 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1103",
+    "nombre": "MÍO GATTO PREMIUM",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡El sabor que tu michi disfruta cada día! Alimento seco formulado para cubrir las necesidades nutricionales de los gatos. Su aporte de proteínas, vitaminas y minerales contribuye al mantenimiento de músculos, energía y bienestar general. Una alternativa práctica y deliciosa para la alimentación diaria de tu felino. Presentaciones: 1.5 kg",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 25.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad",
+        "price": 130.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1104 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1110",
+    "nombre": "CANBO CAT INITIAL DEVELOPMENT – GATITOS",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Nutrición especializada para un crecimiento saludable! Alimento super premium para gatitos hasta los 12 meses, así como gatas gestantes y lactantes. Su fórmula BioProtect, con prebióticos, DHA, EPA, vitaminas y minerales, favorece el desarrollo del sistema inmunológico, cerebral y visual, contribuyendo a un crecimiento fuerte y saludable.",
+    "variantes": [
+      {
+        "label": "Unidad · 3 kg",
+        "price": 72.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 7 kg",
+        "price": 135.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-pr1110.webp"
+    ],
+    "origen": "Párrafo 1111 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1117",
+    "nombre": "CANBO CAT STERILIZED CARE – GATOS ESTERILIZADOS",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Bienestar y nutrición para tu michi esterilizado! Alimento super premium con proteínas de calidad, menor contenido de grasa y fibras funcionales que ayudan a mantener un peso adecuado. Su fórmula contribuye al cuidado renal, fortalece las defensas y favorece la salud digestiva, ayudando también a reducir la formación de bolas de pelo.",
+    "variantes": [
+      {
+        "label": "Unidad · 3 kg",
+        "price": 72.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 7 kg",
+        "price": 135.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1118 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1124",
+    "nombre": "CANBO CAT URINARY HEALTH – SALUD URINARIA",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Cuida el bienestar urinario de tu michi! Alimento super premium para gatos adultos, formulado para ayudar a regular el pH de la orina y reducir el riesgo de formación de cristales de estruvita y oxalato de calcio. Contiene proteínas de calidad, taurina y nutrientes esenciales que contribuyen al bienestar urinario, digestivo e inmunológico de tu felino.",
+    "variantes": [
+      {
+        "label": "Unidad · 3 kg",
+        "price": 72.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad · 7 kg",
+        "price": 135.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Pollo y salmón."
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-pr1124.webp"
+    ],
+    "origen": "Párrafo 1125 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1131",
+    "nombre": "GRAN PLUS GOURMET – GATO ADULTO CASTRADO",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Sabor irresistible y nutrición para tu michi! Alimento completo y balanceado para gatos adultos castrados. Su fórmula con oveja (cordero) y arroz ayuda a mantener una condición corporal adecuada gracias a su control calórico. Además, contiene taurina y nutrientes esenciales que contribuyen al bienestar y vitalidad de tu felino.",
+    "variantes": [
+      {
+        "label": "Unidad · 10 kg",
+        "price": 209.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [
+      "Oveja (cordero) y arroz."
+    ],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-pr1131.webp"
+    ],
+    "origen": "Párrafo 1132 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1136",
+    "nombre": "BRAVERY ADULT CAT – POLLO",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Nutrición premium para michis exigentes! Alimento superpremium elaborado con pollo como única fuente de proteína animal principal. Su fórmula monoproteica, libre de granos y gluten, es ideal para gatos adultos que necesitan una alimentación completa y equilibrada. Aporta proteínas de calidad para mantener músculos fuertes y vitalidad diaria.",
+    "variantes": [
+      {
+        "label": "Unidad · 7 kg",
+        "price": 205.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1137 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1141",
+    "nombre": "BRAVERY ADULT CAT – SALMÓN",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Delicioso sabor a salmón y nutrición de calidad! Alimento superpremium para gatos adultos, elaborado con salmón como fuente principal de proteína animal. Su fórmula monoproteica y libre de granos y gluten aporta proteínas de calidad y ácidos grasos omega-3, que contribuyen al cuidado de la piel, el brillo del pelaje y el bienestar de tu michi.",
+    "variantes": [
+      {
+        "label": "Unidad · 7 kg",
+        "price": 205.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1142 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1146",
+    "nombre": "BRAVERY ADULT CAT STERILIZED – POLLO",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Cuidado especializado para tu michi esterilizado! Alimento superpremium elaborado con pollo como fuente principal de proteína animal. Su fórmula monoproteica y libre de granos y gluten ofrece nutrición completa y balanceada, adaptada a las necesidades de gatos adultos esterilizados. Contribuye al mantenimiento de su vitalidad y condición corporal.",
+    "variantes": [
+      {
+        "label": "Unidad · 7 kg",
+        "price": 210.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1147 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1150",
+    "nombre": "BRAVERY ADULT CAT STERILIZED – SALMÓN",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Nutrición premium para el bienestar de tu michi esterilizado! Elaborado con salmón como fuente principal de proteína animal, ofrece una fórmula monoproteica y libre de granos y gluten. Sus ácidos grasos omega-3 contribuyen al cuidado de la piel y el pelaje, mientras su nutrición equilibrada se adapta a las necesidades de gatos adultos esterilizados.",
+    "variantes": [
+      {
+        "label": "Unidad · 7 kg",
+        "price": 210.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1151 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1155",
+    "nombre": "BRIT CARE CAT STERILIZED URINARY HEALTH – FRESH CHICKEN",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Nutrición superpremium para el bienestar de tu michi esterilizado! Elaborado con pollo fresco y una fórmula libre de granos, ayuda a mantener la salud del tracto urinario y los riñones. Su contenido controlado de magnesio y L-metionina contribuye a mantener un pH urinario óptimo. Además, contiene proteínas de alta digestibilidad, prebióticos y antioxidantes que favorecen la digestión, las defensas y el bienestar…",
+    "variantes": [
+      {
+        "label": "Unidad · 7 kg",
+        "price": 245.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1156 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1160",
+    "nombre": "PAWNER GATO ADULTO ESTERILIZADO – POLLO Y SALMÓN",
+    "categoria": "Alimento seco para gatos",
+    "mascota": "Gatos",
+    "descripcion": "¡Nutrición completa para un michi sano y feliz! Alimento superpremium formulado para gatos adultos esterilizados. Su combinación de pollo y salmón aporta proteínas de calidad, mientras su fórmula ayuda a mantener una condición corporal adecuada, favorece la salud del tracto urinario y contribuye al control de las bolas de pelo. Además, contiene vitaminas, minerales y prebióticos que apoyan su bienestar diario.",
+    "variantes": [
+      {
+        "label": "Unidad · 8 kg",
+        "price": 107.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1161 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1165",
+    "nombre": "COLCHONETA TERCIOPELO",
+    "categoria": "Camas y colchonetas",
+    "mascota": "Ambos",
+    "descripcion": "La colchoneta de terciopelo de textura suave para perros ofrece un espacio amplio y acogedor para que tu mascota descanse como se merece. Su diseño rectangular, fabricado en tela suave al tacto con un relleno acolchado, asegura una distribución uniforme del peso, brindando mayor confort en todo momento. Su diseño multicolor y moderno se integra fácilmente a cualquier ambiente de tu hogar, añadiendo un toque de…",
+    "variantes": [
+      {
+        "label": "Talla S · 50 x 65 cm",
+        "price": 24.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla M · 62 x 76 cm",
+        "price": 32.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla L · 70 x 90 cm",
+        "price": 42.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla XL · 80 x 106 cm",
+        "price": 52.0,
+        "units": 1,
+        "kind": "talla"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "guinda",
+      "rojo",
+      "negro",
+      "marron",
+      "azul",
+      "celeste",
+      "verde",
+      "lila",
+      "fucsia"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p061.webp",
+      "img/productos/p062.webp"
+    ],
+    "origen": "Párrafo 1166 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1180",
+    "nombre": "CAMA CUADRADA",
+    "categoria": "Camas y colchonetas",
+    "mascota": "Ambos",
+    "descripcion": "Cama para mascotas con 3 cierres para un lavado más sencillo y rápido, evita que tu mascota muerda los cierres, hecha a base de material antialérgico, con relleno de napa siliconeada.",
+    "variantes": [
+      {
+        "label": "Talla 2 · 46 x 51 cm",
+        "price": 40.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 3 · 52 x 58 cm",
+        "price": 45.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 4 · 59 x 68 cm",
+        "price": 50.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 5 · 62 x 76 cm",
+        "price": 55.0,
+        "units": 1,
+        "kind": "talla"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "negro",
+      "guinda",
+      "verde",
+      "rosado",
+      "lila"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p063.webp",
+      "img/productos/p064.webp",
+      "img/productos/p065.webp",
+      "img/productos/p066.webp"
+    ],
+    "origen": "Párrafo 1181 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1195",
+    "nombre": "CAMA ANTI RASGUÑO",
+    "categoria": "Camas y colchonetas",
+    "mascota": "Ambos",
+    "descripcion": "Una colchoneta súper versátil, brinda resistencia y comodidad con la colchoneta hipoalergénica e impermeable.",
+    "variantes": [
+      {
+        "label": "Talla 1 · 53 x 65 cm",
+        "price": 40.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 2 · 60 x 72 cm",
+        "price": 45.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 3 · 71 x 93 cm",
+        "price": 50.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 4 · 78 x 103 cm",
+        "price": 66.0,
+        "units": 1,
+        "kind": "talla"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p067.webp"
+    ],
+    "origen": "Párrafo 1196 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1205",
+    "nombre": "COLCHON",
+    "categoria": "Camas y colchonetas",
+    "mascota": "Ambos",
+    "descripcion": "Brinda a tu engreído un espacio cómodo, acolchado y acogedor para descansar. Su diseño rectangular con relleno suave proporciona un soporte confortable para que pueda relajarse y dormir plácidamente. Cuenta con costuras reforzadas y acabados de calidad, ideal para el descanso diario de perros y gatos.",
+    "variantes": [
+      {
+        "label": "Talla 0 · 50 x 37 cm",
+        "price": 20.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 1 · 63 x 45 cm",
+        "price": 24.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 2 · 74 x 63 cm",
+        "price": 29.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 3 · 87 x 58 cm",
+        "price": 33.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 4 · 100 x 65 cm",
+        "price": 37.0,
+        "units": 1,
+        "kind": "talla"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p068.webp"
+    ],
+    "origen": "Párrafo 1206 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1215",
+    "nombre": "CAMA REDONDA POLAR",
+    "categoria": "Camas y colchonetas",
+    "mascota": "Ambos",
+    "descripcion": "Dale a tus mascotas el descanso y la seguridad que se merecen con nuestras camas, diseñadas con bordes elevados que actúan como una barrera protectora, estas camas son perfectas para brindar una sensación de calma, soporte y máxima comodidad a perros y gatos de todos los tamaños. Fabricadas con espuma de alta densidad que mantiene la forma de la cama por mucho más tiempo, evitando que se deforme con el uso diario.",
+    "variantes": [
+      {
+        "label": "Talla 0",
+        "price": 20.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 1",
+        "price": 24.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 2",
+        "price": 28.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 3",
+        "price": 35.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 4",
+        "price": 45.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla 5",
+        "price": 55.0,
+        "units": 1,
+        "kind": "talla"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p069.webp",
+      "img/productos/p070.webp"
+    ],
+    "origen": "Párrafo 1216 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1233",
+    "nombre": "CAMA REDONDA.",
+    "categoria": "Camas y colchonetas",
+    "mascota": "Ambos",
+    "descripcion": "Nuestro modelo de cama tiene soporte cervical confortable con sus bordes elevados permiten que la mascota apoye la cabeza cómodamente, reduciendo el estrés y mejorando la calidad del sueño. Textura suave de alta calidad, confeccionadas con telas de textura velvet/peluche en los bordes que brindan un tacto extra suave y cálido.",
+    "variantes": [
+      {
+        "label": "Talla S",
+        "price": 35.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla M",
+        "price": 45.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla L",
+        "price": 55.0,
+        "units": 1,
+        "kind": "talla"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p071.webp",
+      "img/productos/p072.webp",
+      "img/productos/p073.webp"
+    ],
+    "origen": "Párrafo 1234 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1246",
+    "nombre": "CAMA TIPO SOFÁ",
+    "categoria": "Camas y colchonetas",
+    "mascota": "Ambos",
+    "descripcion": "¡El descanso perfecto y la higiene que tu hogar necesita! Nuestra cama cuadrada está confeccionada con una tela exterior hipoalergénica, ideal para proteger la piel de tu mascota y evitar alergias. Su interior cuenta con un relleno premium de napa siliconada que ofrece un soporte ultra suave y no pierde su forma. Además, ¡olvídate de las complicaciones al limpiar! Gracias a sus cierres estratégicos, puedes…",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p074.webp",
+      "img/productos/p075.webp",
+      "img/productos/p076.webp"
+    ],
+    "origen": "Párrafo 1247 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1255",
+    "nombre": "Cama minie",
+    "categoria": "Camas y colchonetas",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Talla 1 · base 28 × 28 cm",
+        "price": 35,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 2 · base 33 × 32 cm",
+        "price": 45,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 3 · base 40 cm, alto 38 cm",
+        "price": 55,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p077.webp"
+    ],
+    "origen": "Párrafo 1256 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1270",
+    "nombre": "Arenero",
+    "categoria": "Areneros",
+    "mascota": "Gatos",
+    "descripcion": "¡Pequeño, práctico y perfecto para tu michi!Ideal para gatitos bebés o espacios reducidos. Su diseño compacto brinda un rinconcito cómodo para su higiene, ayudando a mantener la arena en su lugar. Fácil de limpiar y perfecto para el día a día.",
+    "variantes": [
+      {
+        "label": "Pequeño · 36 × 25 × 8 cm",
+        "price": 8,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Mediano · 45 × 33 × 10 cm",
+        "price": 10,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Grande · 56 × 36 × 12 cm",
+        "price": 12,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p080.webp"
+    ],
+    "origen": "Párrafo 1271 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1297",
+    "nombre": "ARENERO + PALA",
+    "categoria": "Areneros",
+    "mascota": "Gatos",
+    "descripcion": "Un espacio cómodo y práctico para que tu michi haga sus necesidades con mayor tranquilidad. 🐾✨ Su diseño amplio y abierto permite un fácil acceso, mientras que sus bordes ayudan a mantener la arena más contenida y facilitan la limpieza. Incluye pala, ideal para retirar rápidamente los residuos y mantener el arenero limpio por más tiempo.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [
+      "Turquesa",
+      "rosado"
+    ],
+    "atributos": [
+      "Incluye pala."
+    ],
+    "imagenes": [
+      "img/productos/p083.webp"
+    ],
+    "origen": "Párrafo 1298 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1312",
+    "nombre": "Transportador Nacional",
+    "categoria": "Transportadoras",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Talla S · 30 x 19 x 23 cm",
+        "price": 20.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla M · 41 x 24 x 27 cm",
+        "price": 28.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla L · 46 x 30 x 30 cm",
+        "price": 35.0,
+        "units": 1,
+        "kind": "talla"
+      },
+      {
+        "label": "Talla XL · 56 x 31 x 28 cm",
+        "price": 45.0,
+        "units": 1,
+        "kind": "talla"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p085.webp",
+      "img/productos/p086.webp"
+    ],
+    "origen": "Párrafo 1313 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1321",
+    "nombre": "Maletín Transportadora Pet – Diseño Huellita",
+    "categoria": "Transportadoras",
+    "mascota": "Ambos",
+    "descripcion": "Lleva a tu engreído a todas partes con comodidad y estilo, con un diseño adorable de huellita, ideal para facilitar los paseos, visitas al veterinario y pequeños viajes. Su estructura brinda un espacio acogedor para tu mascota, mientras que su diseño compacto permite transportarlo de manera práctica y cómoda.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medidas aproximadas: 45 cm de largo × 28 cm de ancho × 28 cm de alto."
+    ],
+    "imagenes": [
+      "img/productos/p087.webp",
+      "img/productos/p088.webp",
+      "img/productos/p089.webp",
+      "img/productos/p090.webp"
+    ],
+    "origen": "Párrafo 1322 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1348",
+    "nombre": "Plato mini",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 2.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida: 11 x 3 cm"
+    ],
+    "imagenes": [
+      "img/productos/p096.webp"
+    ],
+    "origen": "Párrafo 1349 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1355",
+    "nombre": "Plato redondo #1",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 3.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida: 13 x 5 cm"
+    ],
+    "imagenes": [
+      "img/productos/p097.webp"
+    ],
+    "origen": "Párrafo 1356 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1362",
+    "nombre": "Plato cuadrado",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida: 18 x 6 cm"
+    ],
+    "imagenes": [
+      "img/productos/p098.webp",
+      "img/productos/p099.webp"
+    ],
+    "origen": "Párrafo 1363 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1369",
+    "nombre": "Plato huesito Anti estrés",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 15.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida: 21.5 x 4.5"
+    ],
+    "imagenes": [
+      "img/productos/p100.webp"
+    ],
+    "origen": "Párrafo 1370 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1375",
+    "nombre": "Plato doble corazón",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 6.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida: 14 cm x 4.5"
+    ],
+    "imagenes": [
+      "img/productos/p101.webp"
+    ],
+    "origen": "Párrafo 1376 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1381",
+    "nombre": "Plato Gato #2",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 6.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida general: 25 cm",
+      "Medida interna: 12 cm x 6 cm"
+    ],
+    "imagenes": [
+      "img/productos/p102.webp"
+    ],
+    "origen": "Párrafo 1382 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1388",
+    "nombre": "Plato doble #1",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida general: 23 cm",
+      "Medida interna: 10 x 3cm"
+    ],
+    "imagenes": [
+      "img/productos/p103.webp"
+    ],
+    "origen": "Párrafo 1389 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1395",
+    "nombre": "Plato hueso doble",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medidas general: 23 cm",
+      "Medida interna: 4 x 11 cm"
+    ],
+    "imagenes": [
+      "img/productos/p104.webp"
+    ],
+    "origen": "Párrafo 1396 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1404",
+    "nombre": "Plato Pez",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida general: 21 cm",
+      "Medida intern: 9 x 2 cm"
+    ],
+    "imagenes": [
+      "img/productos/p105.webp"
+    ],
+    "origen": "Párrafo 1405 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1412",
+    "nombre": "Plato doble #2",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida: 11 x 3 cm"
+    ],
+    "imagenes": [
+      "img/productos/p106.webp"
+    ],
+    "origen": "Párrafo 1413 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1419",
+    "nombre": "Plato gato #1",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medidas: 21 cm",
+      "Medida interna: 10 x 3 cm"
+    ],
+    "imagenes": [
+      "img/productos/p107.webp"
+    ],
+    "origen": "Párrafo 1420 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1427",
+    "nombre": "Plato cara de gato",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 3.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida: 13 cm"
+    ],
+    "imagenes": [
+      "img/productos/p108.webp",
+      "img/productos/p112.webp"
+    ],
+    "origen": "Párrafo 1428 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1434",
+    "nombre": "Comedero Ave",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida 12 x 8 cm, alto 4.5"
+    ],
+    "imagenes": [
+      "img/productos/p109.webp"
+    ],
+    "origen": "Párrafo 1435 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1440",
+    "nombre": "Plato Conejo doble",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida: 32 cm",
+      "Medida interna: 13.5 x 5 cm"
+    ],
+    "imagenes": [
+      "img/productos/p110.webp"
+    ],
+    "origen": "Párrafo 1441 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1448",
+    "nombre": "Plato importado #1",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 7.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida 14 cm"
+    ],
+    "imagenes": [
+      "img/productos/p111.webp"
+    ],
+    "origen": "Párrafo 1449 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1461",
+    "nombre": "Plato dispensador de agua y alimento",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Este práctico comedero cuenta con un recipiente inclinado para facilitar el acceso al alimento y un dispensador de agua con botella transparente que permite mantener el depósito abastecido a medida que tu mascota bebe. Su diseño compacto integra ambos espacios en una sola base, ayudando a mantener organizada su zona de alimentación.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p113.webp"
+    ],
+    "origen": "Párrafo 1462 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1470",
+    "nombre": "Plato elevado gato",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Este adorable plato elevado cuenta con un diseño inspirado en la carita de un gatito, patitas que mantienen el recipiente separado del suelo y colores pastel que aportan un toque encantador. Su altura facilita el acceso al alimento y ayuda a mantener una postura más cómoda durante la comida. Ideal para gatos y mascotas pequeñas.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p114.webp"
+    ],
+    "origen": "Párrafo 1471 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1483",
+    "nombre": "Comedero doble con dispensador de agua automático",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p115.webp"
+    ],
+    "origen": "Párrafo 1484 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1493",
+    "nombre": "Plato elevado",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "¡Un toque de ternura para la hora de comer! Este adorable plato para mascotas destaca por su diseño decorativo, sus delicados colores pastel y su soporte elevado con patitas que lo mantiene separado del suelo. Su recipiente amplio permite colocar la porción de alimento de tu engreído, mientras que su diseño combina practicidad y estilo para complementar cualquier espacio del hogar.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p116.webp"
+    ],
+    "origen": "Párrafo 1494 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1504",
+    "nombre": "Plato elevado nube",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Este encantador comedero para mascotas destaca por su diseño en forma de nube y su base elevada, que mantiene el recipiente separado del suelo para una alimentación más cómoda. Su estilo moderno y delicado aporta un toque decorativo al espacio de tu engreído.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p117.webp"
+    ],
+    "origen": "Párrafo 1505 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1519",
+    "nombre": "Plato acero inoxidable",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p118.webp"
+    ],
+    "origen": "Párrafo 1520 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1525",
+    "nombre": "Comedero + bebedero botella",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Práctico y ligero, ideal para ofrecer alimento y pequeñas cantidades de agua a tu mascota. Incluye un comedero de plástico y una botella tipo refresco que permite suministrar agua de manera sencilla, ayudando a mantenerla disponible por más tiempo. Perfecto para mascotas pequeñas y para uso diario en casa o durante paseos.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p119.webp"
+    ],
+    "origen": "Párrafo 1526 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1535",
+    "nombre": "Plato antiestrés Luna",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Diseñado para ayudar a tu mascota a comer más despacio y disfrutar de sus alimentos con mayor tranquilidad. Su diseño con relieves internos dificulta que coma demasiado rápido, favoreciendo una alimentación más pausada y ayudando a reducir el riesgo de atragantamiento y molestias digestivas. Ideal para perros y gatos que comen con ansiedad.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida: 19 cm"
+    ],
+    "imagenes": [
+      "img/productos/p120.webp"
+    ],
+    "origen": "Párrafo 1536 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1547",
+    "nombre": "Plato anti estrés hueso",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Comedero diseñado con relieves internos en forma de huesito que ayudan a ralentizar el ritmo de alimentación de tu mascota. Su estructura la anima a buscar y recoger sus croquetas poco a poco, promoviendo una alimentación más tranquila y ayudando a disminuir los atracones. Ideal para perros y gatos que suelen comer demasiado rápido.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Medida: 25 cm"
+    ],
+    "imagenes": [
+      "img/productos/p121.webp",
+      "img/productos/p122.webp",
+      "img/productos/p123.webp",
+      "img/productos/p124.webp"
+    ],
+    "origen": "Párrafo 1548 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1577",
+    "nombre": "Cepillo Removedor de Pelo para Mascotas",
+    "categoria": "Cepillos y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "✨ Mantén el pelaje de tu mascota limpio, suave y libre de pelo suelto. Su diseño con púas ayuda a retirar el pelo muerto mientras realizas un agradable cepillado. Uso: Cepillado y cuidado del pelaje",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 6.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Unidad",
+        "price": 10.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Celeste",
+      "Verde menta",
+      "Rosado"
+    ],
+    "atributos": [
+      "Ideal para: 🐶 Perros | 🐱 Gatos",
+      "Presentación: Empacado"
+    ],
+    "imagenes": [
+      "img/productos/p183.webp",
+      "img/productos/p184.webp",
+      "img/productos/p185.webp"
+    ],
+    "origen": "Párrafo 1578 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1611",
+    "nombre": "🐻🌿 Cepillo Osito para Mascotas",
+    "categoria": "Cepillos y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "💚 ¡Hora de ponerse guapo! Su diseño práctico permite cepillar el pelaje y ayudar a retirar el pelo suelto ya que cuenta con un práctico botón expulsador, convirtiendo el cuidado de tu mascota en una rutina sencilla.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Verde menta",
+      "Azul",
+      "Celeste",
+      "Rosado",
+      "Blanco",
+      "Amarillo (colores según disponibilidad de stock)"
+    ],
+    "atributos": [
+      "Ideal para: 🐶 Perros | 🐱 Gatos"
+    ],
+    "imagenes": [
+      "img/productos/faltante-pr1611.webp"
+    ],
+    "origen": "Párrafo 1612 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1623",
+    "nombre": "Cepillo de Grooming 2 en 1",
+    "categoria": "Cepillos y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "✨ Dos tipos de cepillado en un solo producto. Ideal para ayudar a retirar pelo suelto, desenredar el pelaje y mantenerlo limpio y ordenado. Su diseño de doble cara permite adaptar el cepillado según las necesidades de tu engreído. 🐶 Ideal para: Perros y gatos",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p188.webp"
+    ],
+    "origen": "Párrafo 1624 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1635",
+    "nombre": "Cepillo de Grooming Nunbell",
+    "categoria": "Cepillos y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "✨ Cuida el pelaje de tu engreído de forma práctica. Su diseño con mango cómodo y antideslizante facilita el cepillado y el cuidado diario del pelaje. 🐶🐱 Ideal para: Perros y gatos",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p189.webp"
+    ],
+    "origen": "Párrafo 1636 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1648",
+    "nombre": "Peine deslanador",
+    "categoria": "Cepillos y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p190.webp",
+      "img/productos/p191.webp",
+      "img/productos/p192.webp",
+      "img/productos/p193.webp",
+      "img/productos/p194.webp"
+    ],
+    "origen": "Párrafo 1649 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1656",
+    "nombre": "Guante Removedor de pelo muerto",
+    "categoria": "Cepillos y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Convierte el cepillado rutinario en el momento favorito de tu mascota! Este guante es la solución más cómoda, higiénica y efectiva para eliminar el pelo suelto de tu perro o gato. Mientras tú mantienes tu hogar limpio y libre de alérgenos, tu engreído disfrutará de un masaje profundo y relajante que estimula la circulación de su piel.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 6.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p195.webp"
+    ],
+    "origen": "Párrafo 1657 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1666",
+    "nombre": "Guante Quita Pelos Electrostático",
+    "categoria": "Cepillos y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Mantén tu hogar y tu ropa libres de pelos de forma rápida y sin esfuerzo. Este innovador guante utiliza tecnología electrostática para atraer y atrapar el pelo suelto de perros y gatos, así como pelusas rebeldes en sofás, alfombras y prendas de vestir. Su diseño ergonómico de doble cara cuenta con una malla transpirable y un ajuste seguro para la mano, garantizando comodidad durante su uso",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p196.webp"
+    ],
+    "origen": "Párrafo 1667 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1677",
+    "nombre": "Corta garritas",
+    "categoria": "Cepillos y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p197.webp"
+    ],
+    "origen": "Párrafo 1678 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1683",
+    "nombre": "Cepillo Baño & Masaje",
+    "categoria": "Cepillos y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Haz del momento del baño una experiencia más fácil y agradable! Sus suaves cerdas de goma ayudan a distribuir el shampoo de manera uniforme, mientras masajean delicadamente la piel y remueven suciedad, pelo suelto y residuos. Su práctico mango permite sujetarlo cómodamente facilitando la limpieza incluso en las zonas más difíciles. Ideal para perros y gatos, dejando su pelaje limpio, suave y fresco.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p198.webp"
+    ],
+    "origen": "Párrafo 1684 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1697",
+    "nombre": "Set Cortauñas y Lima para Mascotas raza pequeña",
+    "categoria": "Cepillos y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 10.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-pr1697.webp"
+    ],
+    "origen": "Párrafo 1698 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1708",
+    "nombre": "Limpiadora de Huellas Express",
+    "categoria": "Cepillos y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "¡Dile adiós a las huellas de barro, tierra y suciedad dentro de tu hogar! Su estructura tipo vaso cuenta con un inserto interno de cerdas de silicona ultra suaves que actúan como pequeños dedos limpiadores. Solo debes agregar un poco de agua (opcionalmente con shampoo para mascotas), introducir la patita, girar suavemente el vaso y retirar para secar con una toalla.",
+    "variantes": [
+      {
+        "label": "Talla M · 11 × 9 cm",
+        "price": null,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla L · 15 × 7.5 cm",
+        "price": null,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Rojo",
+      "Azul",
+      "Rosado",
+      "Celeste",
+      "Verde"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/faltante-pr1708.webp"
+    ],
+    "origen": "Párrafo 1709 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1732",
+    "nombre": "Shampoo Ricocan para Cachorros",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "🐾 Cuidado suave para los más pequeños. Shampoo especialmente presentado para cachorros, con fórmula hipoalergénica que ayuda a suavizar, rehidratar y proteger el pelaje. 🐶 Indicado para: Cachorros",
+    "variantes": [
+      {
+        "label": "Unidad · 300 ml",
+        "price": 17.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p209.webp"
+    ],
+    "origen": "Párrafo 1733 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1744",
+    "nombre": "Shampoo Ricocan Adulto 4 en 1",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "✨ Limpieza y cuidado completo para perros adultos. El Shampoo Ricocan 4 en 1 está pensado para acompañar la rutina de higiene de tu mascota, ayudando a mantener su pelaje limpio y cuidado. 🐶 Indicado para: Perros adultos",
+    "variantes": [
+      {
+        "label": "Unidad · 380 ml",
+        "price": 17.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p210.webp"
+    ],
+    "origen": "Párrafo 1745 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1755",
+    "nombre": "Shampoo ricocan antipulga 380 ml",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "El shampoo Ricocan antipulgas está diseñado para la higiene de tu mascota, ayudando a combatir las pulgas durante el baño y dejando su pelaje limpio, suave y con una agradable sensación de frescura. Ideal para complementar su rutina de aseo y cuidado, manteniéndolo cómodo y bien cuidado.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p211.webp"
+    ],
+    "origen": "Párrafo 1756 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1763",
+    "nombre": "Fruppy Avena 450 ml",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "Shampoo y acondicionador hipoalergénico diseñado para la higiene y cuidado de la piel y el pelaje de perros y gatos. Su fórmula con extracto de avena y aceite de almendras ayuda a mantener la piel hidratada y el pelaje acondicionado, suave y brillante.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/pr1763-fondo-blanco-v3.webp"
+    ],
+    "origen": "Párrafo 1764 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1767",
+    "nombre": "Fruppy aloe 450 ml",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "Este shampoo para perros Fruppy Aloe transformará la rutina de baño de tu mascota en un momento de puro bienestar, dejándole un pelaje radiante y lleno de vida. Su fórmula enriquecida con extracto de aloe vera hidrata profundamente y suaviza la piel, calmando posibles irritaciones",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/pr1767-fondo-blanco-v3.webp"
+    ],
+    "origen": "Párrafo 1768 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1774",
+    "nombre": "FRESH CAN SUAVE Y BRILLANTE",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "Fresh Can es una línea peruana de cuidado e higiene para mascotas. Shampoo para perros adultos que ayuda a mantener el pelaje suave y limpio.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p214.webp"
+    ],
+    "origen": "Párrafo 1775 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1781",
+    "nombre": "Fresh Can piel sensible",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "Ofrece limpieza y cuidado especializado para mascotas y perros con piel delicada. Su fórmula hipoalergénica con avena y aceite de coco ayuda a aliviar, proteger e hidratar el pelaje y la piel.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p215.webp"
+    ],
+    "origen": "Párrafo 1782 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1786",
+    "nombre": "Fresh can antipulgas",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "Mantén a tu engreído limpio y protegido con Fresh Can Antipulgas. 🐶🐱 Un producto diseñado para ayudar a combatir las pulgas y mantener a tu mascota libre de estos molestos parásitos, favoreciendo su higiene y bienestar. Ideal para complementar su rutina de cuidado y protección.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p216.webp"
+    ],
+    "origen": "Párrafo 1787 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1790",
+    "nombre": "DOKY ALOE VERA",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "Dale a tu engreído un baño refrescante con el champú Doki Aloe Vera. Su fórmula está diseñada para ayudar a limpiar el pelaje, eliminar la suciedad y dejarlo suave, fresco y con una agradable sensación de limpieza. Ideal para mantener a tu mascota limpia y bien cuidada después de cada baño.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p217.webp"
+    ],
+    "origen": "Párrafo 1791 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1793",
+    "nombre": "DOKY ANTIPULGA",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "Mantén a tu peludito limpio y cuidado con el champú Doki Antipulgas. Especialmente indicado para la higiene de tu mascota, ayuda a combatir las pulgas durante el baño, dejando su pelaje limpio y fresco. Una opción práctica para complementar la rutina de aseo y cuidado de tu engreído.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p218.webp"
+    ],
+    "origen": "Párrafo 1794 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1796",
+    "nombre": "AMIGO ANTIPULGA 300 ml",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "¡Mantén a tu engreído limpio y protegido durante su rutina de baño! 🐶 El champú Amigo Antipulgas para perros está diseñado para ayudar a combatir las pulgas mientras limpia el pelaje de tu mascota. Ideal para complementar su higiene y cuidado, dejándolo fresco y con una apariencia limpia después de cada baño.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/pr1796-fondo-blanco-v3.webp"
+    ],
+    "origen": "Párrafo 1797 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1801",
+    "nombre": "Amigo antipulga 150 ml",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "¡Dale a tu peludito el cuidado que merece! El champú Amigo Antipulgas para perros es una opción práctica para la hora del baño, ya que ayuda a limpiar su pelaje y combatir las pulgas, contribuyendo a mantenerlo aseado y fresco.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/pr1801-fondo-blanco-v3.webp"
+    ],
+    "origen": "Párrafo 1802 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1805",
+    "nombre": "Shampoo gato premium 250 ml",
+    "categoria": "Higiene y baños",
+    "mascota": "Ambos",
+    "descripcion": "El Shampoo Premium Cat está diseñado con una fórmula especial que combina aloe vera, miel de abeja, queratina y colágeno para ofrecer una limpieza suave y profunda. Este shampoo revitaliza el pelaje de tu felino, dándole fuerza, vigor y un brillo natural que hará que se sienta y se vea espectacular.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/pr1805-fondo-blanco-v3.webp"
+    ],
+    "origen": "Párrafo 1806 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1808",
+    "nombre": "Shampoo, medicado avena y glicerina 300 ml",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "Es un shampoo con propiedades nutritivas y dermocosméticos del extracto de Avena + Glicerina. El extracto de Avena posee cualidades suavizantes, hidratantes, antipruriginoso (contra la picazón), proporcionan una capa protectora en la piel, lo que ayuda a retrasar la evaporación de humedad, previniendo así el daño a la capa hidrolipídica de la piel del animal.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p222.webp"
+    ],
+    "origen": "Párrafo 1809 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1811",
+    "nombre": "Shampoo medicado clorhexidina y clotrimazol 300 ml",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "¡ Cuidado especializado para la piel de tu engreído! El shampoo medicado con clorhexidina y clotrimazol, contiene ingredientes utilizados en el cuidado dermatológico veterinario para ayudar a controlar bacterias y hongos en la piel. Ideal como complemento en el tratamiento de afecciones dermatológicas, siempre siguiendo las indicaciones del médico veterinario.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p223.webp"
+    ],
+    "origen": "Párrafo 1812 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1814",
+    "nombre": "Shampoo, medicado triple A 300 ml",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "Está indicado para el cuidado de la piel de los perros con problemas de caspa, seborrea e infecciones cutáneas asociadas a bacterias y hongos.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p224.webp"
+    ],
+    "origen": "Párrafo 1815 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1818",
+    "nombre": "Shampoo medicado Pulgoso 500 ml",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "Shampoo Pulgoso en presentación de 500 ml para la higiene y el cuidado del pelaje de tu perro.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [
+      "Contenido: 500 ml"
+    ],
+    "imagenes": [
+      "img/productos/faltante-pr1818.webp"
+    ],
+    "origen": "Párrafo 1819 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1821",
+    "nombre": "Shampoo medicado Ketoconazol 300 ml",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "Tratamiento Coadyuvante de Dermatitis causada por infecciones Fúngicas (Hongos), Impétigo, Foliculitis Micótica, Furunculosis, Manchas Calientes, Infecciones por Hongos Malassesia Perros con pliegues abundantes (Intertrigo ), etc.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p225.webp"
+    ],
+    "origen": "Párrafo 1822 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1824",
+    "nombre": "Shampoo medicado sarna 300 ml",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p226.webp"
+    ],
+    "origen": "Párrafo 1825 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1830",
+    "nombre": "Shampoo Fruppy pelaje negro",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "Su fórmula hipoalergénica, ideal para pieles sensibles, limpia delicadamente mientras realza el color natural del pelo, dejándolo suave y brillante. Este shampoo ha sido diseñado para ofrecer un cuidado integral, asegurando que tu perro no solo esté limpio, sino también con un pelaje saludable y radiante, fomentando un vínculo más fuerte en cada momento de aseo.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p227.webp"
+    ],
+    "origen": "Párrafo 1831 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1833",
+    "nombre": "Shampoo Fruppy pelaje blanco",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "Shampoo y acondicionador hipoalergénico especialmente desarrollado para el cuidado de perros y gatos con pelaje blanco o claro. Su fórmula 6 en 1 ayuda a mantener el pelo limpio, suave, hidratado y con una apariencia más luminosa.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/pr1833-fondo-blanco-v3.webp"
+    ],
+    "origen": "Párrafo 1834 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1837",
+    "nombre": "Shampoo Knino 150 ml",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "Shampoo diseñado para piel sensible, ayuda a limpiar, humectar, perfumar y cuidar el pelaje de las mascotas. Contiene Clorhexidina (3g), ideal para la desinfección de la piel y el control de bacterias u hongos.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p229.webp"
+    ],
+    "origen": "Párrafo 1838 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1840",
+    "nombre": "ECADERM SHAMPOO 100 ml",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p230.webp"
+    ],
+    "origen": "Párrafo 1841 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1844",
+    "nombre": "SHAMPOO ANTIPARASITARIO",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "Elimina parásitos externos actua directamente combatiendo y eliminando ectoparásitos comunes como pulgas, garrapatas y piojos. Funciona como un repelente natural: Su fórmula incluye repelentes y humectantes naturales, además de aceite de eucalipto, aloe vera y tuna, que ayudan a ahuyentar los insectos y calmar la piel irritada por las picaduras.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p231.webp"
+    ],
+    "origen": "Párrafo 1845 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1847",
+    "nombre": "Colonia Fruppy Baby",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "¡Dale a tu mascota un toque de frescura y un aroma encantador! La Colonia Fruppy Baby es ideal para complementar su rutina de cuidado y dejar una agradable sensación de limpieza después del baño. Su presentación de 80 ml es práctica para tenerla siempre a mano y consentir a tu engreído. ✨ ¡Tu peludito limpio, fresco y con un aroma delicioso!",
+    "variantes": [
+      {
+        "label": "80 ml",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "150 ml",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p232.webp",
+      "img/productos/p237.webp"
+    ],
+    "origen": "Párrafo 1848 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1853",
+    "nombre": "Colonia Fruppy Flower",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "¡Llena de frescura y un delicado aroma floral a tu engreído! 🌷 La Colonia Fruppy Flower es ideal para complementar la rutina de cuidado de tu mascota, dejando un toque perfumado y agradable después del baño. Su práctica presentación de 80 ml es perfecta para mantener a tu peludito siempre listo para recibir mimos. 💕 ¡Un toque floral para consentir a tu compañero de cuatro patas!",
+    "variantes": [
+      {
+        "label": "80 ml",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "150 ml",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p233.webp",
+      "img/productos/p238.webp"
+    ],
+    "origen": "Párrafo 1854 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1859",
+    "nombre": "Colonia Fruppy Dandy",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "¡Dale a tu peludito un toque de frescura y un aroma irresistible! 🐶✨ La Colonia Fruppy Dandy es ideal para complementar la rutina de cuidado de tu mascota, dejando una agradable fragancia para que luzca y se sienta aún más especial. Su presentación de 80 ml es práctica y perfecta para consentir a tu engreído en cualquier ocasión. 💙 ¡Frescura y estilo para tu compañero de cuatro patas!",
+    "variantes": [
+      {
+        "label": "80 ml",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "150 ml",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p234.webp",
+      "img/productos/p239.webp"
+    ],
+    "origen": "Párrafo 1860 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1866",
+    "nombre": "Colonia Fruppy Fresa",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "¡Consiente a tu peludito con un toque de frescura y un delicioso aroma a fresa! 🍓❤️ La Colonia Fruppy Fresa es ideal para complementar la rutina de cuidado de tu mascota, dejando una agradable fragancia después del baño. Su práctica presentación de 80 ml es perfecta para darle a tu engreído ese toque especial que lo hará aún más encantador. 🐶💕 ¡Tu peludito fresco, perfumado y listo para recibir muchos mimos!",
+    "variantes": [
+      {
+        "label": "80 ml",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "150 ml",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p235.webp",
+      "img/productos/p240.webp"
+    ],
+    "origen": "Párrafo 1867 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1873",
+    "nombre": "Colonia Fruppy Lady",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "¡Dale a tu engreída un toque de frescura y un aroma encantador! 💖 La Colonia Fruppy Lady es ideal para complementar la rutina de cuidado de tu mascota, dejando una agradable fragancia que la hará sentir aún más especial. Su práctica presentación de 80 ml es perfecta para consentir a tu pequeña después del baño y mantenerla siempre lista para recibir muchos mimos. 💕 ¡Un toque de encanto y frescura para tu…",
+    "variantes": [
+      {
+        "label": "80 ml",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "150 ml",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p236.webp",
+      "img/productos/p241.webp"
+    ],
+    "origen": "Párrafo 1874 del Word",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr1918",
+    "nombre": "Colonia Fruppy , 300 ml",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1919 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1928",
+    "nombre": "Peluchin shampoo gato",
+    "categoria": "Shampoo y colonias",
+    "mascota": "Ambos",
+    "descripcion": "",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p242.webp",
+      "img/productos/p243.webp",
+      "img/productos/p244.webp",
+      "img/productos/p245.webp"
+    ],
+    "origen": "Párrafo 1929 del Word",
+    "consultar": true,
+    "veterinario": false
+  },
+  {
+    "id": "pr1942",
+    "nombre": "DOXITEL 100",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Antibiótico a base de doxiciclina, indicado para el tratamiento de infecciones bacterianas en perros, incluyendo enfermedades transmitidas por garrapatas, como la ehrlichiosis canina. También puede utilizarse en algunas infecciones respiratorias y de la piel, según la evaluación veterinaria. La dosis y la duración del tratamiento deben ser determinadas por un profesional según el peso y la condición del animal",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 28.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p259.webp"
+    ],
+    "origen": "Párrafo 1943 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr1947",
+    "nombre": "ALERFLAM",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "¡Alivia las molestias de las alergias de tu mascota! 🐾 Alerflam es un medicamento veterinario indicado para ayudar a controlar la picazón, la inflamación y las lesiones de la piel asociadas a procesos alérgicos. Su fórmula combina acción antiinflamatoria y antihistamínica, y está indicada para perros y gatos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 28.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p260.webp"
+    ],
+    "origen": "Párrafo 1948 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr1952",
+    "nombre": "DOXITEL 200",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Antibiótico veterinario a base de doxiciclina, indicado para el tratamiento de diversas infecciones causadas por bacterias sensibles a este principio activo. Puede utilizarse en determinadas infecciones respiratorias, cutáneas y urinarias, así como en enfermedades transmitidas por garrapatas, según el diagnóstico veterinario. Está indicado para perros y gatos. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 38.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p261.webp"
+    ],
+    "origen": "Párrafo 1953 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr1959",
+    "nombre": "KETOVET 20",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Ayuda a aliviar el dolor y la inflamación de tu mascota. Ketovet 20 es un medicamento veterinario a base de ketoprofeno, con acción analgésica, antiinflamatoria y antipirética. Está indicado para el tratamiento de molestias asociadas a traumatismos, artritis, artrosis, esguinces y otros problemas musculares y articulares en perros y gatos. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 58.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p262.webp"
+    ],
+    "origen": "Párrafo 1960 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr1965",
+    "nombre": "BACTRINA",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Bactrina es un medicamento veterinario con acción antibiótica y antidiarreica que ayuda en el tratamiento de infecciones gastrointestinales de origen bacteriano. Su fórmula contiene sulfametoxazol, trimetoprim y pectina, que contribuye a proteger la mucosa intestinal. Está indicado para perros y gatos, entre otras especies, según la evaluación veterinaria. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 37.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p263.webp"
+    ],
+    "origen": "Párrafo 1966 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr1970",
+    "nombre": "KETOVET 10",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Ketovet 10 es un medicamento veterinario a base de ketoprofeno, indicado para ayudar a aliviar el dolor y reducir la inflamación en perros y gatos. Se utiliza en casos de molestias musculares y articulares, traumatismos, artritis, artrosis, esguinces y otras afecciones inflamatorias. Su acción analgésica y antiinflamatoria favorece el bienestar de la mascota. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 37.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p264.webp"
+    ],
+    "origen": "Párrafo 1971 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr1976",
+    "nombre": "FLOXATEL 50",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Antibiótico veterinario a base de enrofloxacina, indicado para el tratamiento de determinadas infecciones bacterianas en perros y gatos. Puede utilizarse en afecciones respiratorias, digestivas, urinarias y de la piel, siempre que las bacterias sean sensibles al medicamento. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 27.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [],
+    "origen": "Párrafo 1977 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr1980",
+    "nombre": "FLOXATEL 100",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Antibiótico veterinario formulado con enrofloxacina, utilizado para combatir determinadas infecciones bacterianas en perros y gatos. Su uso puede estar indicado en infecciones de las vías respiratorias, urinarias, digestivas y de la piel, según el diagnóstico y la evaluación veterinaria. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 37.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p265.webp",
+      "img/productos/p266.webp"
+    ],
+    "origen": "Párrafo 1981 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr1986",
+    "nombre": "CEFAVET 300",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Antibiótico veterinario a base de cefalexina, indicado para el tratamiento de determinadas infecciones bacterianas en perros y gatos. Puede utilizarse en algunas infecciones de la piel, tejidos blandos y otras afecciones causadas por bacterias sensibles a este antibiótico. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 38.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p267.webp"
+    ],
+    "origen": "Párrafo 1987 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr1993",
+    "nombre": "CEFAVET 600",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Es un antibiótico veterinario a base de cefalexina, indicado para el tratamiento de infecciones bacterianas sensibles a este principio activo. Ayuda a combatir diversas infecciones que pueden afectar la piel, los tejidos blandos y otras zonas del organismo de perros y gatos. Su presentación en tabletas facilita la administración por vía oral, siempre bajo prescripción y supervisión del médico veterinario.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p268.webp"
+    ],
+    "origen": "Párrafo 1994 del Word",
+    "consultar": true,
+    "veterinario": true
+  },
+  {
+    "id": "pr1996",
+    "nombre": "MICOPET",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Antimicótico veterinario a base de ketoconazol, utilizado para tratar determinadas infecciones causadas por hongos en perros y gatos. Puede indicarse en afecciones como la tiña y otras micosis, según el tipo de infección y la evaluación del médico veterinario. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 39.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p269.webp"
+    ],
+    "origen": "Párrafo 1997 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr2001",
+    "nombre": "HISTAPET",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "¡Ayuda a aliviar las molestias causadas por las alergias de tu mascota! Histapet es un antihistamínico veterinario indicado para el manejo de reacciones alérgicas que pueden provocar picazón, urticaria e irritación de la piel en perros y gatos. Contribuye a mejorar el confort de tu compañero peludo cuando se utiliza según indicación veterinaria. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 27.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p270.webp"
+    ],
+    "origen": "Párrafo 2002 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr2006",
+    "nombre": "PARAVETOL",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "¡Protege a tu mascota frente a los parásitos intestinales! Paravetol es un antiparasitario interno formulado con fenbendazol y praziquantel, indicado para el tratamiento y control de determinados parásitos intestinales, como lombrices y tenias. También puede utilizarse en el tratamiento de la giardiasis, según la pauta veterinaria. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 39.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p271.webp"
+    ],
+    "origen": "Párrafo 2007 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr2011",
+    "nombre": "PARAVETOL PLUS",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "¡Una fórmula de amplio espectro para el cuidado intestinal de tu mascota! Paravetol Plus combina fenbendazol, praziquantel y pirantel para ayudar a combatir diferentes tipos de parásitos intestinales, incluyendo lombrices redondas, anquilostomas y tenias. Es una opción para el control de parasitosis internas en perros y gatos, de acuerdo con la indicación veterinaria. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 57.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p272.webp"
+    ],
+    "origen": "Párrafo 2012 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr2017",
+    "nombre": "Meloxivet 1",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Es un medicamento veterinario a base de meloxicam, con acción analgésica, antiinflamatoria y antipirética. Está indicado para aliviar el dolor y la inflamación asociados a problemas musculares y articulares, traumatismos y otras afecciones que requieren tratamiento antiinflamatorio. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 29.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p273.webp"
+    ],
+    "origen": "Párrafo 2018 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr2023",
+    "nombre": "Meloxivet 4",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Es un antiinflamatorio veterinario a base de meloxicam, indicado para ayudar a aliviar el dolor y reducir la inflamación en determinadas afecciones musculares y articulares. Puede utilizarse en casos de traumatismos, artritis y otras condiciones dolorosas, según la evaluación del médico veterinario. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 49.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p274.webp"
+    ],
+    "origen": "Párrafo 2024 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr2028",
+    "nombre": "GASTROPET",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "¡Apoya el cuidado digestivo de tu mascota! Gastropet contiene omeprazol, un medicamento que ayuda a reducir la producción de ácido gástrico. Se utiliza en determinados trastornos digestivos, como úlceras gástricas, esofagitis y afecciones en las que se necesita controlar la acidez estomacal, bajo indicación veterinaria. Importante: Uso bajo indicación veterinaria.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 39.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p275.webp"
+    ],
+    "origen": "Párrafo 2029 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr2034",
+    "nombre": "CLAMOVET 250",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Antibiótico veterinario a base de amoxicilina y ácido clavulánico, indicado para combatir determinadas infecciones bacterianas en perros y gatos. Puede utilizarse en infecciones de la piel, tejidos blandos, cavidad oral y vías urinarias, cuando las bacterias son sensibles a sus componente.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 62.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p276.webp"
+    ],
+    "origen": "Párrafo 2035 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr2044",
+    "nombre": "CLINDAVET 75",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Antibiótico veterinario a base de clindamicina, indicado para el tratamiento de determinadas infecciones bacterianas en perros y gatos. Puede utilizarse en infecciones de la cavidad oral, tejidos blandos, piel y algunas infecciones óseas, según el diagnóstico veterinario.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 38.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p277.webp"
+    ],
+    "origen": "Párrafo 2045 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr2048",
+    "nombre": "IVERPET",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Antiparasitario veterinario utilizado para el control de determinados parásitos, según su principio activo y concentración. Ayuda a proteger la salud de las mascotas frente a las parasitosis para las que está indicado. Importante: Verificar la composición y la especie de destino antes de su administración.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 37.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p278.webp"
+    ],
+    "origen": "Párrafo 2049 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr2055",
+    "nombre": "NUTRICAL",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "¡Un aporte extra de energía para tu compañero peludo! Nutrical es un suplemento nutricional de alto contenido calórico, enriquecido con vitaminas, minerales y ácidos grasos. Es ideal para complementar la alimentación de perros y gatos que necesitan un aporte adicional de energía, como mascotas en crecimiento, convalecientes o con una ingesta alimentaria insuficiente. Beneficios: Contribuye al aporte energético y…",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 47.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p279.webp"
+    ],
+    "origen": "Párrafo 2056 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "aceite-de-trucha-barker",
+    "nombre": "Aceite de trucha Barker 60 ml",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "Suplemento nutricional para perros y gatos. Aceite de trucha con omega 3, 6 y 9, EPA y DHA. Se añade a su alimento como complemento.",
+    "variantes": [
+      {
+        "label": "60 ml",
+        "price": 10,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/aceite-de-trucha-barker.png"
+    ],
+    "origen": "Ficha proporcionada por Dutti Pets",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "pr2063",
+    "nombre": "DERMASEP",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "¡Limpieza y cuidado para la piel de tu mascota! Dermasep Spray es una solución antiséptica veterinaria con clorhexidina y cetrimida, diseñada para limpiar y desinfectar heridas y lesiones superficiales. Es ideal para apoyar la higiene de la piel de perros y gatos, incluso en el cuidado de lesiones que requieren limpieza local.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 6,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/dermasep-veterline.png"
+    ],
+    "origen": "Párrafo 2064 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "pr2068",
+    "nombre": "ENDAL PLUS",
+    "categoria": "Salud y veterinaria",
+    "mascota": "Ambos",
+    "descripcion": "¡Protege a tu mascota de los parásitos intestinales! 🐾 Endal Plus es un antiparasitario de uso veterinario formulado para ayudar a combatir diferentes tipos de parásitos internos, como lombrices intestinales y tenias, contribuyendo al cuidado de la salud digestiva de tu compañero peludo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 10.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/p281.webp",
+      "img/productos/p282.webp",
+      "img/productos/p283.webp",
+      "img/productos/p284.webp"
+    ],
+    "origen": "Párrafo 2069 del Word",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "antiparasitario-fiproplus",
+    "nombre": "Fiproplus",
+    "categoria": "Pipetas antiparasitarias",
+    "mascota": "Perros",
+    "descripcion": "Pipeta antiparasitaria para perros. Consulta con tu veterinario antes de usar.",
+    "variantes": [
+      {
+        "label": "De 1 a 10 kg",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/fiproplus-36.webp"
+      },
+      {
+        "label": "De 11 a 25 kg",
+        "price": 18.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/fiproplus-35.webp"
+      },
+      {
+        "label": "De 26 a 45 kg",
+        "price": 20.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/fiproplus-37.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/antiparasitarios/fiproplus-36.webp"
+    ],
+    "origen": "CATALOGO DUTTI PETS (1).docx · párrafos 2, 6, 9",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "antiparasitario-full-pet-perros",
+    "nombre": "Full Pet Perros",
+    "categoria": "Pipetas antiparasitarias",
+    "mascota": "Perros",
+    "descripcion": "Pipeta antiparasitaria para perros. Consulta con tu veterinario antes de usar.",
+    "variantes": [
+      {
+        "label": "De 2 a 10 kg",
+        "price": 22.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/full-pet-perros-3.webp"
+      },
+      {
+        "label": "De 10 a 20 kg",
+        "price": 24.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/full-pet-perros-34.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/antiparasitarios/full-pet-perros-3.webp"
+    ],
+    "origen": "CATALOGO DUTTI PETS (1).docx · párrafos 23, 17",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "antiparasitario-full-pet-gatos",
+    "nombre": "Full Pet Gatos",
+    "categoria": "Pipetas antiparasitarias",
+    "mascota": "Gatos",
+    "descripcion": "Pipeta antiparasitaria para gatos. Consulta con tu veterinario antes de usar.",
+    "variantes": [
+      {
+        "label": "De 1 a 4 kg",
+        "price": 22.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/full-pet-gatos-31.webp"
+      },
+      {
+        "label": "De 4 a 8 kg",
+        "price": 24.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/full-pet-gatos-33.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/antiparasitarios/full-pet-gatos-31.webp"
+    ],
+    "origen": "CATALOGO DUTTI PETS (1).docx · párrafos 43, 33",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "antiparasitario-rivolta",
+    "nombre": "Rivolta 6%",
+    "categoria": "Pipetas antiparasitarias",
+    "mascota": "Gatos",
+    "descripcion": "Pipeta antiparasitaria para gatos. Consulta con tu veterinario antes de usar.",
+    "variantes": [
+      {
+        "label": "Pipeta 6%",
+        "price": 33.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/rivolta-30.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/antiparasitarios/rivolta-30.webp"
+    ],
+    "origen": "CATALOGO DUTTI PETS (1).docx · párrafos 52",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "antiparasitario-proteggo-1m",
+    "nombre": "Proteggo 1M",
+    "categoria": "Pastillas antiparasitarias",
+    "mascota": "Perros",
+    "descripcion": "Tableta masticable antiparasitaria para perros. Consulta con tu veterinario antes de usar.",
+    "variantes": [
+      {
+        "label": "De 2 a 4.5 kg · 45 mg",
+        "price": 38.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/proteggo-1m-16.webp"
+      },
+      {
+        "label": "De 4.5 a 10 kg · 100 mg",
+        "price": 48.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/proteggo-1m-15.webp"
+      },
+      {
+        "label": "De 10 a 20 kg · 200 mg",
+        "price": 50.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/proteggo-1m-28.webp"
+      },
+      {
+        "label": "De 20 a 40 kg · 400 mg",
+        "price": 60.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/proteggo-1m-17.webp"
+      },
+      {
+        "label": "Más de 40 a 56 kg · 560 mg",
+        "price": 75.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/proteggo-1m-18.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/antiparasitarios/proteggo-1m-16.webp"
+    ],
+    "origen": "CATALOGO DUTTI PETS (1).docx · párrafos 55, 58, 62, 66, 70",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "antiparasitario-proteggo-3m",
+    "nombre": "Proteggo 3M",
+    "categoria": "Pastillas antiparasitarias",
+    "mascota": "Perros",
+    "descripcion": "Tableta masticable antiparasitaria para perros. Consulta con tu veterinario antes de usar.",
+    "variantes": [
+      {
+        "label": "De 2 a 4.5 kg · 112.5 mg",
+        "price": 80.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/proteggo-3m-29.webp"
+      },
+      {
+        "label": "De 4.5 a 10 kg · 250 mg",
+        "price": 85.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/proteggo-3m-6.webp"
+      },
+      {
+        "label": "De 10 a 20 kg · 500 mg",
+        "price": 90.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/proteggo-3m-7.webp"
+      },
+      {
+        "label": "De 20 a 40 kg · 1000 mg",
+        "price": 110.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/proteggo-3m-12.webp"
+      },
+      {
+        "label": "Más de 40 a 56 kg · 1400 mg",
+        "price": 140.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/proteggo-3m-9.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/antiparasitarios/proteggo-3m-29.webp"
+    ],
+    "origen": "CATALOGO DUTTI PETS (1).docx · párrafos 75, 79, 85, 92, 99",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "antiparasitario-bravecto",
+    "nombre": "Bravecto",
+    "categoria": "Pastillas antiparasitarias",
+    "mascota": "Perros",
+    "descripcion": "Tableta masticable antiparasitaria para perros. Consulta con tu veterinario antes de usar.",
+    "variantes": [
+      {
+        "label": "De 2 a 4.5 kg",
+        "price": 95.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/bravecto-27.webp"
+      },
+      {
+        "label": "De 4.5 a 10 kg",
+        "price": 102.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/bravecto-8.webp"
+      },
+      {
+        "label": "De 10 a 20 kg",
+        "price": 112.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/bravecto-26.webp"
+      },
+      {
+        "label": "De 20 a 40 kg",
+        "price": 135.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/bravecto-32.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/antiparasitarios/bravecto-27.webp"
+    ],
+    "origen": "CATALOGO DUTTI PETS (1).docx · párrafos 105, 109, 113, 117",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "antiparasitario-tilin-fl",
+    "nombre": "Tilin FL",
+    "categoria": "Pastillas antiparasitarias",
+    "mascota": "Perros",
+    "descripcion": "Tableta masticable antiparasitaria para perros. Consulta con tu veterinario antes de usar.",
+    "variantes": [
+      {
+        "label": "De 4.5 a 10 kg",
+        "price": 40.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/tilin-fl-25.webp"
+      },
+      {
+        "label": "De 10 a 20 kg",
+        "price": 45.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/tilin-fl-4.webp"
+      },
+      {
+        "label": "De 20 a 40 kg",
+        "price": 50.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/tilin-fl-5.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/antiparasitarios/tilin-fl-25.webp"
+    ],
+    "origen": "CATALOGO DUTTI PETS (1).docx · párrafos 123, 128, 132",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "antiparasitario-fluralab",
+    "nombre": "Fluralab",
+    "categoria": "Pastillas antiparasitarias",
+    "mascota": "Perros",
+    "descripcion": "Tableta masticable antiparasitaria para perros. Consulta con tu veterinario antes de usar.",
+    "variantes": [
+      {
+        "label": "De 2 a 4.5 kg",
+        "price": 68.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/fluralab-23.webp"
+      },
+      {
+        "label": "De 4.5 a 10 kg",
+        "price": 75.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/fluralab-1.webp"
+      },
+      {
+        "label": "De 10 a 20 kg",
+        "price": 85.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/fluralab-2.webp"
+      },
+      {
+        "label": "De 20 a 40 kg",
+        "price": 97.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/fluralab-22.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/antiparasitarios/fluralab-23.webp"
+    ],
+    "origen": "CATALOGO DUTTI PETS (1).docx · párrafos 135, 139, 144, 149",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "antiparasitario-nexgard",
+    "nombre": "NexGard",
+    "categoria": "Pastillas antiparasitarias",
+    "mascota": "Perros",
+    "descripcion": "Tableta masticable antiparasitaria para perros. Consulta con tu veterinario antes de usar.",
+    "variantes": [
+      {
+        "label": "De 2 a 4 kg",
+        "price": 125.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/nexgard-11.webp"
+      },
+      {
+        "label": "De 4.1 a 10 kg",
+        "price": 132.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/nexgard-19.webp"
+      },
+      {
+        "label": "De 10.1 a 25 kg",
+        "price": 155.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/nexgard-10.webp"
+      },
+      {
+        "label": "De 25.1 a 50 kg",
+        "price": 182.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/nexgard-21.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/antiparasitarios/nexgard-11.webp"
+    ],
+    "origen": "CATALOGO DUTTI PETS (1).docx · párrafos 153, 157, 160, 165",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "antiparasitario-simparica",
+    "nombre": "Simparica",
+    "categoria": "Pastillas antiparasitarias",
+    "mascota": "Perros",
+    "descripcion": "Tableta masticable antiparasitaria para perros. Consulta con tu veterinario antes de usar.",
+    "variantes": [
+      {
+        "label": "De 2.5 a 5 kg",
+        "price": 159.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/simparica-13.webp"
+      },
+      {
+        "label": "De 5 a 10 kg",
+        "price": 175.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/simparica-14.webp"
+      },
+      {
+        "label": "De 10 a 20 kg",
+        "price": 208.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/simparica-24.webp"
+      },
+      {
+        "label": "De 20 a 40 kg",
+        "price": 250.0,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/productos/antiparasitarios/simparica-20.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/productos/antiparasitarios/simparica-13.webp"
+    ],
+    "origen": "CATALOGO DUTTI PETS (1).docx · párrafos 177, 183, 189, 198",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc5-1",
+    "nombre": "Dispensador de Agua o Comida Automático por Gravedad (Modelo Clásico)",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Te presentamos bebedero y comedero automático diseñado para mantener agua fresca y limpia disponible en todo momento sin necesidad de electricidad. Funciona mediante un sistema de gravedad que rellena el plato gradualmente conforme tu mascota bebe. Características: Botellón transparente desmontable que permite controlar fácilmente el nivel de agua. Base estable y antideslizante ideal para evitar derrames. Fácil de desarmar y limpiar. Recomendado para perros pequeños/medianos y gatos. CAPACIDAD : 3 KG / 3 LITROS",
+    "variantes": [
+      {
+        "label": "3 kg / 3 litros",
+        "price": 22,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Celeste",
+      "Rosado",
+      "Verde menta",
+      "Gris"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/gravedad-clasico-1.webp",
+      "img/actualizacion/gravedad-clasico-2.webp",
+      "img/actualizacion/gravedad-clasico-3.webp",
+      "img/actualizacion/gravedad-clasico-4.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotosPorColor": {
+      "Celeste": "img/actualizacion/gravedad-clasico-1.webp",
+      "Rosado": "img/actualizacion/gravedad-clasico-2.webp",
+      "Verde menta": "img/actualizacion/gravedad-clasico-3.webp",
+      "Gris": "img/actualizacion/gravedad-clasico-4.webp"
+    }
+  },
+  {
+    "id": "dutti-doc5-12",
+    "nombre": "Dispensador Doble Automático 2 en 1 (Comida y Agua – Diseño Orejitas)",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Estación de alimentación completa 2 en 1 con un tierno diseño de orejas de gato en la tapa superior. Integra un dispensador automático de alimento seco por gravedad y una botella bebedero en una sola base compacta, asegurando que tu mascota tenga comida y agua fresca todo el día. Características clave: Depósito de alimento: Contenedor transparente de gran capacidad con tapa superior hermética de fácil recarga para mantener las croquetas frescas y crujientes. Sistema de agua: Botella lateral con válvula de nivel constante que evita desbordes y mantiene el agua limpia. Base amplia y estable, ideal para gatos y perros de razas pequeñas o medianas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 35.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Verde menta",
+      "Rosado"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-8.webp",
+      "img/actualizacion/5-9.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotosPorColor": {
+      "Verde menta": "img/actualizacion/5-8.webp",
+      "Rosado": "img/actualizacion/5-9.webp"
+    }
+  },
+  {
+    "id": "dutti-doc5-22",
+    "nombre": "Kit de Biberón / Mamadera para Mascotas Lactantes",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Descripción: Set completo de lactancia diseñado especialmente para la alimentación segura de cachorros, gatitos recién nacidos o mascotas pequeñas en etapa de destete o recuperación. Características clave: Biberón graduado para medir con exactitud las tomas de leche o fórmula. Incluye chupones (tetinas) de silicona suave de repuesto con distintos tamaños/flujos. Incluye cepillo limpiador largo para higienizar fácilmente el interior de la botella.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-11.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc5-33",
+    "nombre": "Plato Doble Comedero y Bebedero con Botella Automática",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Plato doble de diseño curvo que combina un compartimento para alimento seco o húmedo y un bebedero conectado a una botella vertical transparente. Es una opción práctica y compacta para tener comida y agua disponibles en un mismo espacio. Doble función (comida y agua): Cuenta con un espacio para alimento y otro adaptado para recibir el agua de la botella superior. Botella transparente: Permite revisar fácilmente la cantidad de agua restante y rellenarla con comodidad. Base curva compacta: Ocupa poco espacio en el piso y facilita el acceso de gatos y perros pequeños o medianos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Celeste",
+      "Naranja",
+      "Rosado"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-12.webp",
+      "img/actualizacion/5-13.webp",
+      "img/actualizacion/5-14.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotosPorColor": {
+      "Celeste": "img/actualizacion/5-12.webp",
+      "Naranja": "img/actualizacion/5-13.webp",
+      "Rosado": "img/actualizacion/5-14.webp"
+    }
+  },
+  {
+    "id": "dutti-doc5-42",
+    "nombre": "Botella Portátil para Agua (Aqua Dog)",
+    "categoria": "Platos y comederos",
+    "mascota": "Perros",
+    "descripcion": "Botella bebedero portátil pensada para paseos, viajes o salidas al parque con tu mascota. Su tapa superior funciona como plato o recipiente para que el perro tome agua de forma cómoda y práctica fuera de casa. Características clave: Formato portátil y ligero, fácil de llevar en mochila, cartera o en la mano. Tapa superior tipo bebedero/copa de fácil acceso para tu mascota. Cinta o correa negra integrada que facilita sujetar o colgar durante el paseo. Ideal para perros pequeños, medianos o de paseo frecuente.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Celeste / Azul",
+      "Rosado"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-15.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc5-52",
+    "nombre": "Estación Doble con Bebedero Fuente / Cascada (Diseño con Flor)",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Estación de alimentación combinada que reúne un plato para alimento seco y un bebedero de flujo continuo tipo fuente/cascada en una misma base amplia. Su diseño facilita que perros y gatos accedan cómodamente a su comida y a agua en movimiento. Características clave: Plato de alimento: Compartimento lateral integrado, ideal para croquetas o alimento seco. Bebedero tipo fuente: Depósito con flujo constante de agua y filtro visible, pensado para incentivar la hidratación diaria. Medidas referenciales visibles en la imagen verde: Aproximadamente 34 cm de largo, 17.5 cm de ancho y 11.5 cm de alto. Base estable de diseño ergonómico, apta para gatos y perros de talla pequeña a mediana.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 38.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Verde menta",
+      "Rosado pastel"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-16.webp",
+      "img/actualizacion/5-17.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotosPorColor": {
+      "Verde menta": "img/actualizacion/5-16.webp",
+      "Rosado pastel": "img/actualizacion/5-17.webp"
+    }
+  },
+  {
+    "id": "dutti-doc5-63",
+    "nombre": "Fuente Bebedero Cuadrada con Detalle de Flor",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Bebedero compacto de formato cuadrado con tapa superior translúcida y un adorno en forma de flor en la parte superior. Permite visualizar fácilmente el agua en su interior y se adapta bien a espacios reducidos. Características clave: Cuerpo cuadrado con tapa superior que ayuda a mantener el agua contenida y controlada. Detalle superior en forma de margarita/flor que le da una estética decorativa y amigable. Práctico para gatos y perros pequeños en interiores.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 25.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Blanco / Translúcido",
+      "Rosado"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-18.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc5-71",
+    "nombre": "Dispensador Doble de Agua por Gravedad con Botella (Base Curva)",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Base doble con contorno curvo que integra un plato para alimento/snack y un bebedero automático conectado a una botella vertical transparente en la parte central. Características clave: Botella transparente superior para reponer y revisar el nivel de agua con facilidad. Dos compartimentos en una sola pieza, ahorrando espacio en el piso. Estructura liviana y práctica para uso cotidiano en gatos y perros pequeños o medianos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 19.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Celeste",
+      "Verde claro",
+      "Melón"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/imagen-pendiente.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Fotografía del modelo pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc5-80",
+    "nombre": "Comedero y Bebedero con Botella Automática",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Práctico comedero y bebedero doble diseñado para ofrecer alimento y agua en un mismo punto. Combina un compartimento abierto para croquetas y un bebedero conectado a una botella vertical que repone el agua de forma gradual.",
+    "variantes": [],
+    "sabores": [],
+    "colores": [
+      "Negro",
+      "Azul oscuro",
+      "Rosado pastel"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-20.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": true,
+    "veterinario": false,
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc5-83",
+    "nombre": "Dispensador Automático de Gravedad",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Dispensador automático de alimento compuesto por una base blanca de borde redondeado y un depósito superior translúcido con tapa amarilla y detalle superior. Mantiene el suministro constante conforme la mascota consume, reduciendo la frecuencia de recarga y evitando derrames. Ideal para: Gatos y perros pequeños que requieren alimento o hidratación disponible durante el día.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/imagen-pendiente.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Fotografía del modelo pendiente de confirmación."
+  },
+  {
+    "id": "dutti-doc5-86",
+    "nombre": "Dispensadores de croquetas",
+    "categoria": "Platos y comederos",
+    "mascota": "Ambos",
+    "descripcion": "Dispensadores automáticos por gravedad con depósito cilíndrico transparente y base en tonos negro, rojo y azul. Permiten dosificar alimento o agua de forma continua, facilitan controlar el nivel restante a simple vista y son prácticos para hogares con más de una mascota o para ofrecer distintas opciones en paralelo. Ideal: Gatos y perros pequeños o medianos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [
+      "Negro",
+      "Rojo",
+      "Azul"
+    ],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/5-21.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (5).docx",
+    "consultar": false,
+    "veterinario": false,
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc6-1",
+    "nombre": "Tilin Cats (Spray Antipulgas)",
+    "categoria": "Higiene y control de pulgas",
+    "mascota": "Gatos",
+    "descripcion": "Solución antiparasitaria externa en formato de aerosol o spray formulada específicamente para gatos. Ayuda a combatir y controlar infestaciones de pulgas y otros parásitos externos sobre el pelaje y la piel del felino, ofreciendo una aplicación práctica y directa en zonas específicas del cuerpo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 10.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-6.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-11",
+    "nombre": "Atomil (Talco Antipulga / Polvo Seco)",
+    "categoria": "Higiene y control de pulgas",
+    "mascota": "Ambos",
+    "descripcion": "Talco antipulgas en polvo seco de Agropsa.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-7.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-17",
+    "nombre": "Tilin Spray Antipulgas para Perros",
+    "categoria": "Higiene y control de pulgas",
+    "mascota": "Perros",
+    "descripcion": "Spray antipulgas para perros en dos presentaciones.",
+    "variantes": [
+      {
+        "label": "250 ml",
+        "price": 16,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/actualizacion/6-8.webp"
+      },
+      {
+        "label": "500 ml",
+        "price": 23,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/actualizacion/6-9.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-8.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-26",
+    "nombre": "Spray Antiolor para Hembras – No más olores",
+    "categoria": "Higiene y control de pulgas",
+    "mascota": "Perros",
+    "descripcion": "Mantén a tu mascota fresca y con un agradable aroma con el Spray Antiolor para Hembras. Su fórmula ayuda a neutralizar y controlar los malos olores, especialmente durante el celo, dejando un delicado perfume en su pelaje. Ideal para mantener a tu engreída limpia, fresca y perfumada por más tiempo. ¡Dale a tu pequeña una sensación de frescura y bienestar!",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 20.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-10.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc6-32",
+    "nombre": "Spray Raza Pets 120 ml (Antipulgas)",
+    "categoria": "Higiene y control de pulgas",
+    "mascota": "Ambos",
+    "descripcion": "Solución tópica antiparasitaria externa en formato spray para perros y gatos. Formulado con Fipronil al 0.25% para eliminar y prevenir infestaciones de pulgas y garrapatas, enriquecido con Aloe Vera para calmar la irritación, proteger la piel y favorecer la cicatrización tras las picaduras.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-11.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-37",
+    "nombre": "No Más Travieso Vetlinex 260 ml (Repelente)",
+    "categoria": "Higiene y control de pulgas",
+    "mascota": "Ambos",
+    "descripcion": "Spray repelente educativo diseñado para evitar que perros y gatos orinen, defequen, muerdan o arañen zonas no deseadas del hogar (muebles, alfombras, paredes, esquinas o llantas). Su aroma resulta desagradable para el olfato sensible de las mascotas sin dañar las superficies ni resultar tóxico para ellas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-12.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc6-42",
+    "nombre": "Pipí Aquí Educador de Cachorros (Spray 60 ml)",
+    "categoria": "Higiene y control de pulgas",
+    "mascota": "Perros",
+    "descripcion": "Atrayente educativo en spray formulado con feromonas y esencias naturales (como notas florales y miel) que estimulan el instinto del cachorro o perro adulto para hacer sus necesidades en un lugar específico (pañales entrenadores, periódicos o jardín).",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-13.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc6-47",
+    "nombre": "Matanox 20 E.C. de Agropsa (Fumigación Ambiental)",
+    "categoria": "Higiene y control de pulgas",
+    "mascota": "Ambos",
+    "descripcion": "Insecticida para ambientes. No aplicar directamente a las mascotas. Consulta los requisitos y la etiqueta del fabricante.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-14.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-51",
+    "nombre": "Efectivon Spray + Shampoo Antipulgas (Pack / Presentación Dual)",
+    "categoria": "Higiene y control de pulgas",
+    "mascota": "Ambos",
+    "descripcion": "Tratamiento integral contra pulgas y garrapatas para perros y gatos. Spray (a base de Fipronil y extracto de llantén): Solución tópica de acción rápida y efecto residual prolongado (hasta 45 días contra pulgas y 30 días contra garrapatas) que elimina los parásitos por contacto y alivia la piel irritada. Shampoo Antipulgas: Limpia profundamente el pelaje, elimina parásitos presentes durante el baño y deja el manto suave y libre de malos olores.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 25.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-15.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-58",
+    "nombre": "Neutralizador de Olores Vetlinex (Spray 260 ml)",
+    "categoria": "Higiene y control de pulgas",
+    "mascota": "Ambos",
+    "descripcion": "Desodorizante ambiental y de superficies de uso veterinario formulado con amonio cuaternario, bicarbonato de sodio, alumbre y esencias frutales. Actúa encapsulando y rompiendo las moléculas orgánicas causantes del mal olor (orina, heces, humedad o olor corporal de mascotas) en muebles, camas, alfombras, cajas de arena y pisos, dejando un aroma fresco sin solo enmascararlo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 25.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-16.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc6-62",
+    "nombre": "Spray Practican 120 ml / 125 ml (Antipulgas)",
+    "categoria": "Higiene y control de pulgas",
+    "mascota": "Ambos",
+    "descripcion": "Solución cutánea tópica en spray a base de Fipronil, indicada para el tratamiento y control de pulgas, garrapatas y piojos en perros y gatos. Se almacena en las glándulas sebáceas de la piel para liberar protección continua durante varias semanas (hasta 2–3 meses contra pulgas según la especie).",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-17.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc6-67",
+    "nombre": "Efectivon Spray + Talco Antipulgas",
+    "categoria": "Higiene y control de pulgas",
+    "mascota": "Ambos",
+    "descripcion": "Combinación antiparasitaria externa diseñada para reforzar el control de pulgas y garrapatas tanto en la mascota como en su entorno directo (camas y mantas). Spray Antipulgas: Protección tópica directa sobre el pelaje del perro o gato con efecto residual contra pulgas y garrapatas. Talco Antipulgas: Polvo insecticida de aplicación en seco que absorbe la humedad, desodoriza el pelaje y elimina parásitos externos; ideal para cachorros, mascotas que no pueden bañarse con frecuencia o para espolvorear sobre sus camas y colchonetas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 25.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/6-18.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (6).docx",
+    "consultar": false,
+    "veterinario": true
+  },
+  {
+    "id": "dutti-doc7-0",
+    "nombre": "Columpio de Madera con Cascabel",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Columpio clásico rectangular fabricado en madera natural ligera con gancho metálico superior para colgar en la jaula y un cascabel en la base para estimular el juego y el equilibrio del ave. Ideal para: Periquitos australianos, agapornis, canarios y diamantes mandarines.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-6.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-4",
+    "nombre": "Columpio de Madera Simple",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Columpio básico de madera natural sin barniz, ideal para el desgaste natural del pico y las uñas. Viene en empaque individual listo para exhibición en tienda (Accesorios para Aves).",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-7.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-8",
+    "nombre": "Columpio Espiral Flexible de Colores",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Percha colgante en forma de espiral revestida con cuentas acrílicas multicolores, broche superior y cascabel inferior. Fomenta el ejercicio, la coordinación y el movimiento dinámico dentro de la jaula.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 17.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-8.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-17",
+    "nombre": "Columpio Aro de Madera con Cascabel",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Columpio circular de madera natural con detalle de cuentas de colores y cascabel colgante en la parte inferior. Proporciona un punto de descanso cómodo y seguro.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-10.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-19",
+    "nombre": "Columpio Aro Grande",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Aro colgante multicolor que incluye una barra de descanso de madera atravesada en el centro y cascabeles decorativos. Ofrece mayor estabilidad para que el ave se pose mientras se balancea.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 20.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-11.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-23",
+    "nombre": "Columpio Puente con Cascabeles",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Columpio amplio de base plana de madera sostenido por dos arcos de cuentas multicolores, equipado con tres cascabeles colgantes en la parte inferior. Permite que dos aves pequeñas se posen al mismo tiempo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 25.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-12.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-25",
+    "nombre": "Juguete Colgante de Bloques de Madera",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Juguete vertical mordedor compuesto por piezas cilíndricas de madera intercaladas con cuentas de colores y un cascabel en la punta. Ayuda a mantener el pico saludable y evita el picaje de plumas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-13.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-28",
+    "nombre": "Columpio Trapecio Alto con Cascabeles",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Columpio triangular/trapezoidal con laterales de cuentas acrílicas multicolores, percha inferior de madera y dos cascabeles colgantes.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-14.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-32",
+    "nombre": "Columpio de Cuerda / Madera en \"A\" con Cascabel",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Columpio colgante de diseño triangular con percha inferior de madera y cascabel central, ligero y fácil de instalar en cualquier barrotes de jaula.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-15.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-35",
+    "nombre": "Escalera Colgante de Madera con Peldaños de Colores",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Escalera vertical u horizontal de madera natural con peldaños pintados en colores llamativos y ganchos metálicos superiores para enganchar entre distintos niveles de la jaula.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-16.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-38",
+    "nombre": "Puente Colgante Tipo Escalera",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Puente colgante flexible de doble extremo con ganchos metálicos, peldaños de madera natural y cuentas de colores en las uniones laterales. Perfecto para cruzar de un lado a otro de la jaula ejercitando las patas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 20.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-17.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-48",
+    "nombre": "Escalera Rustica",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Escalera colgante fabricada con troncos/ramas de madera natural y travesaños rectos, con gancho metálico superior para colgar fácilmente en la jaula. Estimula la actividad física, el equilibrio y el entretenimiento diario del ave. Ideal: Aves pequeñas y medianas que disfrutan trepar y explorar.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-20.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-11",
+    "nombre": "Columpio Aro Multicolores",
+    "categoria": "Columpios y juguetes para aves",
+    "mascota": "Aves",
+    "descripcion": "Aro colgante rígido decorado con cuentas plásticas de colores vivos y cascabel inferior. Atrae visualmente al ave y reduce el estrés por aburrimiento.",
+    "variantes": [
+      {
+        "label": "14 × 12 cm",
+        "price": 14,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "16 × 14 cm",
+        "price": 16,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "20 × 16 cm",
+        "price": 20,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-9.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc7-41",
+    "nombre": "Nido Redondo de Fibra Natural",
+    "categoria": "Nidos y refugios para aves",
+    "mascota": "Aves",
+    "descripcion": "Nido artesanal tejido con fibras naturales suaves y resistentes, diseñado para brindar calidez y refugio durante la crianza y el descanso. Viene en bolsa transparente con cabecera ilustrada de aves. Ideal para: Canarios, periquitos, diamantes mandarines y aves pequeñas de jaula.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 6.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-18.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-44",
+    "nombre": "Piedra / Bloque de Calcio en Forma de Choclo (\"Super Calcium\" - yucra)",
+    "categoria": "Suplementos para aves",
+    "mascota": "Aves",
+    "descripcion": "Suplemento mineral en forma de mazorca/choclo blanco elaborado con calcio y minerales esenciales. Ayuda a fortalecer los huesos y la cáscara de los huevos, además de favorecer el desgaste natural del pico. Ideal para: Periquitos, ninfas, agapornis y canarios.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-19.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-51",
+    "nombre": "Bloque Mineral / Piedra de Calcio con Soporte",
+    "categoria": "Suplementos para aves",
+    "mascota": "Aves",
+    "descripcion": "Bloque mineral compacto en tono rosado/suave con etiqueta ilustrada de aves, formulado para aportar minerales y apoyar el mantenimiento saludable del pico y el organismo. Ideal: Canarios, periquitos y aves ornamentales de jaula.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 3.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-21.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-54",
+    "nombre": "Bloque de Calcio en Empaque (\"Calciblock\" - yucra)",
+    "categoria": "Suplementos para aves",
+    "mascota": "Aves",
+    "descripcion": "Bloque de calcio de textura firme en presentación empacada con etiqueta de aves. Contribuye al aporte diario de calcio, al bienestar óseo y al desgaste natural del pico. Ideal: Canarios, periquitos y aves de jaula.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 3.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-22.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-59",
+    "nombre": "Nido / Refugio en Caja Ilustrada (\"NIDEK\" - yucra)",
+    "categoria": "Nidos y refugios para aves",
+    "mascota": "Aves",
+    "descripcion": "Nido o refugio para aves presentado en caja de cartón con ilustraciones coloridas de aves y detalle superior. Proporciona un espacio resguardado para descanso o cría dentro del hábitat del ave. Ideal: Periquitos, agapornis y aves pequeñas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 3.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-23.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-69",
+    "nombre": "Vasos de Colores",
+    "categoria": "Comederos y bebederos para aves",
+    "mascota": "Aves",
+    "descripcion": "Pequeños recipientes cilíndricos de plástico ligero en tonos vibrantes (verde, azul, rojo, fucsia, amarillo y naranja), prácticos para ofrecer alpiste, mezclas de semillas, frutas picadas o snacks. Fáciles de lavar y reponer diariamente. Ideal para: Periquitos, canarios, diamantes mandarines y aves ornamentales.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 1.5,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-25.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-74",
+    "nombre": "Dispensadores de alimento",
+    "categoria": "Comederos y bebederos para aves",
+    "mascota": "Aves",
+    "descripcion": "Dispensadores de alimento de base ancha y estable con depósito cilíndrico translúcido y tapa superior en colores verde y azul. Permiten visualizar el nivel de líquido o grano y mantener una reserva constante para el ave. Ideal para: Aves de jaula, pajareras o espacios de descanso donde se prefiera apoyo estable.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-26.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-78",
+    "nombre": "Dispensadores Verticales para Jaula",
+    "categoria": "Comederos y bebederos para aves",
+    "mascota": "Aves",
+    "descripcion": "Depósito transparente y base/tapa en colores brillantes (verde, azul, fucsia y rojo), pensados para acoplarse o colocarse dentro del espacio del ave y suministrar agua o alimento de forma práctica. Ideal para: Periquitos, canarios y aves pequeñas.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-27.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc7-63",
+    "nombre": "Set de Comederos Esquineros Plásticos",
+    "categoria": "Comederos y bebederos para aves",
+    "mascota": "Aves",
+    "descripcion": "Comederos compactos de plástico resistente con diseño angular para encajar fácilmente en las esquinas de la jaula, ahorrando espacio útil. Disponibles en colores llamativos (rojo, verde, naranja, amarillo, celeste y fucsia) para alimento seco, semillas o suplementos. Ideal para: Canarios, periquitos australianos, agapornis y aves pequeñas de jaula.",
+    "variantes": [
+      {
+        "label": "N.º 1",
+        "price": 4,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "N.º 2",
+        "price": 5,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "N.º 3",
+        "price": 7,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-24.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc7-82",
+    "nombre": "Comederos Metálicos Rectangulares para Jaula",
+    "categoria": "Comederos y bebederos para aves",
+    "mascota": "Aves",
+    "descripcion": "Comederos rectangulares de metal plateado resistente, higiénicos y fáciles de desinfectar, diseñados para soportar el uso diario y el picoteo constante sin deformarse. Ideales para semillas, alimento balanceado o grit. Ideal para: Periquitos, agapornis, ninfas y aves de jaula en general.",
+    "variantes": [
+      {
+        "label": "N.º 1 · 10 cm",
+        "price": 8,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/actualizacion/comedero-metal-1.webp"
+      },
+      {
+        "label": "N.º 2 · 15 cm",
+        "price": 10,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/actualizacion/comedero-metal-2.webp"
+      },
+      {
+        "label": "N.º 3 · 18.5 cm",
+        "price": 14,
+        "units": 1,
+        "kind": "presentacion",
+        "foto": "img/actualizacion/comedero-metal-3.webp"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/7-28.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (7).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Imágenes separadas de la foto grupal, ordenadas por tamaño aparente."
+  },
+  {
+    "id": "dutti-doc8-0",
+    "nombre": "Collar trenzado rojo y azul con cadena metálica",
+    "categoria": "Collares y accesorios",
+    "mascota": "Perros",
+    "descripcion": "Material y diseño: Collar artesanal trenzado en tonos azul eléctrico y rojo intenso, con acabado tipo soga o cordón resistente y un tramo de cadena metálica plateada con argolla/gancho para correa. Uso ideal: Ideal para paseos diarios y entrenamiento, combinando resistencia y un estilo llamativo y deportivo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 30.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-6.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-4",
+    "nombre": "Collares estampados con cascabeles",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Línea variada de collares de cinta con estampados coloridos (como motivos florales, geométricos y tonos pastel/iridiscentes), broche plástico de liberación rápida y un pequeño cascabel metálico en el cierre. Excelentes para gatos o perros pequeños, permitiendo localizarlos fácilmente y aportando un toque alegre y colorido.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-7.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-8",
+    "nombre": "Collares corbatín",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Collares de cinta suave en gama de colores clásicos y cálidos (rojo vino, beige/arena, rosa palo y celeste suave) decorados con un lazo o corbatín al frente, argolla metálica y broche ajustable. Perfectos para ocasiones especiales, fotos o mascotas de estilo elegante y discreto.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-8.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-13",
+    "nombre": "Collares con lazo en tonos pastel",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Collares de cinta con detalle de lazo frontal en tonos pastel (lila/lavanda, crema, coral/rosado suave y marrón claro), herrajes metálicos y ajuste regulable. Ideales para mascotas pequeñas que buscan un look dulce, tierno y combinable con distintos outfits.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-9.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-18",
+    "nombre": "Collares lisos ajustables en tonos pastel y negro",
+    "categoria": "Collares y accesorios",
+    "mascota": "Perros",
+    "descripcion": "Material y diseño: Collares de cinta nylon/poliéster resistente y suave al tacto, disponibles en colores sólidos (celeste pastel, negro clásico y rosa pastel). Cuentan con broche plástico curvo de liberación rápida, hebilla regulable y argolla metálica en forma de \"D\" para la correa o placa de identificación. Uso ideal: Ideales para el uso diario, paseos cómodos y seguros, combinando ligereza, resistencia y un estilo minimalista y moderno.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 10.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-10.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-23",
+    "nombre": "Collares Estampado Corazón con Cascabel",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "¡Estilo y seguridad en cada paso! Collares ajustables con divertidos estampados en colores vibrantes. Equipados con un práctico broche de liberación rápida y un cascabel metálico que te permite saber siempre dónde está tu engreído. Ideales para gatos y perros pequeños.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-11.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-27",
+    "nombre": "Collares Elegantes con Moño de Tul y Cascabel",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "¡El toque más tierno y coqueto! Diseñados en tonos pastel y neón (rosa, celeste, amarillo, rojo y morado), cada collar incluye un delicado moño de tul semi-transparente que hará lucir a tu mascota como de revista. Comodidad garantizada: Ligeros, suaves con su pelaje y con cascabel incluido. Perfectos para ocasiones especiales o sesiones de fotos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-12.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-30",
+    "nombre": "Collares Neón y Pastel con Diseños Divertidos",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "¡Full color para mascotas con mucha personalidad! Una colección súper alegre con estampados temáticos (huesos, huellas y caritas) sobre cintas de alta resistencia en verde limón, rojo, azul, rosado y lila. Prácticos y seguros: Cuentan con hebilla regulable para un calce perfecto, argolla metálica y cascabel a juego. ¡Un básico colorido que no puede faltar!",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-13.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-74",
+    "nombre": "Cascabeles para Collar",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Cascabeles metálicos de colores variados (plateado, azul, rojo, morado, fucsia, verde y negro) con broche o argolla para sujetar fácilmente al collar. Ayudan a ubicar a la mascota por el sonido durante sus movimientos en casa o el paseo. Ideal para: Perros pequeños y gatos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 2.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-18.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-88",
+    "nombre": "Collares de Huellitas",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "¡Un clásico irresistible para los amantes de las mascotas! Estampados con tiernas huellas blancas sobre una variada gama de colores (rojo, azul marino, celeste y rosado pastel). Resistencia y confort: Fabricados en cinta super suave que no maltrata el cuello, con broche seguro, ajuste fácil y cascabel metálico.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-20.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-92",
+    "nombre": "Collares Huesitos",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "¡Diseño moderno y súper combinable! Collares con patrón continuo de huesitos blancos sobre fondos intensos y pastel (negro, verde neón, rojo, rosa, celeste y azul rey). Listos para la aventura: Fáciles de poner y quitar gracias a su broche de presión, totalmente graduables y con cascabel para mantener siempre ubicado a tu peludo.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 4.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-21.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-100",
+    "nombre": "Collar Fosforescente Glow para Gato",
+    "categoria": "Collares y accesorios",
+    "mascota": "Gatos",
+    "descripcion": "¡Brilla suavemente en la oscuridad! Diseñado con efecto fosforescente que emite un sutil tono verdoso en ambientes con poca luz o de noche, ayudándote a ubicar mejor a tu gato en casa. Comodidad y seguridad en cada paso: Elaborado con cinta ligera y resistente, broche práctico y cascabel metálico que aporta un extra de visibilidad auditiva, ideal para el cuello delicado de los felinos.",
+    "variantes": [
+      {
+        "label": "Unidad",
+        "price": 5.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-22.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false
+  },
+  {
+    "id": "dutti-doc8-33",
+    "nombre": "Collar de Doble Púa para Perros",
+    "categoria": "Collares y accesorios",
+    "mascota": "Perros",
+    "descripcion": "Collar resistente con detalle de doble fila de púas/remaches metálicos y hebilla de ajuste firme, diseñado para brindar mayor estructura y presencia durante el uso diario o el paseo. Ideal para: Perros medianos y grandes que requieren un collar firme y llamativo. Apto para paseos.",
+    "variantes": [
+      {
+        "label": "Talla S",
+        "price": 24.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla M",
+        "price": 26.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla L",
+        "price": 28.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla XL",
+        "price": 30.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-14.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc8-42",
+    "nombre": "Collares de Cuero",
+    "categoria": "Collares y accesorios",
+    "mascota": "Perros",
+    "descripcion": "Collares ajustables con hebilla metálica y argolla para correa, disponibles en tonos variados (rosado, lila, rojo, marrón y azul). Diseño resistente y cómodo para el uso diario y los paseos. Ideal para colocar placas de identificacion o cascabel, para perros pequeños y medianos.",
+    "variantes": [
+      {
+        "label": "Talla 1",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 2",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 3",
+        "price": 10.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 4",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 5",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-15.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc8-56",
+    "nombre": "Collar lazo charol",
+    "categoria": "Collares y accesorios",
+    "mascota": "Perros",
+    "descripcion": "Descripción: Collares de ajuste regulable con aplique decorativo central (en forma de hueso/huella) y cascabel metálico colgante. Disponibles en colores llamativos (rojo, negro, azul y fucsia) para identificar y acompañar a tu engreído en cada salida. Ideal para: Perros pequeños y medianos.",
+    "variantes": [
+      {
+        "label": "Talla M",
+        "price": 6.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla L",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-16.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc8-63",
+    "nombre": "Collar Cuero Aplicacion",
+    "categoria": "Collares y accesorios",
+    "mascota": "Perros",
+    "descripcion": "Collares ligeros y ajustables con diseño estampado y hebilla de sujeción práctica en variedad de colores (rojo, azul, morado, lila y rosado). Aportan un toque alegre y cómodo para el día a día. Ideal para: Perros pequeños y medianos.",
+    "variantes": [
+      {
+        "label": "Talla 0",
+        "price": 7.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 1",
+        "price": 8.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 2",
+        "price": 9.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 3",
+        "price": 10.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 4",
+        "price": 12.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 5",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla 6",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-17.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  },
+  {
+    "id": "dutti-doc8-77",
+    "nombre": "Collares Isabelinos / Conos de Recuperación",
+    "categoria": "Collares y accesorios",
+    "mascota": "Ambos",
+    "descripcion": "Conos protectores translúcidos ligeros con borde de tela/acolchado en distintos colores (azul, rojo, rosado, negro y celeste) y sistema de cierre ajustable. Evitan que la mascota se lama, muerda o rasque heridas, suturas o zonas en tratamiento tras cirugías o problemas dermatológicos. Ideal para: Perros y gatos en recuperación postoperatoria o tratamiento veterinario.",
+    "variantes": [
+      {
+        "label": "Talla XXS",
+        "price": 14.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla XS",
+        "price": 15.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla S",
+        "price": 16.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla M",
+        "price": 20.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla L",
+        "price": 22.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla XL",
+        "price": 28.0,
+        "units": 1,
+        "kind": "presentacion"
+      },
+      {
+        "label": "Talla XXL",
+        "price": 35.0,
+        "units": 1,
+        "kind": "presentacion"
+      }
+    ],
+    "sabores": [],
+    "colores": [],
+    "atributos": [],
+    "imagenes": [
+      "img/actualizacion/8-19.webp"
+    ],
+    "origen": "Catálogo Dutti Pets (8).docx",
+    "consultar": false,
+    "veterinario": false,
+    "notaVariantes": "Foto de referencia del modelo. La imagen del tamaño seleccionado está pendiente de confirmación.",
+    "fotoDeReferencia": true
+  }
+];
